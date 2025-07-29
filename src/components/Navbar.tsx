@@ -111,10 +111,12 @@ const Navbar = ({ backgroundColor = 'bg-transparent' }: NavbarProps) => {
   return (
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white/90 backdrop-blur-sm shadow-sm' : backgroundColor
+        scrolled
+          ? 'bg-white/90 backdrop-blur-sm shadow-sm'
+          : 'bg-white/90 backdrop-blur-sm shadow-sm md:bg-transparent'
       }`}
     >
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+      <div className="w-full px-4 py-4 flex items-center justify-between max-w-none">
         {/* Logo */}
         <Link to="/" className="font-bold text-xl text-springBlue">
           <img
@@ -174,7 +176,7 @@ const Navbar = ({ backgroundColor = 'bg-transparent' }: NavbarProps) => {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden flex"
+          className="md:hidden flex items-center justify-center p-2 rounded-lg bg-white shadow-sm"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           aria-label="Toggle menu"
         >
