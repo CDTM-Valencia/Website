@@ -9,15 +9,15 @@ export interface AboutStat {
 export const ABOUT_STATS: AboutStat[] = [
   {
     icon: Users,
-    title: "125 Hackers",
+    title: "60 Hackers",
     description:
-      "Bringing together the brightest minds from across Germany & Europe to collaborate and innovate.",
+      "Bringing together the brightest minds to collaborate and innovate.",
   },
   {
     icon: Clock,
-    title: "36h Hacking",
+    title: "6h Hacking",
     description:
-      "An intensive weekend of hacking, learning, and building innovative solutions together.",
+      "An intensive day of hacking, learning, and building innovative solutions together.",
   },
   {
     icon: Code,
@@ -27,7 +27,7 @@ export const ABOUT_STATS: AboutStat[] = [
   },
   {
     icon: Award,
-    title: ">5.000 € in Prizes",
+    title: ">2.000 € in Prizes",
     description:
       "Win incredible rewards, gain industry recognition, and open doors to new opportunities.",
   },

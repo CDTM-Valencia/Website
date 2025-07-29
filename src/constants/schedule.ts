@@ -12,79 +12,28 @@ export interface ScheduleEvent {
 
 export const SCHEDULE_DAYS: ScheduleDay[] = [
   {
-    title: "Friday, 9th May",
+    title: "Thursday, 2nd Oct",
     events: [
       {
-        time: "16:00",
+        time: "14:30",
         title: "Doors Open",
-        description: "Welcome & Registration",
+        description: "Welcome & Team Matching",
       },
       {
-        time: "18:00",
-        title: "Mingling & Snacks",
-        description: "Network with other participants",
-      },
-      {
-        time: "19:00",
+        time: "15:00",
         title: "Opening Ceremony",
         description: "@ Main Stage",
       },
       {
-        time: "22:00",
-        title: "Hacking Begins",
-        description: "Start working on your solutions",
+        time: "19:30",
+        title: "Pitching Competition",
+        description: "Start of pitching competition",
       },
       {
-        time: "00:00",
-        title: "Midnight Snacks",
+        time: "20:45",
+        title: "Prizes Ceremony",
+        description: "Prizes ceremony",
       },
     ],
-  },
-  {
-    title: "Saturday, 10th May",
-    subtitle: "Full day of hacking",
-    events: [
-      {
-        time: "Starting 08:00",
-        title: "Breakfast",
-      },
-      {
-        time: "13:00",
-        title: "Lunch",
-      },
-      {
-        time: "19:00",
-        title: "Dinner",
-      },
-      {
-        time: "00:00",
-        title: "Midnight Snack",
-        description: "Fuel for night owls",
-      },
-    ],
-  },
-  {
-    title: "Sunday, 11th May",
-    events: [
-      {
-        time: "Starting 08:00",
-        title: "Breakfast",
-      },
-      {
-        time: "10:00",
-        title: "Hacking Stops",
-        description: "Submission of solutions",
-      },
-      {
-        time: "12:00",
-        title: "Judging & Closing",
-        description: "Evaluation and award ceremony",
-      },
-      {
-        time: "15:00",
-        title: "Event Ends",
-        description: "Official conclusion",
-      },
-    ],
-  },
+  }
 ];

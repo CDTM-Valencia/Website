@@ -5,14 +5,14 @@ interface FAQItem {
 
 export const FAQS: FAQItem[] = [
   {
-    question: "What is CDTM Hacks?",
+    question: "What is CDTM Valencia Hacks?",
     answer:
-      "CDTM Hacks is a 36-hour hackathon where students come together to build innovative solutions. It's an opportunity to learn, connect, and turn ideas into reality while competing for exciting prizes.",
+      "CDTM Valencia Hacks is a 6-hour hackathon where students come together to build innovative solutions. It's an opportunity to learn, connect, and turn ideas into reality while competing for exciting prizes.",
   },
   {
     question: "Who can participate?",
     answer:
-      "Students from all universities and disciplines are welcome to participate. Whether you're a programmer, designer, or business student, there's a place for you at CDTM Hacks!",
+      "Students from all universities and disciplines are welcome to participate. Whether you're a programmer, designer, or business student, there's a place for you at CDTM Valencia Hacks!",
   },
   {
     question: "Do I need to know how to code?",
@@ -22,22 +22,22 @@ export const FAQS: FAQItem[] = [
   {
     question: "How much does it cost?",
     answer:
-      "CDTM Hacks is completely free for all accepted participants. We provide meals, snacks, and beverages throughout the event, as well as a comfortable hacking space and mentorship.",
+      "CDTM ValenciaHacks is completely free for all accepted participants. We provide meals, snacks, and beverages throughout the event, as well as a comfortable hacking space and mentorship.",
   },
   {
     question: "How do teams work?",
     answer:
-      "Teams can consist of 2-4 members. You can either form your own team beforehand or join one during our team-building session at the start of the event. We encourage diverse teams with complementary skills!",
+      "Teams can consist of 3-5 members. You can either form your own team beforehand or join one during our team-building session at the start of the event. We encourage diverse teams with complementary skills!",
   },
   {
     question: "What should I bring?",
     answer:
-      "Bring your laptop, charger, and any other devices you might need. Don't forget a sleeping mat, change of clothes and toiletries if you plan to stay overnight. We'll provide the rest!",
+      "Bring your laptop, charger, and any other devices you might need. We'll provide the rest!",
   },
   {
     question: "Will there be food and drinks?",
     answer:
-      "Absolutely! We provide all meals, including breakfast, lunch, and dinner, as well as continuous snacks and beverages throughout the event. We accommodate dietary restrictions - just let us know in advance!",
+      "Absolutely! We provide a catering service for the event.",
   },
   {
     question: "What kind of support is available during the hackathon?",
@@ -48,10 +48,5 @@ export const FAQS: FAQItem[] = [
     question: "What can I win?",
     answer:
       "We will have 3 prizes for the 3 cases. There will also be an overall main prize across cases. And psst - maybe there is a super secret surprise prize - who knows?",
-  },
-  {
-    question: "Can I stay overnight?",
-    answer:
-      "Yes, but please bring your own sleeping mat. There are also showers if you need to freshen up in the morning :)",
-  },
+  }
 ];
