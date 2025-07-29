@@ -4,7 +4,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogDescription,
-} from "@/components/ui/dialog";
+} from '@/components/ui/dialog';
 
 interface ApplicationsClosedDialogProps {
   isOpen: boolean;
@@ -21,9 +21,12 @@ const ApplicationsClosedDialog = ({
         <DialogHeader>
           <DialogTitle>Applications are closed</DialogTitle>
           <DialogDescription className="space-y-4">
-            <p>The application period for CDTM Hacks 2025 has ended. Thank you for your interest!</p>
             <p>
-              Want to stay updated about future CDTM hackathons?{" "}
+              The application period for CDTM Valencia Hacks 2025 has ended.
+              Thank you for your interest!
+            </p>
+            <p>
+              Want to stay updated about future CDTM hackathons?{' '}
               <a
                 href="https://app.formbricks.com/s/cma7d2gdx8tokym01182jonnm"
                 target="_blank"
@@ -41,4 +44,4 @@ const ApplicationsClosedDialog = ({
   );
 };
 
-export default ApplicationsClosedDialog; 
+export default ApplicationsClosedDialog;

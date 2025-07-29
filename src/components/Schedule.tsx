@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Schedule = () => {
   return (
@@ -11,15 +11,15 @@ const Schedule = () => {
           <iframe
             src="https://calendar.google.com/calendar/embed?src=c_c4f2aac9431e053f80bfd1780e185d419b0ee999b5c66e987002c45c9ab8a1b0%40group.calendar.google.com&ctz=Europe%2FBerlin&mode=AGENDA"
             style={{
-              border: "0",
-              width: "100%",
-              maxWidth: "1200px",
-              minHeight: "600px",
+              border: '0',
+              width: '100%',
+              maxWidth: '1200px',
+              minHeight: '600px',
             }}
             height="600"
             frameBorder="0"
             scrolling="no"
-            title="CDTM Hacks Agenda"
+            title="CDTM ValenciaHacks Agenda"
           ></iframe>
         </div>
         <div className="mt-6 text-center">

@@ -1,8 +1,8 @@
-import { ExternalLink, Menu as MenuIcon, X } from "lucide-react";
-import { useEffect, useState } from "react";
-import MobileNavigation from "./MobileNavigation";
-import { Link, useNavigate, useLocation } from "react-router-dom";
-import ApplicationsClosedDialog from "./ApplicationsClosedDialog";
+import { ExternalLink, Menu as MenuIcon, X } from 'lucide-react';
+import { useEffect, useState } from 'react';
+import MobileNavigation from './MobileNavigation';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
+import ApplicationsClosedDialog from './ApplicationsClosedDialog';
 
 interface SubMenuItem {
   id: string;
@@ -24,7 +24,7 @@ interface NavbarProps {
   backgroundColor?: string;
 }
 
-const Navbar = ({ backgroundColor = "bg-transparent" }: NavbarProps) => {
+const Navbar = ({ backgroundColor = 'bg-transparent' }: NavbarProps) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const navigate = useNavigate();
@@ -38,9 +38,9 @@ const Navbar = ({ backgroundColor = "bg-transparent" }: NavbarProps) => {
       setScrolled(offset > 50);
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
@@ -51,13 +51,13 @@ const Navbar = ({ backgroundColor = "bg-transparent" }: NavbarProps) => {
 
   // Handle navigation with hash
   const handleNavigation = (hash: string) => {
-    if (location.pathname !== "/") {
+    if (location.pathname !== '/') {
       navigate(`/${hash}`);
     } else {
       // If we're already on the home page, just scroll to the section
       const element = document.querySelector(hash);
       if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
+        element.scrollIntoView({ behavior: 'smooth' });
       }
     }
   };
@@ -71,7 +71,7 @@ const Navbar = ({ backgroundColor = "bg-transparent" }: NavbarProps) => {
         if (element) {
           // Small delay to ensure the page is fully loaded
           setTimeout(() => {
-            element.scrollIntoView({ behavior: "smooth" });
+            element.scrollIntoView({ behavior: 'smooth' });
           }, 100);
         }
       }
@@ -81,27 +81,27 @@ const Navbar = ({ backgroundColor = "bg-transparent" }: NavbarProps) => {
     handleHashNavigation();
 
     // Handle hash changes
-    window.addEventListener("hashchange", handleHashNavigation);
-    return () => window.removeEventListener("hashchange", handleHashNavigation);
+    window.addEventListener('hashchange', handleHashNavigation);
+    return () => window.removeEventListener('hashchange', handleHashNavigation);
   }, []);
 
   // Define the menu structure
   const navMenu: Menu = {
     items: [
       {
-        id: "main-menu",
-        label: "Navigation",
+        id: 'main-menu',
+        label: 'Navigation',
         submenu: [
-          { id: "about", label: "About", url: "#about" },
-          { id: "partners", label: "Partners", url: "#partners" },
-          { id: "speakers", label: "Speakers", url: "#speakers" },
-          { id: "schedule", label: "Schedule", url: "#schedule" },
-          { id: "about-us", label: "Organisers", url: "#about-us" },
-          { id: "projects", label: "Projects", url: "/projects/2025" },
+          { id: 'about', label: 'About', url: '#about' },
+          { id: 'partners', label: 'Partners', url: '#partners' },
+          { id: 'speakers', label: 'Speakers', url: '#speakers' },
+          { id: 'schedule', label: 'Schedule', url: '#schedule' },
+          { id: 'about-us', label: 'Organisers', url: '#about-us' },
+          { id: 'projects', label: 'Projects', url: '/projects/2025' },
           {
-            id: "github",
-            label: "GitHub",
-            url: "https://github.com/CDTM/cdtm-hacks",
+            id: 'github',
+            label: 'GitHub',
+            url: 'https://github.com/CDTM/cdtm-hacks',
           },
         ],
       },
@@ -111,7 +111,7 @@ const Navbar = ({ backgroundColor = "bg-transparent" }: NavbarProps) => {
   return (
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        scrolled ? "bg-white/90 backdrop-blur-sm shadow-sm" : backgroundColor
+        scrolled ? 'bg-white/90 backdrop-blur-sm shadow-sm' : backgroundColor
       }`}
     >
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
@@ -119,7 +119,7 @@ const Navbar = ({ backgroundColor = "bg-transparent" }: NavbarProps) => {
         <Link to="/" className="font-bold text-xl text-springBlue">
           <img
             src="/images/CDTM_Hacks_Logo.svg"
-            alt="CDTM Hacks Logo"
+            alt="CDTM Valencia Hacks Logo"
             className="h-8 md:h-10 w-auto"
           />
         </Link>
@@ -127,31 +127,31 @@ const Navbar = ({ backgroundColor = "bg-transparent" }: NavbarProps) => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
           <button
-            onClick={() => handleNavigation("#about")}
+            onClick={() => handleNavigation('#about')}
             className="text-springText/80 hover:text-springBlue transition-colors"
           >
             About
           </button>
           <button
-            onClick={() => handleNavigation("#partners")}
+            onClick={() => handleNavigation('#partners')}
             className="text-springText/80 hover:text-springBlue transition-colors"
           >
             Partners
           </button>
           <button
-            onClick={() => handleNavigation("#speakers")}
+            onClick={() => handleNavigation('#speakers')}
             className="text-springText/80 hover:text-springBlue transition-colors"
           >
             Speakers
           </button>
           <button
-            onClick={() => handleNavigation("#schedule")}
+            onClick={() => handleNavigation('#schedule')}
             className="text-springText/80 hover:text-springBlue transition-colors"
           >
             Schedule
           </button>
           <button
-            onClick={() => handleNavigation("#about-us")}
+            onClick={() => handleNavigation('#about-us')}
             className="text-springText/80 hover:text-springBlue transition-colors flex items-center gap-2"
           >
             Organisers

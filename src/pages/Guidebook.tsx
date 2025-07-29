@@ -1,16 +1,16 @@
-import Footer from "@/components/Footer";
-import { GUIDEBOOK_DATA, IconName, iconMap } from "@/constants/guidebook";
-import * as Accordion from "@radix-ui/react-accordion";
-import * as ScrollArea from "@radix-ui/react-scroll-area";
-import { motion } from "framer-motion";
-import { ChevronDown, Edit, Search } from "lucide-react";
-import { useEffect, useRef, useState } from "react";
+import Footer from '@/components/Footer';
+import { GUIDEBOOK_DATA, IconName, iconMap } from '@/constants/guidebook';
+import * as Accordion from '@radix-ui/react-accordion';
+import * as ScrollArea from '@radix-ui/react-scroll-area';
+import { motion } from 'framer-motion';
+import { ChevronDown, Edit, Search } from 'lucide-react';
+import { useEffect, useRef, useState } from 'react';
 
 const Logo = () => (
   <a href="/" className="inline-flex items-center group">
     <img
       src="/images/CDTM_Hacks_Logo.svg"
-      alt="CDTM Hacks"
+      alt="CDTM ValenciaHacks"
       className="h-10 w-auto"
     />
   </a>
@@ -25,7 +25,7 @@ const githubEditUrl = `https://github.com/cdtm/cdtm-hacks/edit/main/website/src/
 
 const Guidebook = () => {
   const [activeSection, setActiveSection] = useState(GUIDEBOOK_DATA[0].id);
-  const [searchQuery, setSearchQuery] = useState("");
+  const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState<
     Array<{ section: string; subsection: string; title: string }>
   >([]);
@@ -38,7 +38,7 @@ const Guidebook = () => {
 
   // Handle search functionality
   useEffect(() => {
-    if (searchQuery.trim() === "") {
+    if (searchQuery.trim() === '') {
       setSearchResults([]);
       return;
     }
@@ -66,7 +66,7 @@ const Guidebook = () => {
     setActiveSection(sectionId);
     const element = sectionRefs.current[sectionId];
     if (element) {
-      element.scrollIntoView({ behavior: "smooth", block: "start" });
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   };
 
@@ -79,7 +79,7 @@ const Guidebook = () => {
     // Scroll to the anchor
     const anchorElement = document.getElementById(anchorId);
     if (anchorElement) {
-      anchorElement.scrollIntoView({ behavior: "smooth", block: "start" });
+      anchorElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
     // Expand the accordion if not already open
     const accordionTrigger = document.getElementById(
@@ -87,21 +87,21 @@ const Guidebook = () => {
     );
     if (
       accordionTrigger &&
-      accordionTrigger.getAttribute("aria-expanded") !== "true"
+      accordionTrigger.getAttribute('aria-expanded') !== 'true'
     ) {
       accordionTrigger.click();
     }
-    setSearchQuery("");
+    setSearchQuery('');
   };
 
   useEffect(() => {
     const hash = window.location.hash;
     if (hash) {
-      const ids = hash.substring(1).split("-");
+      const ids = hash.substring(1).split('-');
       if (ids.length >= 2) {
         // Check if there are at least two parts (section and subsection)
         const sectionId = ids[0];
-        const subsectionId = ids.slice(1).join("-"); // Join the rest for subsectionId in case it contains hyphens
+        const subsectionId = ids.slice(1).join('-'); // Join the rest for subsectionId in case it contains hyphens
         // Check if the section and subsection exist in GUIDEBOOK_DATA
         const sectionExists = GUIDEBOOK_DATA.some((s) => s.id === sectionId);
         const subsectionExists = GUIDEBOOK_DATA.some(
@@ -135,7 +135,7 @@ const Guidebook = () => {
             Hackathon Guidebook
           </h1>
           <p className="text-xl max-w-3xl">
-            Everything you need to know about CDTM Hacks 2025
+            Everything you need to know about CDTM ValenciaHacks 2025
           </p>
         </div>
       </div>
@@ -172,7 +172,7 @@ const Guidebook = () => {
                         {
                           GUIDEBOOK_DATA.find((s) => s.id === result.section)
                             ?.title
-                        }{" "}
+                        }{' '}
                         &gt;
                       </span>
                       <span className="ml-2">{result.title}</span>
@@ -197,8 +197,8 @@ const Guidebook = () => {
                     onClick={() => scrollToSection(section.id)}
                     className={`flex items-center px-3 py-2 text-sm font-medium rounded-md w-full text-left transition-colors ${
                       activeSection === section.id
-                        ? "bg-springBlue text-white"
-                        : "text-gray-600 hover:text-springBlue hover:bg-gray-100"
+                        ? 'bg-springBlue text-white'
+                        : 'text-gray-600 hover:text-springBlue hover:bg-gray-100'
                     }`}
                   >
                     <span className="mr-3 w-5 h-5  flex items-center justify-center">
@@ -239,7 +239,7 @@ const Guidebook = () => {
                 >
                   <div className="flex items-center mb-6">
                     <div className="w-8 h-8 rounded-lg bg-springBlue flex items-center justify-center mr-4">
-                      {renderIcon(section.icon, 20, "white")}
+                      {renderIcon(section.icon, 20, 'white')}
                     </div>
                     <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
                       {section.title}
