@@ -1,41 +1,41 @@
 @font-face {
-  font-family: "Avenir";
-  src: url("/fonts/Avenir-Roman.ttf") format("truetype");
+  font-family: 'Avenir';
+  src: url('/fonts/Avenir-Roman.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Avenir";
-  src: url("/fonts/Avenir-Heavy.ttf") format("truetype");
+  font-family: 'Avenir';
+  src: url('/fonts/Avenir-Heavy.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Avenir";
-  src: url("/fonts/Avenir-Black.ttf") format("truetype");
+  font-family: 'Avenir';
+  src: url('/fonts/Avenir-Black.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Avenir";
-  src: url("/fonts/Avenir-Oblique.ttf") format("truetype");
+  font-family: 'Avenir';
+  src: url('/fonts/Avenir-Oblique.ttf') format('truetype');
   font-weight: 400;
   font-style: oblique;
 }
 
 @font-face {
-  font-family: "Avenir";
-  src: url("/fonts/Avenir-HeavyOblique.ttf") format("truetype");
+  font-family: 'Avenir';
+  src: url('/fonts/Avenir-HeavyOblique.ttf') format('truetype');
   font-weight: 600;
   font-style: oblique;
 }
 
 @font-face {
-  font-family: "Avenir";
-  src: url("/fonts/Avenir-BlackOblique.ttf") format("truetype");
+  font-family: 'Avenir';
+  src: url('/fonts/Avenir-BlackOblique.ttf') format('truetype');
   font-weight: 700;
   font-style: oblique;
 }
@@ -131,8 +131,10 @@
 
   body {
     @apply text-springText antialiased;
-    font-family: "Avenir", sans-serif;
+    font-family: 'Avenir', sans-serif;
     overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
   }
 
   h1,
@@ -142,7 +144,7 @@
   h5,
   h6 {
     @apply tracking-tight text-springText;
-    font-family: "Avenir", sans-serif;
+    font-family: 'Avenir', sans-serif;
   }
 
   h1 {
@@ -159,22 +161,6 @@
 
   p {
     @apply leading-7 text-springText;
-  }
-
-  ::-webkit-scrollbar {
-    @apply w-2;
-  }
-
-  ::-webkit-scrollbar-track {
-    @apply bg-transparent;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    @apply bg-muted rounded-full;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    @apply bg-muted-foreground/50;
   }
 }
 
@@ -204,6 +190,18 @@
     @apply absolute w-full h-full left-0;
     background-attachment: scroll;
   }
+
+  body {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
+  }
+
+  html {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
+  }
 }
 
 .section-transition {
@@ -217,7 +215,7 @@
 }
 
 .link-underline:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 2px;
@@ -243,7 +241,7 @@
 }
 
 .timeline-container::after {
-  content: "";
+  content: '';
   @apply absolute top-0 bottom-0 w-1 bg-springMint left-1/2 -ml-0.5;
 }
 
@@ -256,7 +254,7 @@
 }
 
 .timeline-content::after {
-  content: "";
+  content: '';
   @apply absolute top-1/2 w-4 h-4 rounded-full bg-springMint border-4 border-white z-10;
 }
 
@@ -317,39 +315,6 @@
 html {
   scroll-behavior: smooth;
   @apply bg-springPaleBlue text-springText;
-}
-
-.mobile-menu {
-  @apply fixed top-0 right-0 h-screen w-4/5 max-w-sm bg-white/95 backdrop-blur-md shadow-lg z-50 
-  transform transition-transform duration-300 ease-in-out;
-}
-
-.mobile-menu.hidden {
-  @apply translate-x-full;
-}
-
-.mobile-menu.visible {
-  @apply translate-x-0;
-}
-
-.hamburger {
-  @apply relative w-6 h-5 flex flex-col justify-between z-50 cursor-pointer;
-}
-
-.hamburger span {
-  @apply block h-0.5 w-full bg-springText transition-all duration-300 ease-in-out;
-}
-
-.hamburger.active span:nth-child(1) {
-  @apply transform rotate-45 translate-y-2;
-}
-
-.hamburger.active span:nth-child(2) {
-  @apply opacity-0;
-}
-
-.hamburger.active span:nth-child(3) {
-  @apply transform -rotate-45 -translate-y-2;
 }
 
 @keyframes fade-in {
