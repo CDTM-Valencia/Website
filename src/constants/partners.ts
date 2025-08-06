@@ -36,6 +36,7 @@ export const CHALLENGE_SPONSORS: Sponsor[] = [
 ];
 
 export const TECH_SPONSORS: Sponsor[] = [
+  /*
   {
     name: "Lightspeed",
     image: "/images/partners/lightspeed.png",
@@ -62,6 +63,7 @@ export const TECH_SPONSORS: Sponsor[] = [
     link: "https://make.com/",
     class: "max-h-[30px]",
   }
+    */
 ];
 
 export const FOOD_SPONSORS: Sponsor[] = [
