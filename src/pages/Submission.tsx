@@ -1,22 +1,24 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 const Submission = () => {
   return (
     <div className="min-h-screen bg-white flex items-center justify-center">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto text-center">
-          <h1 className="text-3xl font-bold mb-4">Submission is not open yet.</h1>
+          <h1 className="text-3xl font-bold mb-4">
+            Submission is not open yet.
+          </h1>
           <p className="text-lg">
-            Check the following the{" "}
+            Check the following the{' '}
             <Link
-              to="https://hacks.cdtm.com/guidebook#challenges-final-submission"
+              to="https://vlc.hacks.cdtm.com/guidebook#cases-final-submission"
               className="text-blue-600 hover:text-blue-800 underline"
               target="_blank"
               rel="noopener noreferrer"
             >
               guidebook
-            </Link>{" "}
-            to know what you have to submit on Sunday
+            </Link>{' '}
+            to know submission instructions
           </p>
         </div>
       </div>
@@ -24,4 +26,4 @@ const Submission = () => {
   );
 };
 
-export default Submission; 
+export default Submission;
