@@ -95,9 +95,8 @@ const Navbar = ({ backgroundColor = 'bg-transparent' }: NavbarProps) => {
           { id: 'about', label: 'About', url: '#about' },
           { id: 'partners', label: 'Partners', url: '#partners' },
           { id: 'speakers', label: 'Speakers', url: '#speakers' },
-          { id: 'schedule', label: 'Schedule', url: '#schedule' },
           { id: 'about-us', label: 'Organisers', url: '#about-us' },
-          { id: 'projects', label: 'Projects', url: '/projects/2025' },
+          //{ id: 'projects', label: 'Projects', url: '/projects/2025' },
           {
             id: 'github',
             label: 'GitHub',
@@ -146,24 +145,29 @@ const Navbar = ({ backgroundColor = 'bg-transparent' }: NavbarProps) => {
           >
             Speakers
           </button>
+          {/*
           <button
             onClick={() => handleNavigation('#schedule')}
             className="text-springText/80 hover:text-springBlue transition-colors"
           >
             Schedule
           </button>
+          */}
           <button
             onClick={() => handleNavigation('#about-us')}
             className="text-springText/80 hover:text-springBlue transition-colors flex items-center gap-2"
           >
             Organisers
           </button>
-          <a
+          {/*
+           <a
             href="/projects/2025"
             className="text-springText/80 hover:text-springBlue transition-colors flex items-center gap-2"
           >
             Projects
           </a>
+          */}
+
           <a
             href="https://github.com/CDTM/cdtm-hacks"
             target="_blank"
