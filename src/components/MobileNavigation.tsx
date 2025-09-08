@@ -1,4 +1,5 @@
-import { motion } from 'framer-motion';
+import { motion, type Variants } from 'framer-motion';
+import { applicationsAreClosed } from '@/lib/utils';
 import PaddedSection from './paddedSection';
 import ApplicationsClosedDialog from './ApplicationsClosedDialog';
 import { useState } from 'react';
@@ -32,7 +33,7 @@ const MobileNavigation = ({
 }: MobileNavigationProps) => {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
 
-  const menuVariants = {
+  const menuVariants: Variants = {
     open: {
       opacity: 1,
       x: 0,
@@ -44,7 +45,7 @@ const MobileNavigation = ({
     },
     closed: {
       opacity: 0,
-      x: '100%',
+      x: 300,
       transition: {
         type: 'spring',
         stiffness: 300,
@@ -98,7 +99,7 @@ const MobileNavigation = ({
         initial="closed"
         animate={isOpen ? 'open' : 'closed'}
         variants={menuVariants}
-        className="fixed top-18 right-0 h-[370px] w-4/5 max-w-sm z-40 bg-white shadow-lg md:hidden overflow-hidden rounded-l-lg"
+        className="fixed top-18 right-0 h-[280px] w-4/5 max-w-sm z-40 bg-white shadow-lg md:hidden overflow-hidden rounded-l-lg"
       >
         <div className="h-full overflow-hidden">
           <div className="flex h-full flex-col pt-2">
@@ -110,7 +111,11 @@ const MobileNavigation = ({
               <div className="w-full h-px bg-gray-200 mb-2"></div>
               <button
                 onClick={() => {
-                  setIsDialogOpen(true);
+                  if (applicationsAreClosed()) {
+                    setIsDialogOpen(true);
+                  } else {
+                    window.location.assign('/apply');
+                  }
                   onItemClick();
                 }}
                 className="btn-hover-effect block w-full rounded-xl bg-springBlue py-3 text-center text-lg font-bold text-white shadow-lg hover:shadow-xl transition-all duration-200"

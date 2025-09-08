@@ -35,7 +35,7 @@ export interface Case {
   logoClass: string;
 }
 
-export const cases: Record<"HP" | "NTT Data" | "Mercadona", Case> = {
+export const cases: Record<"HP" | "NTT Data" | "IBM", Case> = {
   "HP": {
     name: "HP",
     // TODO: Use real case description
@@ -52,12 +52,12 @@ export const cases: Record<"HP" | "NTT Data" | "Mercadona", Case> = {
     logo: "/images/partners/ntt_data.svg",
     logoClass: "max-h-[20px] max-w-[200px]",
   },
-  "Mercadona": {
-    name: "Mercadona",
+  "IBM": {
+    name: "IBM",
     // TODO: Use real case description
     description: "To Be Determined",
-    sponsorUrl: "https://www.mercadona.es/",
-    logo: "/images/partners/mercadona.svg",
+    sponsorUrl: "",
+    logo: "/images/partners/ibm.svg",
     logoClass: "max-h-[20px] max-w-[200px]",
   },
 } as const;
@@ -132,6 +132,6 @@ export const projects: Project[] = [
   // NTT Data Projects
   
 
-  // Mercadona Projects
+  // IBM Projects
   
 ];

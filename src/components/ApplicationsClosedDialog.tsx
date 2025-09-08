@@ -26,9 +26,10 @@ const ApplicationsClosedDialog = ({
               Thank you for your interest!
             </p>
             <p>
-              Want to stay updated about future CDTM hackathons?{' '}
+              Want to stay updated about CDTM hackathons, applications, events
+              and more?{' '}
               <a
-                href="https://app.formbricks.com/s/cma7d2gdx8tokym01182jonnm"
+                href="https://app.formbricks.com/s/cmfbaepft3g8dux012u7gkh7f"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-springBlue underline font-medium"

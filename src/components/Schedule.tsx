@@ -19,7 +19,7 @@ const Schedule = () => {
             height="600"
             frameBorder="0"
             scrolling="no"
-            title="CDTM ValenciaHacks Agenda"
+            title="CDTM Valencia Hacks Agenda"
           ></iframe>
         </div>
         <div className="mt-6 text-center">

@@ -23,12 +23,14 @@ export const CASE_SPONSORS: Sponsor[] = [
     class: "max-w-[200px]",
     link: "https://www.nttdata.com/es/es",
   },
+  
   {
-    name: "Mercadona",
-    image: "/images/partners/mercadona.svg",
+    name: "IBM",
+    image: "/images/partners/ibm.svg",
     class: "max-h-[55px] max-w-[200px]",
-    link: "https://www.mercadona.es/",
-  },
+    link: "https://www.ibm.com/es-es",
+  }
+  
 ];
 
 export const CHALLENGE_SPONSORS: Sponsor[] = [
