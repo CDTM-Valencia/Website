@@ -9,13 +9,13 @@ export interface AboutStat {
 export const ABOUT_STATS: AboutStat[] = [
   {
     icon: Users,
-    title: "60 Hackers",
+    title: "60 Participants",
     description:
       "Bringing together the brightest minds to collaborate and innovate.",
   },
   {
     icon: Clock,
-    title: "6h Hacking",
+    title: "6h Building",
     description:
       "An intensive day of hacking, learning, and building innovative solutions together.",
   },

@@ -17,13 +17,14 @@ export const CASE_SPONSORS: Sponsor[] = [
     image: "/images/partners/catedra-hp.png",
     link: "https://catedra-hp.webs.upv.es/",
   },
+  /* 
   {
     name: "NTT Data",
     image: "/images/partners/ntt_data.svg",
     class: "max-w-[200px]",
     link: "https://www.nttdata.com/es/es",
   },
-  
+  */
   {
     name: "IBM",
     image: "/images/partners/ibm.svg",
@@ -38,6 +39,11 @@ export const CHALLENGE_SPONSORS: Sponsor[] = [
 ];
 
 export const TECH_SPONSORS: Sponsor[] = [
+  {
+    name: "Lovable",
+    image: "/images/partners/lovable_logo.svg",
+    link: "https://lovable.dev/",
+  }
   /*
   {
     name: "Lightspeed",
@@ -49,11 +55,7 @@ export const TECH_SPONSORS: Sponsor[] = [
     image: "/images/partners/OpenAI_Logo.svg",
     link: "https://openai.com/",
   },
-  {
-    name: "Lovable",
-    image: "/images/partners/lovable_logo.svg",
-    link: "https://lovable.dev/",
-  },
+  
   {
     name: "Langfuse",
     image: "/images/partners/langfuse_logo.svg",

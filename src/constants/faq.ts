@@ -22,12 +22,12 @@ export const FAQS: FAQItem[] = [
   {
     question: "How much does it cost?",
     answer:
-      "CDTM ValenciaHacks is completely free for all accepted participants. We provide meals, snacks, and beverages throughout the event, as well as a comfortable hacking space and mentorship.",
+      "CDTM Valencia Hacks is completely free for all accepted participants. We provide meals, snacks, and beverages throughout the event, as well as a comfortable hacking space and mentorship.",
   },
   {
     question: "How do teams work?",
     answer:
-      "Teams can consist of 3-5 members. You can either form your own team beforehand or join one during our team-building session at the start of the event. We encourage diverse teams with complementary skills!",
+      "Teams can consist of 4-5 members. You can either form your own team beforehand or join one during our team-building session at the start of the event. We encourage diverse teams with complementary skills!",
   },
   {
     question: "What should I bring?",

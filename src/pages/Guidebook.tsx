@@ -9,8 +9,8 @@ import { useEffect, useRef, useState } from 'react';
 const Logo = () => (
   <a href="/" className="inline-flex items-center group">
     <img
-      src="/images/CDTM_Hacks_Logo.svg"
-      alt="CDTM ValenciaHacks"
+      src="/images/cdtm.png"
+      alt="CDTM Valencia Hacks"
       className="h-10 w-auto"
     />
   </a>
@@ -135,7 +135,7 @@ const Guidebook = () => {
             Hackathon Guidebook
           </h1>
           <p className="text-xl max-w-3xl">
-            Everything you need to know about CDTM ValenciaHacks 2025
+            Everything you need to know about CDTM Valencia Hacks 2025
           </p>
         </div>
       </div>

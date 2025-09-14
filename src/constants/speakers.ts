@@ -15,5 +15,13 @@ export const SPEAKERS: Speaker[] = [
     cdtmClass: "Class of Spring 2016",
     image: "/images/speaker/ferran_pla.jpeg",
     linkedin: "https://www.linkedin.com/in/fplacardona/?originalSubdomain=es",
+  },
+  {
+    name: "Adrián Villanueva",
+    title: "Center Assistant CDTM Valencia",
+    company: "CDTM Valencia",
+    cdtmClass: "",
+    image: "/images/speaker/adrian_villanueva.jpeg",
+    linkedin: "https://www.linkedin.com/in/adri%C3%A1n-villanueva-mart%C3%ADnez/",
   }
 ];
