@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="747" viewBox="0 0 1536 747" version="1.1">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <!-- Silhouette color -->
+  <g fill="#333333" stroke="none">
+    <!-- L'Hemisfèric (stylized half-ellipse/eye) -->
+    <path d="M220 420c120-120 340-120 460 0 0 0-40 140-230 140-190 0-230-140-230-140z" />
+    <!-- Museu de les Ciències (simplified angular blocks) -->
+    <path d="M540 370 L700 370 L760 470 L700 560 L560 560 L540 520 Z" />
+    <!-- Palau de les Arts (stylized curved opera house) -->
+    <path d="M820 300c60-50 160-60 260 0 0 0-20 120-140 120-120 0-140-120-140-120z" />
+    <!-- Ágora / Umbracle block -->
+    <path d="M1140 360 L1290 360 L1290 520 L1140 520 Z" />
+    <!-- Assut de l'Or bridge pylon and cable (stylized) -->
+    <path d="M980 120 L1000 420 L980 420 L980 120z" />
+    <path d="M1000 180 L1250 420 L1230 420 L1000 200z" />
+    <!-- Ground base -->
+    <rect x="0" y="560" width="1536" height="187" fill="#333333" />
+    <!-- Small details: arches / windows on the Ágora block -->
+    <g transform="translate(1160,390)" fill="#ffffff">
+      <rect x="6" y="16" width="28" height="46" rx="6" />
+      <rect x="46" y="16" width="28" height="46" rx="6" />
+    </g>
+    <!-- Optional low rooftop shapes to echo silhouette rhythm -->
+    <path d="M300 560 L360 480 L420 560 L480 520 L540 560 L620 460 L720 560 L820 520 L900 560 L980 420" />
+  </g>
+</svg>

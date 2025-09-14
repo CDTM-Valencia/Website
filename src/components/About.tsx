@@ -36,7 +36,7 @@ const About = () => {
 					<p className="max-w-3xl mx-auto text-springText/90">
 						CDTM Valencia Hacks brings together the brightest students with the
 						CDTM Valencia ecosystem to collaborate, innovate, and build
-						together. Join us for a day of hacking and shared passion for
+						together. Join us for a day of building and shared passion for
 						technology and entrepreneurship.
 					</p>
 				</div>
