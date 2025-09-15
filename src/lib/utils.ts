@@ -24,3 +24,10 @@ export function applicationsAreOpen(nowUtcMs: number = Date.now()): boolean {
 export function applicationsNotYetOpen(nowUtcMs: number = Date.now()): boolean {
   return nowUtcMs < APPLICATIONS_OPENS_AT_UTC
 }
+
+// Partner CTA cutoff at 2025-09-25 00:00 Europe/Madrid (UTC+2), i.e. 2025-09-24T22:00:00Z
+const PARTNER_CTA_CUTOFF_UTC = Date.parse('2025-09-24T22:00:00Z')
+
+export function isBeforePartnerCtaCutoff(nowUtcMs: number = Date.now()): boolean {
+  return nowUtcMs < PARTNER_CTA_CUTOFF_UTC
+}

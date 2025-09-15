@@ -1,12 +1,15 @@
 import About from '@/components/About';
 import AboutUs from '@/components/AboutUs';
 import Footer from '@/components/Footer';
-import Navbar from '@/components/Navbar';
 import Partners from '@/components/Partners';
 import Speakers from '@/components/Speakers';
 import FAQ from '@/components/FAQ';
 import { useEffect, useRef, useState } from 'react';
-import { applicationsAreClosed, applicationsNotYetOpen } from '@/lib/utils';
+import {
+  applicationsAreClosed,
+  applicationsNotYetOpen,
+  isBeforePartnerCtaCutoff,
+} from '@/lib/utils';
 import ApplicationsClosedDialog from '@/components/ApplicationsClosedDialog';
 
 const Index = () => {
@@ -17,6 +20,7 @@ const Index = () => {
   const fgLayerRef = useRef<HTMLDivElement>(null);
   const [isWideAspectRatio, setIsWideAspectRatio] = useState(false);
   const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const showPartnerCta = isBeforePartnerCtaCutoff();
 
   useEffect(() => {
     const checkAspectRatio = () => {
@@ -74,13 +78,6 @@ const Index = () => {
   const isApplicationsNotYetOpen = applicationsNotYetOpen();
   return (
     <div className="min-h-[80vh] overflow-x-hidden bg-springPaleBlue">
-      <Navbar
-        backgroundColor={
-          isApplicationsClosed || isApplicationsNotYetOpen
-            ? 'bg-white'
-            : 'bg-springPaleBlue/50'
-        }
-      />
       {/* Hero section with parallax effect */}
       <div
         ref={parallaxRef}
@@ -181,7 +178,7 @@ const Index = () => {
         />
 
         {/* Hero content */}
-        <div className="w-full px-4 pt-[12vh] relative z-10 text-center flex flex-col items-center justify-center h-full">
+        <div className="w-full px-4 pt-24 md:pt-32 relative z-10 text-center flex flex-col items-center justify-center h-full">
           <h1
             className={`text-4xl md:text-5xl lg:text-6xl font-bold ${
               isApplicationsClosed || isApplicationsNotYetOpen
@@ -240,10 +237,20 @@ const Index = () => {
                     Stay tuned for more information about CDTM Valencia Hacks
                     2025!
                   </p>
-                  <div className="flex flex-col items-center justify-center gap-2 mt-2">
+                  <div className="flex flex-col items-center justify-center gap-3 mt-2">
+                    {showPartnerCta && (
+                      <a
+                        href="mailto:vlc.hacks@cdtm.com?subject=Become%20a%20Partner%20-%20CDTM%20Valencia%20Hacks"
+                        className="btn-hover-effect !bg-white !text-black font-semibold py-3 px-8 text-base md:text-lg rounded-xl hover:shadow-xl transition-all duration-200 hover:scale-105 hover:!bg-white/95 border border-white/70"
+                        style={{ textShadow: 'none' }}
+                      >
+                        Become a Partner!
+                      </a>
+                    )}
                     <button
                       onClick={() => setIsDialogOpen(true)}
                       className="btn-hover-effect bg-springBlue text-white font-semibold py-4 px-10 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105"
+                      style={{ textShadow: 'none' }}
                     >
                       Get notified
                     </button>
@@ -289,8 +296,8 @@ const Index = () => {
             </span>
           )}
 
-          {/* Mobile buttons - only show on small screens */}
-          {!isApplicationsClosed && (
+          {/* Mobile button - only show on small screens when applications are open */}
+          {!isApplicationsClosed && !isApplicationsNotYetOpen && (
             <div
               className="flex flex-col gap-4 animate-fade-in md:hidden"
               style={{
@@ -299,15 +306,11 @@ const Index = () => {
             >
               <button
                 onClick={() => {
-                  if (isApplicationsNotYetOpen) {
-                    setIsDialogOpen(true);
-                  } else {
-                    window.location.assign('/apply');
-                  }
+                  window.location.assign('/apply');
                 }}
                 className="btn-hover-effect bg-springBlue text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:shadow-lg transition-all"
               >
-                {isApplicationsNotYetOpen ? 'Get notified' : 'Apply'}
+                Apply
               </button>
             </div>
           )}
