@@ -6,6 +6,10 @@ export default defineConfig({
   server: {
     port: process.env.PORT || 5173,
     host: true,
+    watch: {
+      // Prevent HMR reload loops triggered by changing log files
+      ignored: ["**/*.log", "**/dev.log"],
+    },
   },
   plugins: [react()],
   resolve: {

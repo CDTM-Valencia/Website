@@ -1,5 +1,6 @@
 import { motion, type Variants } from 'framer-motion';
 import { applicationsAreClosed } from '@/lib/utils';
+import { applicationsNotYetOpen } from '@/lib/utils';
 import PaddedSection from './paddedSection';
 import ApplicationsClosedDialog from './ApplicationsClosedDialog';
 import { useState } from 'react';
@@ -111,7 +112,7 @@ const MobileNavigation = ({
               <div className="w-full h-px bg-gray-200 mb-2"></div>
               <button
                 onClick={() => {
-                  if (applicationsAreClosed()) {
+                  if (applicationsNotYetOpen() || applicationsAreClosed()) {
                     setIsDialogOpen(true);
                   } else {
                     window.location.assign('/apply');
@@ -120,7 +121,7 @@ const MobileNavigation = ({
                 }}
                 className="btn-hover-effect block w-full rounded-xl bg-springBlue py-3 text-center text-lg font-bold text-white shadow-lg hover:shadow-xl transition-all duration-200"
               >
-                Apply
+                {applicationsNotYetOpen() ? 'Get notified' : 'Apply'}
               </button>
             </div>
           </div>

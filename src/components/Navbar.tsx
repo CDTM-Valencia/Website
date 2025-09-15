@@ -109,11 +109,7 @@ const Navbar = ({ backgroundColor = 'bg-transparent' }: NavbarProps) => {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        scrolled
-          ? 'bg-white/90 backdrop-blur-sm shadow-sm'
-          : 'bg-white/90 backdrop-blur-sm shadow-sm md:bg-transparent'
-      }`}
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-white/90 backdrop-blur-sm shadow-sm`}
     >
       <div className="w-full px-4 py-4 flex items-center justify-between max-w-none">
         {/* Logo */}

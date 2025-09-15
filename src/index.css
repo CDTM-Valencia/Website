@@ -314,7 +314,7 @@
 
 html {
   scroll-behavior: smooth;
-  @apply bg-springPaleBlue text-springText;
+  @apply bg-white text-springText;
 }
 
 @keyframes fade-in {
