@@ -7,7 +7,7 @@ export interface Sponsor {
 
 export const MAIN_SPONSOR: Sponsor = {
   name: "To Be Determined",
-  image: "/images/partners/",
+  image: "",
   link: "",
 };
 
@@ -17,14 +17,12 @@ export const CASE_SPONSORS: Sponsor[] = [
     image: "/images/partners/catedra-hp.png",
     link: "https://catedra-hp.webs.upv.es/",
   },
-  /* 
   {
     name: "NTT Data",
     image: "/images/partners/ntt_data.svg",
     class: "max-w-[200px]",
-    link: "https://www.nttdata.com/es/es",
+    link: "https://www.nttdata.com/",
   },
-  */
   {
     name: "IBM",
     image: "/images/partners/ibm.svg",
@@ -35,7 +33,11 @@ export const CASE_SPONSORS: Sponsor[] = [
 ];
 
 export const CHALLENGE_SPONSORS: Sponsor[] = [
-  
+  {
+    name: "Scientists360",
+    image: "/images/partners/scientists360.png",
+    link: "https://scientists360.com/",
+  }
 ];
 
 export const TECH_SPONSORS: Sponsor[] = [
