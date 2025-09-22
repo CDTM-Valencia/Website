@@ -23,11 +23,11 @@ export const CASE_SPONSORS: Sponsor[] = [
     class: "max-w-[200px]",
     link: "https://www.nttdata.com/",
   },
+
   {
-    name: "IBM",
-    image: "/images/partners/ibm.svg",
-    class: "max-h-[55px] max-w-[200px]",
-    link: "https://www.ibm.com/es-es",
+    name: "To Be Determined",
+    image: "",
+    link: "",
   }
   
 ];
@@ -35,8 +35,18 @@ export const CASE_SPONSORS: Sponsor[] = [
 export const CHALLENGE_SPONSORS: Sponsor[] = [
   {
     name: "Scientists360",
-    image: "/images/partners/scientists360.png",
+    image: "/images/partners/scientists360_2.svg",
     link: "https://scientists360.com/",
+  },
+  {
+    name: "To Be Determined",
+    image: "",
+    link: "",
+  },
+  {
+    name: "To Be Determined",
+    image: "",
+    link: "",
   }
 ];
 
@@ -45,6 +55,16 @@ export const TECH_SPONSORS: Sponsor[] = [
     name: "Lovable",
     image: "/images/partners/lovable_logo.svg",
     link: "https://lovable.dev/",
+  },
+  {
+    name: "To Be Determined",
+    image: "",
+    link: "",
+  },
+  {
+    name: "To Be Determined",
+    image: "",
+    link: "",
   }
   /*
   {
@@ -73,6 +93,11 @@ export const TECH_SPONSORS: Sponsor[] = [
 ];
 
 export const FOOD_SPONSORS: Sponsor[] = [
+  {
+    name: "To Be Determined",
+    image: "",
+    link: "",
+  }
   
 ];
 
