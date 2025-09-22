@@ -35,7 +35,7 @@ export const CASE_SPONSORS: Sponsor[] = [
 export const CHALLENGE_SPONSORS: Sponsor[] = [
   {
     name: "Scientists360",
-    image: "/images/partners/scientists360.png",
+    image: "/images/partners/scientists360_2.png",
     link: "https://scientists360.com/",
   },
   {
