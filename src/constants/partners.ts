@@ -25,6 +25,12 @@ export const CASE_SPONSORS: Sponsor[] = [
   },
 
   {
+    name: "LeapingAI",
+    image: "/images/partners/leapingai.svg",
+    link: "https://leapingai.com/",
+  }
+  ,
+  {
     name: "To Be Determined",
     image: "",
     link: "",
