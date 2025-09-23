@@ -61,7 +61,7 @@ const Partners = () => {
             ))}
           </div>
         </div>
-
+        {/*}
         <div className="mb-16">
           <h3 className="text-center text-xl text-springText/80 mb-8">
             Main Prize Sponsor
@@ -88,7 +88,7 @@ const Partners = () => {
             </div>
           </div>
         </div>
-
+        */}
         <div className="mb-12">
           <h3 className="text-center text-xl text-springText/80 mb-8">
             Challenge Sponsors
