@@ -27,7 +27,7 @@ export const FAQS: FAQItem[] = [
   {
     question: "How do teams work?",
     answer:
-      "Teams can consist of 4-5 members. You can either form your own team beforehand or join one during our team-building session at the start of the event. We encourage diverse teams with complementary skills!",
+      "Teams can consist of 4-5 members. Staff will make sure teams are interdisciplinary. However, you can submit your preferred teammates and we will do our best to include them.",
   },
   {
     question: "What should I bring?",
