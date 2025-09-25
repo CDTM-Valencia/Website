@@ -31,9 +31,9 @@ export const CASE_SPONSORS: Sponsor[] = [
   }
   ,
   {
-    name: "To Be Determined",
-    image: "",
-    link: "",
+    name: "IBM",
+    image: "/images/partners/ibm.svg",
+    link: "https://www.ibm.com/",
   }
   
 ];
