@@ -23,5 +23,21 @@ export const SPEAKERS: Speaker[] = [
     cdtmClass: "",
     image: "/images/speaker/adrian_villanueva.jpeg",
     linkedin: "https://www.linkedin.com/in/adri%C3%A1n-villanueva-mart%C3%ADnez/",
+  }, 
+  {
+    name: "Tyler Sellars",
+    title: "Founder & CEO",
+    company: "Cactus AI",
+    cdtmClass: "",
+    image: "/images/speaker/tyler_sellars.jpeg",
+    linkedin: "https://www.linkedin.com/in/tylersellars",
+  }, 
+  {
+    name: "Diana Meri",
+    title: "Project Manager",
+    company: "Startup Valencia & VDS",
+    cdtmClass: "",
+    image: "/images/speaker/diana_meri.jpeg",
+    linkedin: "https://www.linkedin.com/in/diana-meri",
   }
 ];
