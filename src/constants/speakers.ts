@@ -31,5 +31,13 @@ export const SPEAKERS: Speaker[] = [
     cdtmClass: "",
     image: "/images/speaker/tyler_sellars.jpeg",
     linkedin: "https://www.linkedin.com/in/tylersellars",
+  }, 
+  {
+    name: "Diana Meri",
+    title: "Project Manager",
+    company: "Startup Valencia & VDS",
+    cdtmClass: "",
+    image: "/images/speaker/diana_meri.jpeg",
+    linkedin: "https://www.linkedin.com/in/diana-meri",
   }
 ];
