@@ -3,6 +3,7 @@ import AboutUs from '@/components/AboutUs';
 import Footer from '@/components/Footer';
 import Partners from '@/components/Partners';
 import Speakers from '@/components/Speakers';
+import { Prizes } from '@/components/Prizes';
 import FAQ from '@/components/FAQ';
 import { useEffect, useRef, useState } from 'react';
 import {
@@ -272,7 +273,7 @@ const Index = () => {
                 animationDelay: '0.2s',
               }}
             >
-              2nd October
+              2nd Oct.
               <a
                 href="https://maps.app.goo.gl/KrLrdmRPjTgCTJAi8"
                 target="_blank"
@@ -290,9 +291,9 @@ const Index = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-                Valencia, ETSINF UPV
+                ETSINF UPV
               </a>
-              ,14:30 - 21:00
+              ,14:30-21:00
             </span>
           )}
 
@@ -407,6 +408,7 @@ const Index = () => {
       <About />
       <Partners />
       <Speakers />
+      <Prizes />
       <FAQ />
       <AboutUs />
       <Footer />

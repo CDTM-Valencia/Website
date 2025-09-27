@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import { toast } from "sonner";
+import React, { useState } from 'react';
+import { toast } from 'sonner';
 
 const Registration = () => {
   const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    experience: "",
-    teamPreference: "",
+    name: '',
+    email: '',
+    experience: '',
+    teamPreference: '',
   });
 
   const handleChange = (
@@ -21,17 +21,17 @@ const Registration = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
-    toast.success("Registration submitted!", {
+    console.log('Form submitted:', formData);
+    toast.success('Registration submitted!', {
       description: "We'll be in touch soon. Check your email for confirmation.",
       duration: 5000,
     });
     // Reset form
     setFormData({
-      name: "",
-      email: "",
-      experience: "",
-      teamPreference: "",
+      name: '',
+      email: '',
+      experience: '',
+      teamPreference: '',
     });
   };
 
@@ -40,7 +40,7 @@ const Registration = () => {
       <div className="container mx-auto px-4 py-16">
         <h2 className="text-center text-springBlue mb-12">Register</h2>
 
-        <div className="max-w-md mx-auto bg-white p-8 rounded-lg shadow-md border border-springBlue/5">
+        <div className="w-full max-w-md mx-auto bg-white p-8 rounded-lg shadow-md border border-springBlue/5">
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
               <label htmlFor="name" className="form-label">

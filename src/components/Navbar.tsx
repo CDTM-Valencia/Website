@@ -54,7 +54,8 @@ const Navbar = ({ backgroundColor = 'bg-transparent' }: NavbarProps) => {
     if (location.pathname !== '/') {
       navigate(`/${hash}`);
     } else {
-      // If we're already on the home page, just scroll to the section
+      // If we're already on the home page, update URL and scroll to the section
+      window.history.pushState(null, '', hash);
       const element = document.querySelector(hash);
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
@@ -95,6 +96,7 @@ const Navbar = ({ backgroundColor = 'bg-transparent' }: NavbarProps) => {
           { id: 'about', label: 'About', url: '#about' },
           { id: 'partners', label: 'Partners', url: '#partners' },
           { id: 'speakers', label: 'Speakers', url: '#speakers' },
+          { id: 'prizes', label: 'Prizes', url: '#prizes' },
           { id: 'about-us', label: 'Organisers', url: '#about-us' },
           //{ id: 'projects', label: 'Projects', url: '/projects/2025' },
           {
@@ -140,6 +142,12 @@ const Navbar = ({ backgroundColor = 'bg-transparent' }: NavbarProps) => {
             className="text-springText/80 hover:text-springBlue transition-colors"
           >
             Speakers
+          </button>
+          <button
+            onClick={() => handleNavigation('#prizes')}
+            className="text-springText/80 hover:text-springBlue transition-colors"
+          >
+            Prizes
           </button>
           {/*
           <button

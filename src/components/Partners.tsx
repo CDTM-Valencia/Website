@@ -93,7 +93,7 @@ const Partners = () => {
           <h3 className="text-center text-xl text-springText/80 mb-8">
             Challenge Sponsors
           </h3>
-          <div className="flex flex-wrap justify-center gap-6 max-w-6xl mx-auto">
+          <div className="flex flex-wrap justify-center gap-6 px-4">
             {CHALLENGE_SPONSORS.map((sponsor, index) => (
               <div
                 key={index}
@@ -126,7 +126,7 @@ const Partners = () => {
           <h3 className="text-center text-xl text-springText/80 mb-8">
             Tech Sponsors
           </h3>
-          <div className="flex flex-wrap justify-center gap-6 max-w-6xl mx-auto">
+          <div className="flex flex-wrap justify-center gap-6 px-4">
             {TECH_SPONSORS.map((sponsor, index) => (
               <div
                 key={index}

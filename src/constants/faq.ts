@@ -22,7 +22,7 @@ export const FAQS: FAQItem[] = [
   {
     question: "How much does it cost?",
     answer:
-      "CDTM Valencia Hacks is completely free for all accepted participants. We provide meals, snacks, and beverages throughout the event, as well as a comfortable hacking space and mentorship.",
+      "CDTM Valencia Hacks is completely free for all accepted participants. We provide meals, snacks, and beverages throughout the event, as well as a comfortable building space and mentorship.",
   },
   {
     question: "How do teams work?",
@@ -37,16 +37,40 @@ export const FAQS: FAQItem[] = [
   {
     question: "Will there be food and drinks?",
     answer:
-      "Absolutely! We provide a catering service for the event.",
+      "Absolutely! We provide a catering service for 80 people at the event.",
   },
   {
     question: "What kind of support is available during the hackathon?",
     answer:
-      "We provide technical mentors, workshops, and access to various APIs and tools. Our experienced mentors from industry partners will be available to help you with technical challenges and project development.",
+      "We provide technical mentors, workshops, and access to various APIs and tools like Lovable and LeapingAI. Our experienced mentors from industry partners will be available to help you with technical challenges and project development.",
   },
   {
-    question: "What can I win?",
+    question: "How do I register for the hackathon?",
     answer:
-      "We will have 3 prizes for the 3 cases. There will also be an overall main prize across cases. And psst - maybe there is a super secret surprise prize - who knows?",
+      "You can register for the hackathon by filling out the registration form. You will have time until 14:30 to register on 2nd October.",
+  },
+  {
+    question: "Do I have to work on a case or learn before the hackathon?",
+    answer:
+      "No, you don't have to prepare anything for the hackathon. You will have time during the hackathon to build your project, however when selected we will share resources to help you make the most out of it.",
+  },
+  {
+    question: "What criteria do you use to select participants?",
+    answer:
+      "We will select participants based on their education, experience level and previous projects. We will also start sending confirmations before applications deadline, therefore early applicants have higher chances of getting accepted.",
+  },
+  {
+    question: "What if I don't have a team?",
+    answer:
+      "You will be matched with a team at the hackathon.",
+  },
+  {
+    question: "What is the acceptance rate?",
+    answer:
+      "The acceptance rate is 50% since we accept 60 people and currently there are 120 applications.",
+  },
+  {
+    question:"How can I apply to CDTM Valencia course recognised by UV & UPV?",
+    answer:"In order to be notified to apply to CDTM Valencia free course, you can subscribe to our newsletter after the hackathon is over."
   }
 ];
