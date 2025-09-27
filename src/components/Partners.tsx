@@ -32,7 +32,7 @@ const Partners = () => {
         {/* Case Sponsors */}
         <div className="mb-16">
           <h3 className="text-center text-xl text-springText/80 mb-8">
-            Case Sponsors
+            Main Sponsors
           </h3>
           <div className="flex flex-wrap justify-center gap-8">
             {CASE_SPONSORS.map((sponsor, index) => (
