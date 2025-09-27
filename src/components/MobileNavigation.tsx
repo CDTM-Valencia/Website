@@ -100,7 +100,7 @@ const MobileNavigation = ({
         initial="closed"
         animate={isOpen ? 'open' : 'closed'}
         variants={menuVariants}
-        className="fixed top-18 right-0 h-[280px] w-4/5 max-w-sm z-40 bg-white shadow-lg md:hidden overflow-hidden rounded-l-lg"
+        className="fixed top-18 right-0 h-[320px] w-4/5 max-w-sm z-40 bg-white shadow-lg md:hidden overflow-hidden rounded-l-lg"
       >
         <div className="h-full overflow-hidden">
           <div className="flex h-full flex-col pt-2">

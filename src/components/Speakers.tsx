@@ -1,19 +1,16 @@
-import { FaLinkedin } from "react-icons/fa";
-import { useEffect, useRef } from "react";
-import { SPEAKERS } from "@/constants/speakers";
-import { Lock } from "lucide-react";
+import { FaLinkedin } from 'react-icons/fa';
+import { useEffect, useRef } from 'react';
+import { SPEAKERS } from '@/constants/speakers';
+import { Lock } from 'lucide-react';
 
 const SpeakerPlaceholder = () => (
-  <div
-    className="bg-white rounded-lg shadow-md overflow-hidden transform transition-transform hover:-translate-y-1 hover:shadow-lg relative h-full"
-  >
+  <div className="bg-white rounded-lg shadow-md overflow-hidden transform transition-transform hover:-translate-y-1 hover:shadow-lg relative w-[280px] h-[400px] flex-shrink-0">
     <div
       className="absolute inset-0 blur-xl opacity-30"
       style={{
         background: `linear-gradient(45deg, #eaf3fd, #a8d0ff)`,
       }}
     />
-
   </div>
 );
 
@@ -52,9 +49,9 @@ const Speakers = () => {
       }
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
@@ -67,11 +64,11 @@ const Speakers = () => {
       <div className="container mx-auto px-4 py-16">
         <h2 className="text-center text-springBlue mb-12">Speakers & Judges</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
+        <div className="flex flex-wrap justify-center gap-4 px-4">
           {SPEAKERS.map((speaker, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg shadow-md overflow-hidden transform transition-transform hover:-translate-y-1 hover:shadow-lg"
+              className="bg-white rounded-lg shadow-md overflow-hidden transform transition-transform hover:-translate-y-1 hover:shadow-lg w-[280px] flex-shrink-0"
             >
               <div className="h-48 bg-springPaleBlue overflow-hidden">
                 <img
@@ -80,10 +77,10 @@ const Speakers = () => {
                   alt={speaker.name}
                   className="w-full will-change-transform"
                   style={{
-                    transformOrigin: "center top",
-                    transform: "translateY(0)",
-                    transition: "transform 0.05s linear",
-                    objectPosition: "center top", // Anchor to top
+                    transformOrigin: 'center top',
+                    transform: 'translateY(0)',
+                    transition: 'transform 0.05s linear',
+                    objectPosition: 'center top', // Anchor to top
                   }}
                 />
               </div>
@@ -105,16 +102,15 @@ const Speakers = () => {
                 <p className="text-springText/80">{speaker.title}</p>
                 <p className="text-springText/80 mb-2">{speaker.company}</p>
                 <p className="text-sm text-springBlue font-bold">
-                  CDTM {speaker.cdtmClass}
+                  {speaker.cdtmClass}
                 </p>
               </div>
             </div>
           ))}
-          <SpeakerPlaceholder />
         </div>
 
         <div className="mt-12 text-center">
-          <p className="max-w-2xl mx-auto text-springText/90">
+          <p className="text-springText/90 px-4">
             Learn from and get feedback from industry leaders and successful
             CDTM alumni who are changing the tech landscape.
           </p>
