@@ -10,6 +10,7 @@ import {
   applicationsAreClosed,
   applicationsNotYetOpen,
   isBeforePartnerCtaCutoff,
+  isInPostCloseAnnouncementWindow,
 } from '@/lib/utils';
 import ApplicationsClosedDialog from '@/components/ApplicationsClosedDialog';
 
@@ -77,6 +78,7 @@ const Index = () => {
   }, []);
   const isApplicationsClosed = applicationsAreClosed();
   const isApplicationsNotYetOpen = applicationsNotYetOpen();
+  const isInAnnouncementPhase = isInPostCloseAnnouncementWindow();
   return (
     <div className="min-h-[80vh] overflow-x-hidden bg-springPaleBlue">
       {/* Hero section with parallax effect */}
@@ -206,7 +208,29 @@ const Index = () => {
               }),
             }}
           >
-            {isApplicationsClosed ? (
+            {isInAnnouncementPhase ? (
+              <>
+                Applications are now closed.
+                <div className="mt-4 animate-fade-in font-normal">
+                  <p className="text-lg text-white mb-4">
+                    You should have received an email with your team if you have
+                    been accepted.
+                  </p>
+                  <p className="text-lg text-white mb-8">
+                    If you haven't received an email, you are on the waiting
+                    list. Those accepted, please confirm your teams.
+                  </p>
+                  <div className="flex flex-col items-center justify-center gap-2 mt-2">
+                    <a
+                      href="mailto:vlc.hacks@cdtm.de"
+                      className="btn-hover-effect bg-springBlue text-white font-semibold py-4 px-10 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105"
+                    >
+                      Contact us for any doubts
+                    </a>
+                  </div>
+                </div>
+              </>
+            ) : isApplicationsClosed ? (
               <>
                 Thank you for an amazing weekend in the heart of Europe.
                 <div className="mt-4 animate-fade-in font-normal">
