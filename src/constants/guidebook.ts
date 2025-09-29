@@ -94,7 +94,7 @@ export const GUIDEBOOK_DATA: GuidebookSection[] = [
         title: "Participant Checklist",
         icon: "checkSquare",
         content: `<h3 class="text-xl font-bold mb-1">🤝 Must Haves:</h3>
-• Valid ID / Passport
+• Valid ID / Passports
 • Laptop and charger
 • Water bottle
 • Comfortable clothes
@@ -102,7 +102,7 @@ export const GUIDEBOOK_DATA: GuidebookSection[] = [
 
 <h3 class="text-xl font-bold mb-1">💡 What You Should Know:</h3>
 • <strong>No coding experience required!</strong> We welcome participants with diverse skill sets including business development, design, and project management
-• <strong>Teams of 4-5 members</strong> work best - you can form your own team or join one during our team-building session
+• <strong>Teams of 4-5 members</strong> work best - You will receive details on where to meet your teammates before the event begins, and we will also share their contact information so you can get in touch.
 • <strong>Completely free event</strong> - we provide meals, snacks, beverages, and all necessary facilities
 • <strong>Technical mentors available</strong> to help with challenges and project development
 
@@ -119,7 +119,7 @@ export const GUIDEBOOK_DATA: GuidebookSection[] = [
         title: "Accreditation Process",
         icon: "award",
         content: `<h3 class="text-xl font-bold mb-1">How to get your participant badge and complete registration:</h3>
-1. Go to the registration desk at the entrance of ETSINF UPV 1H
+1. Please go to the registration desk at the entrance of ETSINF UPV (Building 1G, Room 1.07).
 2. Show your ID.
 3. After the verification, you will get your builder badge.
 4. You will also get a goodie bag.
@@ -244,6 +244,7 @@ The ETSINF UPV campus has 24/7 security. In case of any security concerns, conta
         Follow us and use hashtag <b class="text-springBlue">#cdtmvalenciahacks2025</b>:
         • Instagram: <a class="underline text-springBlue" href='https://www.instagram.com/cdtm_vlc'>@centerlings</a>
         • LinkedIn: <a class="underline text-springBlue" href='https://www.linkedin.com/company/cdtm-valencia/'>@cdtm_valencia</a>
+        • Discord: <a class = "underline text-springBlue" href = "https://discord.com/invite/dC8YAhNV"> CDTM VLC Hacks </a>
 
         <b class="text-xl font-bold mb-0">Questions?</b>
         Ask our team members (wearing "CDTM Valencia" shirts)
@@ -277,16 +278,17 @@ The ETSINF UPV campus has 24/7 security. In case of any security concerns, conta
         content: `<h3 class="text-xl font-bold mb-2">🏆 What You Can Win</h3>
         
         <strong>Main Prizes:</strong>
-        • <strong>1st Place:</strong> €1,000 + Recognition
-        • <strong>2nd Place:</strong> €500 + Recognition  
-        • <strong>3rd Place:</strong> €250 + Recognition
+        • <strong>1st Place:</strong> €450 + Recognition
+        • <strong>2nd Place:</strong> 5 VDS Tickets + Recognition  
         
-        <strong>Special Prizes:</strong>
-        • <strong>Best Innovation:</strong> €300
-        • <strong>Best Design:</strong> €200
-        • <strong>Best Business Model:</strong> €200
+        <strong>Winner Prizes:</strong>
+        • <strong>Case Winners:</strong> 15 Sweaters + 15 Bottles
+        • <strong>IBM Special Prizes:</strong> 5 IBM caps + 5 IBM bottles 
         
-        <strong>Total Prize Pool:</strong> Over €2,000 in prizes!
+        <strong>General Prizes:</strong>
+        • <strong>Personalized Top:</strong> Custom CDTM VLC Hacks 2025 T-shirt 
+        • <strong>Lovable Pro Access:</strong> 100 credits for one month + 50% student discount
+        • <strong>CDTM Valencia Tote Bag:</strong> Exclusive bag to carry yor memories
         
         <h3 class="text-xl font-bold mb-2">🎯 How to Win</h3>
         • Build innovative solutions to real-world challenges
@@ -634,7 +636,7 @@ We provide access to various tools and resources to help you build amazing solut
   },
   {
     id: "cdtm",
-    title: "CDTM & Munich",
+    title: "CDTM & Valencia",
     icon: "building",
     subsections: [
       {
