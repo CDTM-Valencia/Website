@@ -426,14 +426,12 @@ Remember: Focus on solving real problems and building something that works!
 
 <i>Focus Areas:</i> AI, software, Voice agents
 <a class="underline text-springBlue" href ="https://www.loom.com/share/8b4efc0e5153482bb6920f5fdadeeeac?sid=37a841f7-07d4-4f18-9cdd-02707509f014" target="_blank"> Video Explanation from the CEO </a>
-<a class="underline text-springBlue" href="../../Leaping_AI_Case.pdf" target="_blank"> <i> PDF with Case Guidelines </i> </a>
 
 <strong>Case 2: IBM</strong>
 
 <i>Introduction:</i> Agentic AI is changing the way enterprises work. At IBM, our consultants and clients face daily challenges: preparing for meetings, finding the right knowledge, managing repetitive tasks, and making smarter business decisions. Your mission is to design a prototype of a Agentic AI system that boosts productivity in a real business scenario.
 
 <i>Focus Areas:</i> AI, Agents, Software
-<a class="underline text-springBlue" href="../../IBM_Case.pdf" target="_blank"> <i> PDF with Case Guidelines </i> </a>
 
 <strong>Case 3: NTT Data </strong>
 
@@ -466,7 +464,7 @@ Remember: Focus on solving real problems and building something that works!
   <tbody>\
     <tr>\
       <td class="px-4 py-2 border-b">Scientists360</td>\
-      <td class="px-4 py-2 border-b"> <a class="underline text-springBlue" href = "../../Scientists360_Challenge.pdf" target="_blank"> Leadership Under Pressure </a></td>\
+      <td class="px-4 py-2 border-b"> Leadership Under Pressure </td>\
       <td class="px-4 py-2 border-b">Free access to their program</td>\
     </tr>\
   </tbody>\
