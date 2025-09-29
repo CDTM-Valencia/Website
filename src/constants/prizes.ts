@@ -25,7 +25,7 @@ export const GENERAL_PRIZES: PrizeCategory = {
   prizes: [
     {
       name: "Personalized Top",
-      description: "Custom CDTM Valencia Hacks 2025 t-shirt with sponsor logos",
+      description: "Custom CDTM Valencia Hacks 2025 T-Shirt with sponsor logos",
       sponsor: "NTT Data and HP",
       sponsorLogos: [
         {
