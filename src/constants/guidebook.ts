@@ -284,11 +284,15 @@ The ETSINF UPV campus has 24/7 security. In case of any security concerns, conta
         <strong>Winner Prizes:</strong>
         • <strong>Case Winners:</strong> 15 Sweaters + 15 Bottles
         • <strong>IBM Special Prizes:</strong> 5 IBM caps + 5 IBM bottles 
+
+        <strong>Challenge Prizes:</strong>
+        • <strong> Free </strong> access to <strong> Scientists360 </strong> program
         
         <strong>General Prizes:</strong>
         • <strong>Personalized Top:</strong> Custom CDTM VLC Hacks 2025 T-shirt 
         • <strong>Lovable Pro Access:</strong> 100 credits for one month + 50% student discount
         • <strong>CDTM Valencia Tote Bag:</strong> Exclusive bag to carry yor memories
+        • <strong> 20% </strong> discount on <strong> Scientists360</strong> program  
         
         <h3 class="text-xl font-bold mb-2">🎯 How to Win</h3>
         • Build innovative solutions to real-world challenges
@@ -325,21 +329,15 @@ The ETSINF UPV campus has 24/7 security. In case of any security concerns, conta
         id: "cases-vs-challenges",
         title: "Cases vs. Challenges",
         icon: "star",
-        content: `There are <strong>three separate cases</strong> (Smart City, Healthcare, Tourism) to choose from. Every team will work on <strong>exactly one case!</strong> You can decide on a ranking of the cases and submit your choice <strong>during registration on 2nd October</strong>. Any team, in any case, may enter <strong>as many challenges as they like</strong>. Just select the challenges you'll tackle in the final submission form.
+        content: `There are <strong>three separate cases</strong> (Leaping AI, IBM, NTT Data) to choose from. Every team will work on <strong>exactly one case!</strong> The team leader will decide the ranking of the cases and submit your choice <strong>before the Hackathon starts</strong>. Any team, in any case, may enter <strong>as many challenges as they like</strong>. Just select the challenges you'll tackle in the final submission form.
         `,
-      },
-      {
-        id: "pref-team",
-        title: "Team Formation",
-        icon: "users",
-        content: `You submit your team <strong>together with your case preference</strong> during <strong>registration on 2nd October</strong>. If you don't have a team <strong>you can also sign up as a single participant</strong> and get matched with a team with similar case preferences.`,
       },
       {
         id: "pref-submission",
         title: "Case Preference",
         icon: "checkSquare",
-        content: `The preference selection is done during <strong>registration on 2nd October</strong>.
-        Rank your three case preferences. Get one case assigned to work on with your team. For challenges: select them in your final submission.`,
+        content: `The preference selection is done <strong>before the Hackathon starts</strong>.
+        The team leader will rank your three case preferences. Following your preferences, the staff will assign you a case to work on with your team.`,
       },
       {
         id: "final-submission",
@@ -391,23 +389,21 @@ The ETSINF UPV campus has 24/7 security. In case of any security concerns, conta
         content: `Here's how you can win prizes at CDTM Valencia Hacks 2025:
 
 <strong>Cases:</strong>
-&bull; Choose your case preference during registration on 2nd October
+&bull; Choose your case preference 
 &bull; Work on your solution during the 6-hour hackathon
 &bull; Submit by 20:30 on 2nd October
 &bull; Present your solution to judges
-&bull; Win €500 + mentorship for 1st place in each case
 
 <strong>Challenges:</strong>
 &bull; Select challenges that interest you
 &bull; Integrate them into your project
 &bull; Submit your solution by 20:30
-&bull; Win €100-€300 + additional benefits
 
 <strong>Main Prizes:</strong>
 &bull; All teams present their solutions at 20:30
 &bull; 2-minute pitch + demo
-&bull; Judges award 1st, 2nd, and 3rd place
-&bull; Total prize pool: €2,000+
+&bull; Judges award 1st and 2nd places 
+&bull; €2,000+ worth of prizes
 
 <strong>Recognition:</strong>
 &bull; Certificates for all participants
@@ -419,47 +415,31 @@ Remember: Focus on solving real problems and building something that works!
         `,
       },
       {
-        id: "main-prices",
-        title: "Main Prizes",
-        icon: "award",
-        content: `
-        <strong>Case Prizes:</strong> €500 + mentorship for 1st place in each case
-        
-        <strong>Challenge Prizes:</strong> €100-€300 + additional benefits per challenge
-        
-        <strong>Main Prizes:</strong> 1st, 2nd, and 3rd place overall winners
-        
-        <strong>Total Prize Pool:</strong> Over €2,000 in prizes and benefits
-        
-        <p class="mt-2">All participants receive certificates and networking opportunities!</p>
-        `,
-      },
-      {
         id: "descriptions",
         title: "Case Descriptions",
         icon: "info",
         content: `Here are the 3 exciting cases for CDTM Valencia Hacks 2025 - check out the links for up-to-date information: 
 
-<strong>Case 1: Smart City Solutions</strong>
+<strong>Case 1: Leaping AI </strong>
 
-<i>Introduction:</i> Valencia is committed to becoming a smarter, more sustainable city. We're looking for innovative solutions that can help improve urban living, reduce environmental impact, and enhance citizen engagement. Think about mobility, energy efficiency, waste management, or digital services that could transform how people interact with their city.
+<i>Introduction:</i> Voice AI agents are the hot topic of 2025! They can be used for anything from customer service to sales enablement to ops. Dive into the world of voice AI agents by leveraging Lovable + the beginner-friendly tools + APIs of Leaping AI – an innovative voice AI agent platform company based out of San Francisco. Amaze the world by building a killer voice AI agent! </i>
 
-<i>Focus Areas:</i> IoT sensors, data analytics, citizen apps, sustainability, urban mobility
-<i>Prizes:</i> €500 + Mentorship with Valencia City Council
+<i>Focus Areas:</i> AI, software, Voice agents
+<a class="underline text-springBlue" href ="https://www.loom.com/share/8b4efc0e5153482bb6920f5fdadeeeac?sid=37a841f7-07d4-4f18-9cdd-02707509f014" target="_blank"> Video Explanation from the CEO </a>
+<a class="underline text-springBlue" href="../../Leaping_AI_Case.pdf" target="_blank"> <i> PDF with Case Guidelines </i> </a>
 
-<strong>Case 2: Healthcare Innovation</strong>
+<strong>Case 2: IBM</strong>
 
-<i>Introduction:</i> The healthcare sector is rapidly evolving with new technologies. Create solutions that can improve patient care, streamline medical processes, or enhance accessibility to healthcare services. Consider telemedicine, patient monitoring, medical data management, or tools that help healthcare professionals work more efficiently.
+<i>Introduction:</i> Agentic AI is changing the way enterprises work. At IBM, our consultants and clients face daily challenges: preparing for meetings, finding the right knowledge, managing repetitive tasks, and making smarter business decisions. Your mission is to design a prototype of a Agentic AI system that boosts productivity in a real business scenario.
 
-<i>Focus Areas:</i> Telemedicine, AI diagnostics, patient management, medical data, accessibility
-<i>Prizes:</i> €500 + Mentorship with Healthcare Partners
+<i>Focus Areas:</i> AI, Agents, Software
+<a class="underline text-springBlue" href="../../IBM_Case.pdf" target="_blank"> <i> PDF with Case Guidelines </i> </a>
 
-<strong>Case 3: Sustainable Tourism</strong>
+<strong>Case 3: NTT Data </strong>
 
-<i>Introduction:</i> Valencia is a major tourist destination, and we need innovative solutions to make tourism more sustainable and enjoyable. Develop tools that help tourists discover the city responsibly, reduce environmental impact, or enhance the overall visitor experience while supporting local businesses and culture.
+<i>Introduction:</i> Details about this case are coming soon. Prepare your team for an exciting challenge.
 
-<i>Focus Areas:</i> Tourism apps, sustainability tracking, local business support, cultural preservation
-<i>Prizes:</i> €500 + Mentorship with Tourism Board
+<i>Focus Areas:</i> Focus areas coming soon. Be ready to dive into exciting topics and challenges
 
 <strong>How to Participate:</strong>
 • Choose your preferred case during registration
@@ -485,38 +465,21 @@ Remember: Focus on solving real problems and building something that works!
   </thead>\
   <tbody>\
     <tr>\
-      <td class="px-4 py-2 border-b">Valencia Tech Hub</td>\
-      <td class="px-4 py-2 border-b">Most Innovative Use of AI</td>\
-      <td class="px-4 py-2 border-b">€300 + Tech Hub Membership</td>\
-    </tr>\
-    <tr>\
-      <td class="px-4 py-2 border-b">UPV Innovation</td>\
-      <td class="px-4 py-2 border-b">Best Sustainability Solution</td>\
-      <td class="px-4 py-2 border-b">€250 + Research Collaboration</td>\
-    </tr>\
-    <tr>\
-      <td class="px-4 py-2 border-b">Valencia Startup</td>\
-      <td class="px-4 py-2 border-b">Most Market-Ready Product</td>\
-      <td class="px-4 py-2 border-b">€200 + Incubator Access</td>\
-    </tr>\
-    <tr>\
-      <td class="px-4 py-2 border-b">Local Partners</td>\
-      <td class="px-4 py-2 border-b">Best Community Impact</td>\
-      <td class="px-4 py-2 border-b">€150 + Local Business Network</td>\
-    </tr>\
-    <tr>\
-      <td class="px-4 py-2 border-b">CDTM Valencia</td>\
-      <td class="px-4 py-2 border-b">Most Creative Solution</td>\
-      <td class="px-4 py-2 border-b">€100 + CDTM Merchandise</td>\
+      <td class="px-4 py-2 border-b">Scientists360</td>\
+      <td class="px-4 py-2 border-b"> <a class="underline text-springBlue" href = "../../Scientists360_Challenge.pdf" target="_blank"> Leadership Under Pressure </a></td>\
+      <td class="px-4 py-2 border-b">Free access to their program</td>\
     </tr>\
   </tbody>\
 </table>\
 \
 <h3 class="text-xl font-bold mb-2 mt-4">How Challenges Work</h3>\
 • You can participate in multiple challenges\
+
 • Submit your project with challenge selections\
+
 • Judges evaluate based on challenge criteria\
-• Win prizes from multiple sponsors!`,
+
+• Win prizes from sponsors!`,
       },
       {
         id: "networking",
@@ -553,32 +516,6 @@ Remember: Focus on solving real problems and building something that works!
 <p class="mt-2"><strong>Pro Tip:</strong> Bring business cards or prepare your LinkedIn profile - networking starts from day one!</p>`,
       },
       {
-        id: "teams",
-        title: "Team Formation",
-        icon: "users",
-        content: `If you'd like to start looking for a team before the event (which we strongly recommend), we have a team-building channel on <a class="underline text-springBlue" href='https://discord.gg/ht3AHskN'>Discord</a>. Here's how it works:
-
-<h3 class="text-xl font-bold mb-1">Once you're in the Discord server: </h3>
-In the #looking-for-team channel, post a message introducing yourself and your team-building preferences:
-
-🧑‍💻 What you do (e.g., dev, design, biz)
-🌱 Skills you bring to the table
-👀 Who you are looking for
-
-If you don't find a team, don't worry! You will have time after the case presentations on 2nd October.
-
-<p class="my-1">❗<strong>Team size:</strong> Teams can consist of 4-5 members. We encourage diverse teams with complementary skills!</p>
-
-<h3 class="text-xl font-bold mb-1">How to register your team: </h3>
-Register your team after the opening ceremony using the provided form. You will have time until <b>15:30</b> to register your team.
-
-<h3 class="text-xl font-bold mb-1">💡 Team Building Tips:</h3>
-• Look for members with different skill sets (programming, design, business)
-• Consider both technical and non-technical backgrounds
-• Teams benefit from having members with different perspectives
-• Don't worry if you're not a coder - your other skills are valuable too!`,
-      },
-      {
         id: "tools",
         title: "Available Tools & Resources",
         icon: "wrench",
@@ -595,24 +532,8 @@ We provide access to various tools and resources to help you build amazing solut
   </thead>
   <tbody>
     <tr>
-      <td class="px-4 py-2 border-b">GitHub</td>
-      <td class="px-4 py-2 border-b">Free private repositories</td>
-    </tr>
-    <tr>
-      <td class="px-4 py-2 border-b">Figma</td>
-      <td class="px-4 py-2 border-b">Design collaboration tools</td>
-    </tr>
-    <tr>
-      <td class="px-4 py-2 border-b">Google Cloud</td>
-      <td class="px-4 py-2 border-b">$300 credits per team</td>
-    </tr>
-    <tr>
-      <td class="px-4 py-2 border-b">AWS</td>
-      <td class="px-4 py-2 border-b">$100 credits per team</td>
-    </tr>
-    <tr>
-      <td class="px-4 py-2 border-b">Valencia APIs</td>
-      <td class="px-4 py-2 border-b">Open data and city APIs</td>
+      <td class="px-4 py-2 border-b">Lovable</td>
+      <td class="px-4 py-2 border-b">100 credits</td>
     </tr>
   </tbody>
 </table>
