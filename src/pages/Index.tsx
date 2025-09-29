@@ -307,12 +307,39 @@ const Index = () => {
             >
               <button
                 onClick={() => {
-                  window.location.assign('/apply');
+                  window.open('/apply', '_blank', 'noopener');
                 }}
                 className="btn-hover-effect bg-springBlue text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:shadow-lg transition-all"
               >
                 Apply
               </button>
+              <span className="text-xs font-semibold uppercase tracking-wide text-black text-center">
+                DEADLINE 29/10 00:00
+              </span>
+            </div>
+          )}
+
+          {/* Desktop button - only show on md+ screens when applications are open */}
+          {!isApplicationsClosed && !isApplicationsNotYetOpen && (
+            <div
+              className="hidden md:flex animate-fade-in"
+              style={{
+                animationDelay: '0.3s',
+              }}
+            >
+              <div className="flex flex-col items-center gap-2 w-full">
+                <button
+                  onClick={() => {
+                    window.open('/apply', '_blank', 'noopener');
+                  }}
+                  className="btn-hover-effect bg-springBlue text-white font-semibold py-4 px-10 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105"
+                >
+                  Apply
+                </button>
+                <span className="text-sm font-semibold uppercase tracking-wide text-black">
+                  DEADLINE 29/10 00:00
+                </span>
+              </div>
             </div>
           )}
         </div>
