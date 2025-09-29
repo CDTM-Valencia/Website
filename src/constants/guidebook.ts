@@ -102,7 +102,7 @@ export const GUIDEBOOK_DATA: GuidebookSection[] = [
 
 <h3 class="text-xl font-bold mb-1">💡 What You Should Know:</h3>
 • <strong>No coding experience required!</strong> We welcome participants with diverse skill sets including business development, design, and project management
-• <strong>Teams of 4-5 members</strong> work best - You will receive details on where to meet your teammates before the event begins, and we will also share their contact information so you can get in touch.
+• <strong>Teams of 4 members</strong> work best - You will receive details on where to meet your teammates before the event begins, and we will also share their contact information so you can get in touch.
 • <strong>Completely free event</strong> - we provide meals, snacks, beverages, and all necessary facilities
 • <strong>Technical mentors available</strong> to help with challenges and project development
 
@@ -119,11 +119,11 @@ export const GUIDEBOOK_DATA: GuidebookSection[] = [
         title: "Accreditation Process",
         icon: "award",
         content: `<h3 class="text-xl font-bold mb-1">How to get your participant badge and complete registration:</h3>
-1. Please go to the registration desk at the entrance of ETSINF UPV (Building 1G, Room 1.07).
+1. Please go to the hall of ETSINF UPV (Building 1G).
 2. Show your ID.
-3. After the verification, you will get your builder badge.
+3. After the verification, you will be able to enter the room with your team.
 4. You will also get a goodie bag.
-5. And you're done. Enjoy CDTM Valencia Hacks 2025 🎉
+5. And you're ready to start building. Enjoy CDTM Valencia Hacks 2025 🎉
 `,
       },
       {
@@ -138,22 +138,15 @@ Valencia, Spain<br /><br />
 <iframe src="https://www.google.com/maps?q=ETSINF+UPV+Valencia&output=embed" width="100%" height="300" style="border:0; border-radius: 8px; margin-top: 12px; margin-bottom: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 • The doors open on 2nd October at 14:30 (2:30 PM).
 • Please make sure to arrive no later than 14:30 (2:30 PM) so we can kick things off smoothly together.
-• Look for the CDTM Valencia Hacks signposts at the main entrance to find the registration desk.
 
 <p class="mt-4 mb-4">❗Please note that this is a 6-hour intensive hackathon event, so make sure to arrive on time!</p>
 
 <h3 class="text-xl font-bold mb-1">Event Schedule:</h3>
 • <strong>14:30 - 15:00:</strong> Registration & Welcome
-• <strong>15:00 - 15:30:</strong> Opening Ceremony & Case Presentations
-• <strong>15:30 - 20:30:</strong> Building Time (5 hours)
-• <strong>20:30 - 21:00:</strong> Final Presentations & Awards
+• <strong>15:00 - 15:15:</strong> Opening Ceremony & Case Presentations
+• <strong>15:15 - 20:00:</strong> Building Time (4 hours 45 minutes)
+• <strong>20:00 - 21:00:</strong> Final Presentations & Awards
 
-<h3 class="text-xl font-bold mb-1">What to Expect:</h3>
-• Free meals, snacks, and beverages throughout the event
-• Comfortable building space with all necessary facilities
-• Technical mentors and workshops available
-• Access to various APIs and tools
-• Networking opportunities with industry partners
 `,
       },
       {
@@ -278,12 +271,14 @@ The ETSINF UPV campus has 24/7 security. In case of any security concerns, conta
         content: `<h3 class="text-xl font-bold mb-2">🏆 What You Can Win</h3>
         
         <strong>Main Prizes:</strong>
+        For the first two best projects no matter the case, you will be able to win the following prizes:
         • <strong>1st Place:</strong> €450 + Recognition
         • <strong>2nd Place:</strong> 5 VDS Tickets + Recognition  
         
         <strong>Winner Prizes:</strong>
-        • <strong>Case Winners:</strong> 15 Sweaters + 15 Bottles
-        • <strong>IBM Special Prizes:</strong> 5 IBM caps + 5 IBM bottles 
+        The best case projects will be able to win the following prizes:
+        • <strong>Case Winners:</strong> 12 Sweaters + 12 Bottles
+        • <strong>IBM Special Prizes:</strong> 4 IBM caps + 4 IBM bottles 
 
         <strong>Challenge Prizes:</strong>
         • <strong> Free </strong> access to <strong> Scientists360 </strong> program
@@ -296,17 +291,20 @@ The ETSINF UPV campus has 24/7 security. In case of any security concerns, conta
         
         <h3 class="text-xl font-bold mb-2">🎯 How to Win</h3>
         • Build innovative solutions to real-world challenges
-        • Work effectively as a team (4-5 members)
+        • Work effectively as a team
         • Present your project clearly and convincingly
         • Demonstrate technical excellence and creativity
         • Show potential for real-world impact
         
         <h3 class="text-xl font-bold mb-2">💡 Pro Tips for Success</h3>
+        • Prepare before the hackathon
         • Focus on solving a real problem
+        • Leverage the resources available (mentors, tools, etc.)
         • Make your solution user-friendly
         • Prepare a clear and compelling presentation
-        • Test your solution thoroughly
+        • Work on the project submission
         • Document your work well
+
         
         <p class="mt-2"><strong>Note:</strong> All participants receive certificates and networking opportunities with industry partners!</p>`,
       },
@@ -329,7 +327,7 @@ The ETSINF UPV campus has 24/7 security. In case of any security concerns, conta
         id: "cases-vs-challenges",
         title: "Cases vs. Challenges",
         icon: "star",
-        content: `There are <strong>three separate cases</strong> (Leaping AI, IBM, NTT Data) to choose from. Every team will work on <strong>exactly one case!</strong> The team leader will decide the ranking of the cases and submit your choice <strong>before the Hackathon starts</strong>. Any team, in any case, may enter <strong>as many challenges as they like</strong>. Just select the challenges you'll tackle in the final submission form.
+        content: `There are <strong>three separate cases</strong> (Leaping AI, IBM, NTT Data) to choose from. Every team will work on <strong>exactly one case!</strong> All teams will opt to win the challenge by answering one question in the project submission form.
         `,
       },
       {
@@ -337,21 +335,22 @@ The ETSINF UPV campus has 24/7 security. In case of any security concerns, conta
         title: "Case Preference",
         icon: "checkSquare",
         content: `The preference selection is done <strong>before the Hackathon starts</strong>.
-        The team leader will rank your three case preferences. Following your preferences, the staff will assign you a case to work on with your team.`,
+        The team leader will decide the ranking of the cases and submit your preferences <strong>before 30/10/2025 00:00</strong>`,
       },
       {
         id: "final-submission",
         title: "Final Submission",
         icon: "upload",
-        content: `The deadline is <strong>20:30 on 2nd October</strong> - hard cut-off - no exceptions.
+        content: `The deadline is <strong>20:00 on 2nd October</strong> - hard cut-off - no exceptions.
 
 <h3 class="text-xl font-bold">Your submission should include:</h3>
 • <strong>Your Team ID</strong> (we email you this after the case assignment)
 • <strong>Your Team Name:</strong> What should we call your team? This name will be used in announcements and on our showcase page.
 • <strong>Your Project Name:</strong> What should we call your project? This name will be used in announcements and on our showcase page.
-• <strong>Pitch video:</strong> Upload a pitch video (maximum 3 minutes) to YouTube and share the public or unlisted link here. Make sure the video is accessible without login so judges can view it easily.
+• <strong>Demo video:</strong> Upload a short demo video (maximum 1 minute) to YouTube and share the public or unlisted link here. Make sure the video is accessible without login so judges can view it easily.
 • <strong>Link to Your Demo or MVP (optional, but recommended):</strong> If available, please provide a URL where judges can view or test your solution. While optional, including a demo significantly improves the evaluation experience and increases your chances of standing out.
 • <strong>Link to GitHub Repository (optional, but recommended):</strong> Please provide the URL to your public GitHub repository. Providing a GitHub repository is optional, but highly recommended. If you don't have one, just click Next to continue.
+We strongly recommend providing GitHub and MVP links since they will be showcased on our website.
 
 <h3 class="text-xl font-bold">Written project description covering:</h3>
 • <strong>One-Sentence pitch:</strong> Summarize your project in a single, compelling sentence.
@@ -359,60 +358,17 @@ The ETSINF UPV campus has 24/7 security. In case of any security concerns, conta
 • <strong>How Did You Build It? (max 800 characters):</strong> Briefly describe your tech stack and the key technologies used to build your project. Highlight tools, frameworks, APIs, or models that played a major role.
 • <strong>Difficulties You Faced (max 500 characters):</strong> Briefly describe the main technical or non-technical difficulties you encountered during the project. What was hard, unexpected, or required creative problem-solving?
 
-<h3 class="text-xl font-bold">Challenge Selection:</h3>
-<p class="mb-1">Select which challenges you want to compete in:</p>
-• <strong>Most Innovative Use of AI</strong> by Valencia Tech Hub
-• <strong>Best Sustainability Solution</strong> by UPV Innovation
-• <strong>Most Market-Ready Product</strong> by Valencia Startup
-• <strong>Best Community Impact</strong> by Local Partners
-• <strong>Most Creative Solution</strong> by CDTM Valencia
-
-<h3 class="text-xl font-bold">For every challenge you compete in:</h3>
-<p class="mb-4">You have to answer the following question: <strong>Why Your Project Deserves to Win "NAME OF THE CHALLENGE" by COMPANY.</strong> Briefly explain to the challenge judges why your project stands out and deserves to win the challenge. Maximum 400 characters per challenge.</p>
-
 <h3 class="text-xl font-bold">Additional information:</h3>
 • You can submit as many times as you want. We will use your latest submission.
-• You will receive a confirmation email with your submission.
 
-<h3 class="text-xl font-bold">Just a reminder: Prepare for Your Final Presentation!</h3>
-<p class="mb-2">Please note that after 20:30, the case partners will review and select the best 3 for their case. If your project places there, you will get the chance to deliver a live pitch in front of the independent jury and the audience. The independent jury for the main prize will not review your written submission and will evaluate your performance solely based on your live pitch.</p>
-<p class="mb-4">You don't need to submit anything in advance for the final presentation; it will be based entirely on your live pitch. The live pitch should include a demo.</p>
+<h3 class="text-xl font-bold">Just a reminder: Prepare for Your Final 3 minutes Presentation!</h3>
+<p class="mb-2">Please note that after 20:00, the case partners will review and select the best 3 for their case. If your project places there, you will get the chance to deliver a live pitch in front of the independent jury and the audience. The independent jury for the main prize will not review your written submission and will evaluate your performance solely based on your live pitch.</p>
+<p class="mb-4">You don't need to submit anything in advance for the final presentation; however we will provide a template to help you prepare for it.</p>
 
 <h3 class="text-xl font-bold">Submit your project here:</h3>
 <p>➡️ <a class="underline text-springBlue" href='https://vlc.hacks.cdtm.com/submission' target="_blank" rel="noopener noreferrer">https://vlc.hacks.cdtm.com/submission</a></p>
 `,
-      },
-      {
-        id: "how-you-can-win",
-        title: "How you can win...",
-        icon: "award",
-        content: `Here's how you can win prizes at CDTM Valencia Hacks 2025:
-
-<strong>Cases:</strong>
-&bull; Choose your case preference 
-&bull; Work on your solution during the 6-hour hackathon
-&bull; Submit by 20:30 on 2nd October
-&bull; Present your solution to judges
-
-<strong>Challenges:</strong>
-&bull; Select challenges that interest you
-&bull; Integrate them into your project
-&bull; Submit your solution by 20:30
-
-<strong>Main Prizes:</strong>
-&bull; All teams present their solutions at 20:30
-&bull; 2-minute pitch + demo
-&bull; Judges award 1st and 2nd places 
-&bull; €2,000+ worth of prizes
-
-<strong>Recognition:</strong>
-&bull; Certificates for all participants
-&bull; Networking opportunities
-&bull; Portfolio-worthy experience
-&bull; Industry connections
-
-Remember: Focus on solving real problems and building something that works!
-        `,
+     
       },
       {
         id: "descriptions",
@@ -445,7 +401,7 @@ Remember: Focus on solving real problems and building something that works!
 • Present your project to the judges
 • Win prizes and recognition!
 
-<i>Note:</i> Detailed case briefs will be provided at the event opening ceremony.
+<i>Note:</i> Detailed case briefs will be provided after team case assignment confirmation on Wednesday 1st October.
         `,
       },
       {
@@ -471,13 +427,8 @@ Remember: Focus on solving real problems and building something that works!
 </table>\
 \
 <h3 class="text-xl font-bold mb-2 mt-4">How Challenges Work</h3>\
-• You can participate in multiple challenges\
-
-• Submit your project with challenge selections\
-
-• Judges evaluate based on challenge criteria\
-
-• Win prizes from sponsors!`,
+• All teams will opt to win the challenge by answering one question in the project submission form.
+`,
       },
       {
         id: "networking",
@@ -494,7 +445,6 @@ Remember: Focus on solving real problems and building something that works!
   <li>Network with fellow students and entrepreneurs</li>
   <li>Get insights from industry mentors and judges</li>
 </ul>
-
 <h3 class="text-xl font-bold mb-2">💼 Career Development</h3>
 <ul class="list-disc list-inside mb-2 ml-4">
   <li>Internship opportunities with partner companies</li>
@@ -502,7 +452,6 @@ Remember: Focus on solving real problems and building something that works!
   <li>Access to Valencia's startup ecosystem</li>
   <li>Potential collaboration opportunities</li>
 </ul>
-
 <h3 class="text-xl font-bold mb-2">🏆 Recognition & Portfolio</h3>
 <ul class="list-disc list-inside mb-2 ml-4">
   <li>Certificates for all participants</li>
@@ -537,7 +486,6 @@ We provide access to various tools and resources to help you build amazing solut
 </table>
 
 <h3 class="text-xl font-bold mb-2">📚 Learning Resources</h3>
-• <strong>UPV Library Access:</strong> Full access to university resources
 • <strong>Mentorship:</strong> Industry experts available for guidance
 • <strong>Workshops:</strong> Technical sessions throughout the event
 • <strong>Documentation:</strong> Comprehensive guides and tutorials
