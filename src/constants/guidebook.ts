@@ -380,7 +380,7 @@ We strongly recommend providing GitHub and MVP links since they will be showcase
 
 <i>Introduction:</i> Voice AI agents are the hot topic of 2025! They can be used for anything from customer service to sales enablement to ops. Dive into the world of voice AI agents by leveraging Lovable + the beginner-friendly tools + APIs of Leaping AI – an innovative voice AI agent platform company based out of San Francisco. Amaze the world by building a killer voice AI agent! </i>
 
-<i>Focus Areas:</i> AI, software, Voice agents
+<i>Focus Areas:</i> AI, Software, Voice agents
 <a class="underline text-springBlue" href ="https://www.loom.com/share/8b4efc0e5153482bb6920f5fdadeeeac?sid=37a841f7-07d4-4f18-9cdd-02707509f014" target="_blank"> Video Explanation from the CEO </a>
 
 <strong>Case 2: IBM</strong>
@@ -391,9 +391,9 @@ We strongly recommend providing GitHub and MVP links since they will be showcase
 
 <strong>Case 3: NTT Data </strong>
 
-<i>Introduction:</i> Details about this case are coming soon. Prepare your team for an exciting challenge.
+<i>Introduction:</i> AI-powered assistant for document extraction and analysis. An AI agent that analyzes request for proposal (RFP) documents, extracts key requirements, and generates structured proposal drafts to save time and improve response quality.
 
-<i>Focus Areas:</i> Focus areas coming soon. Be ready to dive into exciting topics and challenges
+<i>Focus Areas:</i> AI, Agents, Software
 
 <strong>How to Participate:</strong>
 • Choose your preferred case during registration
