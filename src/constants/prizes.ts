@@ -66,14 +66,14 @@ export const CASH_PRIZES: PrizeCategory = {
   prizes: [
     {
       name: "First Place",
-      description: "€450 Cash Prize",
+      description: "€450 + 4 VDS Tickets",
       sponsor: "LeapingAI",
       sponsorLogo: "/images/partners/leapingai.svg",
       sponsorLink: "https://leapingai.com/",
     },
     {
       name: "Second Place",
-      description: "5 VDS Tickets",
+      description: "4 VDS Tickets",
       sponsor: "CDTM Valencia",
       sponsorLogo: "/icon.png",
       sponsorLink: "https://cdtm.com/",
@@ -87,7 +87,7 @@ export const CASE_WINNERS_SWEATERS: PrizeCategory = {
   prizes: [
     {
       name: "Case Winners",
-      description: "15 Sweaters",
+      description: "12 Sweaters",
       sponsor: "Event Sponsors",
       sponsorLogos: [
         {
@@ -112,7 +112,7 @@ export const CASE_WINNERS_BOTTLES: PrizeCategory = {
   prizes: [
     {
       name: "Case Winners",
-      description: "15 Event Bottles",
+      description: "12 Event Bottles",
       sponsor: "Event Sponsors",
       sponsorLogos: [
         {
@@ -137,7 +137,7 @@ export const IBM_SPECIFIC_CASE: PrizeCategory = {
   prizes: [
     {
       name: "IBM Special Prizes",
-      description: "5 IBM Caps + 5 IBM Bottles",
+      description: "4 IBM Caps + 4 IBM Bottles",
       sponsor: "IBM",
       sponsorLogo: "/images/partners/ibm.svg",
       sponsorLink: "https://www.ibm.com/",
