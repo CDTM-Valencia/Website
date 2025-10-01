@@ -358,6 +358,9 @@ We strongly recommend providing GitHub and MVP links since they will be showcase
 • <strong>How Did You Build It? (max 800 characters):</strong> Briefly describe your tech stack and the key technologies used to build your project. Highlight tools, frameworks, APIs, or models that played a major role.
 • <strong>Difficulties You Faced (max 500 characters):</strong> Briefly describe the main technical or non-technical difficulties you encountered during the project. What was hard, unexpected, or required creative problem-solving?
 
+<h3 class="text-xl font-bold">💥 Scientists 360 Challenge - Leadership Under Pressure:</h3>
+• <strong>Leadership Reflection (max 500 characters):</strong> What leadership dynamics emerged within your team during the hackathon, and how did they help (or hinder) your ability to move forward under pressure? (You may refer to role distribution, communication, decision-making, or how you handled critical moments.)
+
 <h3 class="text-xl font-bold">Additional information:</h3>
 • You can submit as many times as you want. We will use your latest submission.
 
@@ -408,26 +411,78 @@ We strongly recommend providing GitHub and MVP links since they will be showcase
         id: "challenge-descriptions",
         title: "Challenge Descriptions",
         icon: "info",
-        content: `<h3 class="text-xl font-bold mb-2">Challenge Sponsors & Prizes</h3>\
-<table class="min-w-full text-left border border-gray-200">\
-  <thead>\
-    <tr>\
-      <th class="px-4 py-2 border-b">Partner</th>\
-      <th class="px-4 py-2 border-b">Challenge Description</th>\
-      <th class="px-4 py-2 border-b">Prize</th>\
-    </tr>\
-  </thead>\
-  <tbody>\
-    <tr>\
-      <td class="px-4 py-2 border-b">Scientists360</td>\
-      <td class="px-4 py-2 border-b"> Leadership Under Pressure </td>\
-      <td class="px-4 py-2 border-b">Free access to their program</td>\
-    </tr>\
-  </tbody>\
-</table>\
-\
-<h3 class="text-xl font-bold mb-2 mt-4">How Challenges Work</h3>\
-• All teams will opt to win the challenge by answering one question in the project submission form.
+        content: `<h3 class="text-xl font-bold mb-2">Challenge Sponsors & Prizes</h3>
+<table class="min-w-full text-left border border-gray-200 mb-4">
+  <thead>
+    <tr>
+      <th class="px-4 py-2 border-b">Partner</th>
+      <th class="px-4 py-2 border-b">Challenge Description</th>
+      <th class="px-4 py-2 border-b">Prize</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="px-4 py-2 border-b">Scientists360</td>
+      <td class="px-4 py-2 border-b">Leadership Under Pressure</td>
+      <td class="px-4 py-2 border-b">Free access to their program</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 class="text-xl font-bold mb-2">💥 SCIENTISTS 360 Challenge 💥</h3>
+        <h4 class="text-lg font-bold mb-2">"Leadership Under Pressure"</h4>
+        <p class="mb-2"><strong>Preparing future leaders for high-stakes innovation environments</strong></p>
+        
+        <p class="mb-2">In the real world, great ideas aren't enough, it's how you lead and collaborate under pressure that determines success.</p>
+        <p class="mb-2">This challenge by Scientists 360 experts in STEM talent development goes beyond the code or the final pitch. We want to see how you lead, coordinate, and transform as a team during 6 intense hours of innovation.</p>
+        <p class="mb-2">Throughout the hackathon, we'll be looking at your ability to demonstrate self-leadership, effective communication, and conflict resolution because teams that can navigate pressure can solve any challenge.</p>
+
+        <h3 class="text-xl font-bold mb-2">📝 Reflection Question</h3>
+        <div class="bg-yellow-50 p-3 rounded-lg mb-2 border-l-4 border-yellow-400">
+        <p class="font-semibold">What leadership dynamics emerged within your team during the hackathon, and how did they help (or hinder) your ability to move forward under pressure?</p>
+        </div>
+
+        <h3 class="text-xl font-bold mb-2">📊 Grading Criteria</h3>
+        <table class="min-w-full text-left border border-gray-200 mb-4">
+          <thead>
+            <tr class="bg-gray-50">
+              <th class="px-4 py-2 border-b">Criteria</th>
+              <th class="px-4 py-2 border-b">Weight</th>
+              <th class="px-4 py-2 border-b">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="px-4 py-2 border-b">Self-awareness</td>
+              <td class="px-4 py-2 border-b">25%</td>
+              <td class="px-4 py-2 border-b">Understanding your own leadership style and impact</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-2 border-b">Team dynamics</td>
+              <td class="px-4 py-2 border-b">25%</td>
+              <td class="px-4 py-2 border-b">How roles and communication evolved under pressure</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-2 border-b">Decision-making</td>
+              <td class="px-4 py-2 border-b">25%</td>
+              <td class="px-4 py-2 border-b">How critical decisions were made during challenges</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-2 border-b">Growth mindset</td>
+              <td class="px-4 py-2 border-b">25%</td>
+              <td class="px-4 py-2 border-b">Learning from setbacks and adapting leadership approach</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 class="text-xl font-bold mb-2">💡 Tips for Success</h3>
+        <ul class="list-disc list-inside mb-2 ml-4">
+          <li>Be specific about moments when leadership emerged or shifted</li>
+          <li>Reflect on both successes and challenges your team faced</li>
+          <li>Consider how different team members stepped up during pressure</li>
+          <li>Think about what you learned about yourself as a leader</li>
+          <li>Be honest about what worked and what didn't</li>
+        </ul>
 `,
       },
       {

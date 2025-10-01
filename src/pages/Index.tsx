@@ -218,7 +218,7 @@ const Index = () => {
                   </p>
                   <p className="text-lg text-white mb-8">
                     If you haven't received an email, you are on the waiting
-                    list. Those accepted, please confirm your teams.
+                    list.
                   </p>
                   <div className="flex flex-col items-center justify-center gap-2 mt-2">
                     <a
