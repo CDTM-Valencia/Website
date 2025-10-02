@@ -39,5 +39,29 @@ export const SPEAKERS: Speaker[] = [
     cdtmClass: "",
     image: "/images/speaker/diana_meri.jpeg",
     linkedin: "https://www.linkedin.com/in/diana-meri",
+  },
+  {
+    name: "Arturo Miquel Veyrat",
+    title: "AI Manager",
+    company: "NTT Data",
+    cdtmClass: "",
+    image: "/images/speaker/arturo_miquel.jpeg",
+    linkedin: "https://www.linkedin.com/in/arturomiquel/"
+  },
+  {
+    name: "Pia Maria Abdallah",
+    title: "Account Executive for Middle East & Africa",
+    company: "IBM",
+    cdtmClass: "",
+    image: "/images/speaker/pia_maria_abdallah.jpeg",
+    linkedin: "https://www.linkedin.com/in/piamariaabdallah/"
+  },
+  {
+    name: "Joan Navarro Bellido",
+    title: "Data&AI Digital Sales Specialist",
+    company: "IBM",
+    cdtmClass: "",
+    image: "/images/speaker/joan_navarro_bellido.jpeg",
+    linkedin: "https://www.linkedin.com/in/joan-navarro-bellido-7790b7202/"
   }
 ];

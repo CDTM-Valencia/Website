@@ -146,8 +146,8 @@ Valencia, Spain<br /><br />
 • <strong>15:00 - 15:30:</strong> Opening Ceremony & Case Presentations
 • <strong>15:30 - 19:30:</strong> Building Time
 • <strong>19:30 - 19:45:</strong> Project Submission
-• <strong>19:45 - 20:00:</strong> 5 Cases Evaluation
-• <strong>20:00 - 20:20:</strong> 3 Cases Pitches
+• <strong>19:45 - 20:00:</strong> All Teams Cases Evaluation
+• <strong>20:00 - 20:20:</strong> 3 Best Teams in Cases Pitches
 • <strong>20:20 - 20:35:</strong> Finals Judging
 • <strong>20:35 - 21:00:</strong> Awards Ceremony
 `,

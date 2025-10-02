@@ -56,11 +56,6 @@ export const TECH_SPONSORS: Sponsor[] = [
     name: "Lovable",
     image: "/images/partners/lovable_logo.svg",
     link: "https://lovable.dev/",
-  },
-  {
-    name: "To Be Determined",
-    image: "",
-    link: "",
   }
   /*
   {
