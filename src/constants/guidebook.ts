@@ -143,10 +143,13 @@ Valencia, Spain<br /><br />
 
 <h3 class="text-xl font-bold mb-1">Event Schedule:</h3>
 • <strong>14:30 - 15:00:</strong> Registration & Welcome
-• <strong>15:00 - 15:15:</strong> Opening Ceremony & Case Presentations
-• <strong>15:15 - 20:00:</strong> Building Time (4 hours 45 minutes)
-• <strong>20:00 - 21:00:</strong> Final Presentations & Awards
-
+• <strong>15:00 - 15:30:</strong> Opening Ceremony & Case Presentations
+• <strong>15:30 - 19:30:</strong> Building Time
+• <strong>19:30 - 19:45:</strong> Project Submission
+• <strong>19:45 - 20:00:</strong> 5 Cases Evaluation
+• <strong>20:00 - 20:20:</strong> 3 Cases Pitches
+• <strong>20:20 - 20:35:</strong> Finals Judging
+• <strong>20:35 - 21:00:</strong> Awards Ceremony
 `,
       },
       {
@@ -211,16 +214,37 @@ The ETSINF UPV campus has 24/7 security. In case of any security concerns, conta
             <tr>
               <td class="px-4 py-2 border-b">15:00 - 15:30</td>
               <td class="px-4 py-2 border-b">Opening Ceremony & Case Presentations</td>
-              <td class="px-4 py-2 border-b">Room 1.07</td>
+              <td class="px-4 py-2 border-b">Room 0.07</td>
             </tr>
             <tr>
-              <td class="px-4 py-2 border-b">15:30 - 20:30</td>
-              <td class="px-4 py-2 border-b">Hacking Time (5 hours)</td>
-              <td class="px-4 py-2 border-b">Room 1.07</td>
+              <td class="px-4 py-2 border-b">15:30 - 19:30</td>
+              <td class="px-4 py-2 border-b">Building Time</td>
+              <td class="px-4 py-2 border-b">Room 0.07</td>
             </tr>
-              <td class="px-4 py-2 border-b">20:30 - 21:00</td>
-              <td class="px-4 py-2 border-b">Final Presentations & Awards</td>
-              <td class="px-4 py-2 border-b">Room 1.07</td>
+            <tr>
+              <td class="px-4 py-2 border-b">19:30 - 19:45</td>
+              <td class="px-4 py-2 border-b">Project Submission</td>
+              <td class="px-4 py-2 border-b">Room 0.07</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-2 border-b">19:45 - 20:00</td>
+              <td class="px-4 py-2 border-b">5 Cases Evaluation</td>
+              <td class="px-4 py-2 border-b">Room 0.07</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-2 border-b">20:00 - 20:20</td>
+              <td class="px-4 py-2 border-b">3 Cases Pitches</td>
+              <td class="px-4 py-2 border-b">Room 0.07</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-2 border-b">20:20 - 20:35</td>
+              <td class="px-4 py-2 border-b">Finals Judging</td>
+              <td class="px-4 py-2 border-b">Room 0.07</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-2 border-b">20:35 - 21:00</td>
+              <td class="px-4 py-2 border-b">Awards Ceremony</td>
+              <td class="px-4 py-2 border-b">Room 0.07</td>
             </tr>
           </tbody>
         </table>
@@ -282,6 +306,7 @@ The ETSINF UPV campus has 24/7 security. In case of any security concerns, conta
 
         <strong>Challenge Prizes:</strong>
         • <strong> Free </strong> access to <strong> Scientists360 </strong> program
+        • <strong>S2 Grupo Cybersecurity Challenge:</strong> 4 × €120 Amazon vouchers for winning team
         
         <strong>General Prizes:</strong>
         • <strong>Personalized Top:</strong> Custom CDTM VLC Hacks 2025 T-shirt 
@@ -327,7 +352,7 @@ The ETSINF UPV campus has 24/7 security. In case of any security concerns, conta
         id: "cases-vs-challenges",
         title: "Cases vs. Challenges",
         icon: "star",
-        content: `There are <strong>three separate cases</strong> (Leaping AI, IBM, NTT Data) to choose from. Every team will work on <strong>exactly one case!</strong> All teams will opt to win the challenge by answering one question in the project submission form.
+        content: `There are <strong>three separate cases</strong> (Leaping AI, IBM, NTT Data) to choose from. Every team will work on <strong>exactly one case!</strong> All teams will opt to win the challenges by answering one question in the project submission form.
         `,
       },
       {
@@ -341,15 +366,15 @@ The ETSINF UPV campus has 24/7 security. In case of any security concerns, conta
         id: "final-submission",
         title: "Final Submission",
         icon: "upload",
-        content: `The deadline is <strong>20:00 on 2nd October</strong> - hard cut-off - no exceptions.
+        content: `The deadline is <strong>19:45 on 2nd October</strong> - hard cut-off - no exceptions.
 
 <h3 class="text-xl font-bold">Your submission should include:</h3>
 • <strong>Your Team ID</strong> (we email you this after the case assignment)
 • <strong>Your Team Name:</strong> What should we call your team? This name will be used in announcements and on our showcase page.
 • <strong>Your Project Name:</strong> What should we call your project? This name will be used in announcements and on our showcase page.
 • <strong>Demo video:</strong> Upload a short demo video (maximum 1 minute) to YouTube and share the public or unlisted link here. Make sure the video is accessible without login so judges can view it easily.
-• <strong>Link to Your Demo or MVP (optional, but recommended):</strong> If available, please provide a URL where judges can view or test your solution. While optional, including a demo significantly improves the evaluation experience and increases your chances of standing out.
-• <strong>Link to GitHub Repository (optional, but recommended):</strong> Please provide the URL to your public GitHub repository. Providing a GitHub repository is optional, but highly recommended. If you don't have one, just click Next to continue.
+• <strong>Link to Your Demo or MVP:</strong> If available, please provide a URL where judges can view or test your solution. While optional, including a demo significantly improves the evaluation experience and increases your chances of standing out.
+• <strong>Link to GitHub Repository:</strong> Please provide the URL to your public GitHub repository. Providing a GitHub repository is optional, but highly recommended. If you don't have one, just click Next to continue.
 We strongly recommend providing GitHub and MVP links since they will be showcased on our website.
 
 <h3 class="text-xl font-bold">Written project description covering:</h3>
@@ -368,7 +393,7 @@ We strongly recommend providing GitHub and MVP links since they will be showcase
 • You can submit as many times as you want. We will use your latest submission.
 
 <h3 class="text-xl font-bold">Just a reminder: Prepare for Your Final 3 minutes Presentation!</h3>
-<p class="mb-2">Please note that after 20:00, the case partners will review and select the best 3 for their case. If your project places there, you will get the chance to deliver a live pitch in front of the independent jury and the audience. The independent jury for the main prize will not review your written submission and will evaluate your performance solely based on your live pitch.</p>
+<p class="mb-2">Please note that after 19:45, the case partners will review and select the best 3 for their case. If your project places there, you will get the chance to deliver a live pitch in front of the independent jury and the audience. The independent jury for the main prize will not review your written submission and will evaluate your performance solely based on your live pitch.</p>
 <p class="mb-4">You don't need to submit anything in advance for the final presentation; however we will provide a template to help you prepare for it.</p>
 
 <h3 class="text-xl font-bold">Submit your project here:</h3>
