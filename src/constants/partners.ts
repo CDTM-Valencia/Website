@@ -43,6 +43,11 @@ export const CHALLENGE_SPONSORS: Sponsor[] = [
     name: "Scientists360",
     image: "/images/partners/scientists360_2.svg",
     link: "https://scientists360.com/",
+  },
+  {
+    name: "S2 Grupo",
+    image: "/images/partners/s2grupo.svg",
+    link: "https://www.s2grupo.com/",
   }
 ];
 
