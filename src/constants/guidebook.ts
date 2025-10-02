@@ -104,7 +104,7 @@ export const GUIDEBOOK_DATA: GuidebookSection[] = [
 • <strong>No coding experience required!</strong> We welcome participants with diverse skill sets including business development, design, and project management
 • <strong>Teams of 4 members</strong> work best - You will receive details on where to meet your teammates before the event begins, and we will also share their contact information so you can get in touch.
 • <strong>Completely free event</strong> - we provide meals, snacks, beverages, and all necessary facilities
-• <strong>Technical mentors available</strong> to help with challenges and project development
+• <strong>Technical mentors available</strong> to help with Challenges and project development
 
 <h3 class="text-xl font-bold mb-1">🎯 What to Expect:</h3>
 • 6 hours of intensive building and innovation
@@ -358,10 +358,13 @@ We strongly recommend providing GitHub and MVP links since they will be showcase
 • <strong>How Did You Build It? (max 800 characters):</strong> Briefly describe your tech stack and the key technologies used to build your project. Highlight tools, frameworks, APIs, or models that played a major role.
 • <strong>Difficulties You Faced (max 500 characters):</strong> Briefly describe the main technical or non-technical difficulties you encountered during the project. What was hard, unexpected, or required creative problem-solving?
 
-<h3 class="text-xl font-bold">💥 Scientists 360 Challenge - Leadership Under Pressure:</h3>
-• <strong>Leadership Reflection (max 500 characters):</strong> What leadership dynamics emerged within your team during the hackathon, and how did they help (or hinder) your ability to move forward under pressure? (You may refer to role distribution, communication, decision-making, or how you handled critical moments.)
+        <h3 class="text-xl font-bold">💥 Scientists 360 Challenge - Leadership Under Pressure:</h3>
+        • <strong>Leadership Reflection (max 500 characters):</strong> What leadership dynamics emerged within your team during the hackathon, and how did they help (or hinder) your ability to move forward under pressure? (You may refer to role distribution, communication, decision-making, or how you handled critical moments.)
 
-<h3 class="text-xl font-bold">Additional information:</h3>
+        <h3 class="text-xl font-bold">🛡️ S2 Grupo Challenge - Cybersecurity:</h3>
+        • <strong>Cybersecurity Implementation (max 500 characters):</strong> How does your project address key cybersecurity principles to ensure responsible, safe, and trustworthy use of technology? Describe which cybersecurity measures you implemented (at least 2 out of the 4 pillars) and how you demonstrated them.
+
+        <h3 class="text-xl font-bold">Additional information:</h3>
 • You can submit as many times as you want. We will use your latest submission.
 
 <h3 class="text-xl font-bold">Just a reminder: Prepare for Your Final 3 minutes Presentation!</h3>
@@ -426,6 +429,11 @@ We strongly recommend providing GitHub and MVP links since they will be showcase
       <td class="px-4 py-2 border-b">Leadership Under Pressure</td>
       <td class="px-4 py-2 border-b">Free access to their program</td>
     </tr>
+    <tr>
+      <td class="px-4 py-2 border-b">S2 Grupo</td>
+      <td class="px-4 py-2 border-b">Cybersecurity Challenge</td>
+      <td class="px-4 py-2 border-b">4 120€ amazon vouchers</td>
+    </tr>
   </tbody>
 </table>
 
@@ -483,6 +491,104 @@ We strongly recommend providing GitHub and MVP links since they will be showcase
           <li>Think about what you learned about yourself as a leader</li>
           <li>Be honest about what worked and what didn't</li>
         </ul>
+
+        <h3 class="text-xl font-bold mb-2">🛡️ S2 GRUPO Challenge</h3>
+        <h4 class="text-lg font-bold mb-2">"Cybersecurity Challenge"</h4>
+        <p class="mb-2"><strong>Ensuring responsible, safe, and trustworthy use of technology</strong></p>
+        
+        <p class="mb-2">Cybersecurity is essential in today's digital landscape. This challenge focuses on implementing key cybersecurity principles in your project to ensure responsible, safe, and trustworthy use of technology.</p>
+
+        <h3 class="text-xl font-bold mb-2">🔍 Challenge Question</h3>
+        <div class="bg-yellow-50 p-3 rounded-lg mb-2 border-l-4 border-yellow-400">
+        <p class="font-semibold">How does your project address key cybersecurity principles to ensure responsible, safe, and trustworthy use of technology?</p>
+        </div>
+
+        <h3 class="text-xl font-bold mb-2">📋 Guidance for Participants</h3>
+        <p class="mb-2">Describe which cybersecurity measures you implemented (at least 2 out of the 4 pillars below) and how you demonstrated them in your prototype or the platform you use implements them. You may choose any combination, but we encourage starting with Identity & Access Management (IAM) plus one additional area.</p>
+
+        <h3 class="text-xl font-bold mb-2">🏗️ The 4 Cybersecurity Pillars</h3>
+        
+        <div class="mb-3">
+        <h4 class="font-bold text-lg mb-1">🔑 1) Identity & Access Management (IAM)</h4>
+        <p class="mb-1">Ensure only authorized users/services access sensitive features.</p>
+        <p class="text-sm text-gray-600 mb-2"><strong>Techniques/examples:</strong></p>
+        <ul class="list-disc list-inside ml-4 text-sm">
+          <li>Basic login/authentication (email + OTP or token)</li>
+          <li>Role-based access control (e.g., admin/user/guest)</li>
+          <li>Temporary tokens or session expiration</li>
+        </ul>
+        </div>
+
+        <div class="mb-3">
+        <h4 class="font-bold text-lg mb-1">🔒 2) Protection of Sensitive Data</h4>
+        <p class="mb-1">Prevent leakage of Personally Identifiable Information (PII) or critical data.</p>
+        <p class="text-sm text-gray-600 mb-2"><strong>Techniques/examples:</strong></p>
+        <ul class="list-disc list-inside ml-4 text-sm">
+          <li>Regex/heuristic PII detection</li>
+          <li>Label text as "Confidential"</li>
+          <li>Mock encryption or anonymization in storage or exports</li>
+        </ul>
+        </div>
+
+        <div class="mb-3">
+        <h4 class="font-bold text-lg mb-1">📝 3) Auditability, Traceability & Explainability</h4>
+        <p class="mb-1">Record who did what, and make AI/system actions understandable.</p>
+        <p class="text-sm text-gray-600 mb-2"><strong>Techniques/examples:</strong></p>
+        <ul class="list-disc list-inside ml-4 text-sm">
+          <li>Immutable logs (user, action, timestamp)</li>
+          <li>Simple audit trail viewer</li>
+          <li>Short explanation of why the system/AI suggested an action</li>
+        </ul>
+        </div>
+
+        <div class="mb-3">
+        <h4 class="font-bold text-lg mb-1">🚨 4) Abuse Detection & Mitigation</h4>
+        <p class="mb-1">Detect and neutralize malicious or unintended use.</p>
+        <p class="text-sm text-gray-600 mb-2"><strong>Techniques/examples:</strong></p>
+        <ul class="list-disc list-inside ml-4 text-sm">
+          <li>Input filters for prompt injection/exfiltration attempts</li>
+          <li>Reject unsafe requests with clear error messages</li>
+          <li>Alert the user/UI in case of suspicious behavior</li>
+        </ul>
+        </div>
+
+        <h3 class="text-xl font-bold mb-2">📊 Evaluation Criteria</h3>
+        <table class="min-w-full text-left border border-gray-200 mb-4">
+          <thead>
+            <tr class="bg-gray-50">
+              <th class="px-4 py-2 border-b">Criteria</th>
+              <th class="px-4 py-2 border-b">Weight</th>
+              <th class="px-4 py-2 border-b">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="px-4 py-2 border-b">Impact on security</td>
+              <td class="px-4 py-2 border-b">30%</td>
+              <td class="px-4 py-2 border-b">How effectively does it mitigate real risks?</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-2 border-b">Integration</td>
+              <td class="px-4 py-2 border-b">25%</td>
+              <td class="px-4 py-2 border-b">Is security embedded without breaking UX/UI?</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-2 border-b">Traceability & explainability</td>
+              <td class="px-4 py-2 border-b">20%</td>
+              <td class="px-4 py-2 border-b">Can actions be audited and explained?</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-2 border-b">Innovation & scalability</td>
+              <td class="px-4 py-2 border-b">15%</td>
+              <td class="px-4 py-2 border-b">Can your approach grow in a real-world setting?</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-2 border-b">Clarity of demo/pitch</td>
+              <td class="px-4 py-2 border-b">10%</td>
+              <td class="px-4 py-2 border-b">Do you clearly present risks and mitigations?</td>
+            </tr>
+          </tbody>
+        </table>
 `,
       },
       {
