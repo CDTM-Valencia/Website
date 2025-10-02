@@ -398,6 +398,11 @@ We strongly recommend providing GitHub and MVP links since they will be showcase
 
 <h3 class="text-xl font-bold">Submit your project here:</h3>
 <p>➡️ <a class="underline text-springBlue" href='https://vlc.hacks.cdtm.com/submission' target="_blank" rel="noopener noreferrer">https://vlc.hacks.cdtm.com/submission</a></p>
+
+<h3 class="text-xl font-bold">📋 Presentation Template (Optional)</h3>
+<p class="mb-2">If you get chosen as one of the best 3 teams for your case, you'll need to deliver a live pitch. We've prepared a template to help you structure your presentation.</p>
+<p class="mb-2"><strong>Note:</strong> You don't need to submit this in the form - it's only needed if you're selected for the final presentations.</p>
+<p>📥 <a class="underline text-springBlue" href='/TEMPLATE Presentation.pptx' download>Download Presentation Template (.pptx)</a></p>
 `,
      
       },
