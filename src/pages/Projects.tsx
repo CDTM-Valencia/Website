@@ -29,8 +29,8 @@ import {
 import { projects } from '@/constants/projects';
 import { WinnerPodium } from '@/components/WinnerPodium';
 
-// Define the order of cases
-const caseOrder = ['Trade Republic', 'avi', 'beam'] as const;
+// Define the order of cases (must match keys in `cases`)
+const caseOrder = ['IBM', 'NTT Data', 'Leaping AI'] as const;
 
 // Define the order of challenges
 const challengeOrder = [
@@ -410,11 +410,9 @@ export default function Projects() {
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8 md:gap-12 lg:gap-20 items-center justify-items-center">
               {[
                 ...CASE_SPONSORS,
-                MAIN_SPONSOR,
                 VENUE_SPONSORS,
                 ...CHALLENGE_SPONSORS,
                 ...TECH_SPONSORS,
-                ...FOOD_SPONSORS,
               ].map((sponsor) => (
                 <a
                   key={sponsor.name}
