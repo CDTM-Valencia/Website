@@ -1,4 +1,4 @@
-import { Project } from '@/constants/projects-page-config';
+import { Project } from '@/constants/projects';
 import { Trophy } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { ProjectDialog } from '@/components/ProjectDialog';
@@ -60,8 +60,8 @@ export function WinnerPodium({ winners }: WinnerPodiumProps) {
         <div className="flex items-center gap-2 text-gray-600">
           <span>Main prize sponsored by</span>
           <img
-            src="/images/partners/speedinvest.png"
-            alt="Speedinvest Logo"
+            src="/images/partners/leapingai.svg"
+            alt="LeapingAI Logo"
             className="h-6 w-auto"
           />
         </div>

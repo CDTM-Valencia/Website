@@ -41,21 +41,21 @@ export const cases: Record<"Leaping AI" | "IBM" | "NTT Data", Case> = {
     description: "Voice AI agents are the hot topic of 2025! They can be used for anything from customer service to sales enablement to ops. Dive into the world of voice AI agents by leveraging Lovable + the beginner-friendly tools + APIs of Leaping AI – an innovative voice AI agent platform company based out of San Francisco. Amaze the world by building a killer voice AI agent!",
     sponsorUrl: "https://leapingai.com",
     logo: "/images/partners/leapingai.svg",
-    logoClass: "max-h-[20px] max-w-[200px]",
+    logoClass: "h-8 sm:h-10 w-auto",
   },
   "IBM": {
     name: "IBM",
     description: "Agentic AI is changing the way enterprises work. At IBM, our consultants and clients face daily challenges: preparing for meetings, finding the right knowledge, managing repetitive tasks, and making smarter business decisions. Your mission is to design a prototype of a Agentic AI system that boosts productivity in a real business scenario.",
     sponsorUrl: "https://ibm.com",
     logo: "/images/partners/ibm.svg",
-    logoClass: "max-h-[20px] max-w-[200px]",
+    logoClass: "h-8 sm:h-10 w-auto",
   },
   "NTT Data": {
     name: "NTT Data",
     description: "AI-powered assistant for document extraction and analysis. An AI agent that analyzes request for proposal (RFP) documents, extracts key requirements, and generates structured proposal drafts to save time and improve response quality.",
     sponsorUrl: "https://nttdata.com",
     logo: "/images/partners/ntt_data.svg",
-    logoClass: "max-h-[20px] max-w-[200px]",
+    logoClass: "h-8 sm:h-10 w-auto",
   },
 } as const;
 
@@ -68,7 +68,7 @@ export const challenges: Record<string, Challenge> = {
         name: "Scientists 360",
         url: "https://scientists360.com",
         logoPath: "/images/partners/scientists360_2.svg",
-        logoClass: "max-h-[20px] max-w-[200px]",
+        logoClass: "h-8 sm:h-10 w-auto",
       },
     ],
   },
@@ -80,7 +80,7 @@ export const challenges: Record<string, Challenge> = {
         name: "S2 Grupo",
         url: "https://s2grupo.com",
         logoPath: "/images/partners/s2grupo.svg",
-        logoClass: "max-h-[20px] max-w-[200px]",
+        logoClass: "h-8 sm:h-10 w-auto",
       },
     ],
   }
