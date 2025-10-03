@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { cases, challenges, Project } from '@/constants/projects-page-config';
+import { cases, challenges } from '@/constants/projects-page-config';
+import { Project } from '@/constants/projects';
 import { ProjectDialog } from '@/components/ProjectDialog';
 import {
   Card,

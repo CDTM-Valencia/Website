@@ -1,6 +1,8 @@
 // This file is auto-generated. Do not edit manually.
 import { challenges, Project } from "./projects-page-config";
 
+export type { Project };
+
 export const projects: Project[] = [
   {
     "id": "project-1",
@@ -37,7 +39,8 @@ export const projects: Project[] = [
     "githubUrl": "https://github.com/JaumeBQ/mind-stream-aid.git",
     "videoUrl": "https://youtu.be/_PPwAtZ_fBw",
     "demoUrl": "http://mind-stream-aid.lovable.app",
-    "placement":1
+    "placement":1,
+    "overallPlacement": 3
   },{
     "id": "project-4",
     "name": "Cognition Crew",
@@ -96,7 +99,7 @@ export const projects: Project[] = [
     "difficulties": "One of the main challenges was ensuring smooth, low-latency voice interactions. At first, the conversations felt slightly delayed, which broke the natural flow, so we had to optimize the API calls and adjust buffering strategies. Another unexpected difficulty was integrating the three platforms (Lovable for UI, n8n for workflows, and Leaping AI for voice) into a single, cohesive system.",
     "oneSentencePitch": "I voice agent that uncovers true potential, screening candidates beyond resumes in minutes.",
     "githubUrl": "https://github.com/MariaBolumar/leap-form-ai.git",
-    "videoUrl": "https://youtube.com/@mariabolumargarcia8885?si=z4YwyR84AgmgV0Pk",
+    "videoUrl": "https://www.youtube.com/shorts/kQIWDjrrZ94?feature=share",
     "demoUrl": "https://leap-form-ai.lovable.app/",
   },
   {
@@ -108,9 +111,10 @@ export const projects: Project[] = [
     "difficulties": "A key challenge was defining the company's real needs, since \"an AI agent for RFPs\" is broad. We had to identify priorities and narrow scope. Another tension was choosing between a functional prototype and a mockup that best reflected our vision under tight time. Balancing workload across members with different skills, and finding tools for the demo video and presentation, added complexity. In the end, prioritization and focus were critical to deliver.",
     "oneSentencePitch": "Transform complex RFPs into instant insights and winning AI-drafted proposals — with a simple overview, one glance fit scoring, compliance checks, risk analysis, and tailored options",
     "githubUrl": "https://github.com/davidoof3141/vlc-cdtm-hackathon.git",
-    "videoUrl": "https://www.youtube.com/channel/UCHPeYFxpsQz68C8xPNXNX8g",
+    "videoUrl": "https://www.youtube.com/watch?v=n6eKOWskwP0",
     "demoUrl": "https://preview--vlc-cdtm-hackathon.lovable.app/",
-    "placement":1
+    "placement":1,
+    "overallPlacement": 2
   },
   {
     "id": "project-10",
@@ -148,7 +152,8 @@ export const projects: Project[] = [
     "videoUrl": "https://youtu.be/8G_AYw2D6Vk",
     "demoUrl": "https://watsonxales-briefing-booster.lovable.app",
     "challenges": [challenges.s2grupo],
-    "placement": 1
+    "placement": 1,
+    "overallPlacement": 1
   },
   {
     "id": "project-13",
