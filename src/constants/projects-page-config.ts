@@ -164,7 +164,7 @@ export const projects: Project[] = [
     howBuilt: "Built with Lovable for rapid deployment and Python with Ollama framework for LLM processing.",
     difficulties: "Aligning diverse ideas and integrating LLM components within the backend.",
     oneSentencePitch: "Our platform solves RFP complexity by leveraging cascaded LLMs that accurately extract key information.",
-    githubUrl: "https://github.com/gandpablo/proposal-analyzer-ai/issues",
+    githubUrl: "https://github.com/gandpablo/proposal-analyzer-ai",
     videoUrl: "https://www.youtube.com/watch?v=I6Ej3eN3FLk",
     demoUrl: "https://lovable.dev/projects/c38ef3bc-1c98-4731-af27-94980fb9eee3?magic_link=mc_3accadea-f851-473a-83dd-5bfc5ba5a7cc",
     challenges: []
@@ -204,10 +204,9 @@ export const projects: Project[] = [
     howBuilt: "Desarrollado en Lovable con React/Next.js, TypeScript, Tailwind, PostgreSQL, y pgvector para embeddings.",
     difficulties: "Generar prompts adecuados para que la IA entienda realmente la funcionalidad deseada.",
     oneSentencePitch: "Un asistente de IA que automatiza el análisis, redacción y validación de RFPs, reduciendo errores y acelerando el tiempo de respuesta.",
-    githubUrl: "https://...",
+    githubUrl: "https://github.com/davidoof3141/vlc-cdtm-hackathon.git",
     videoUrl: "https://youtu.be/RdW7pvYOUVs",
     demoUrl: "https://rfp-genius-92.lovable.app",
-    challenges: [challenges.s2grupo],
     placement: 1
   },
   {
@@ -236,7 +235,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/JaumeBQ/mind-stream-aid.git",
     videoUrl: "https://youtu.be/_PPwAtZ_fBw",
     demoUrl: "http://mind-stream-aid.lovable.app",
-    challenges: []
+    challenges: [challenges.s2grupo]
   },
   {
     id: "project-8",
