@@ -40,7 +40,8 @@ export const projects: Project[] = [
     "videoUrl": "https://youtu.be/_PPwAtZ_fBw",
     "demoUrl": "http://mind-stream-aid.lovable.app",
     "placement":1,
-    "overallPlacement": 3
+    "overallPlacement": 3,
+    "challenges": [challenges.s2grupo],
   },{
     "id": "project-4",
     "name": "Cognition Crew",
@@ -151,7 +152,6 @@ export const projects: Project[] = [
     "githubUrl": "https://github.com/anboch/watsonx-guide",
     "videoUrl": "https://youtu.be/8G_AYw2D6Vk",
     "demoUrl": "https://watsonxales-briefing-booster.lovable.app",
-    "challenges": [challenges.s2grupo],
     "placement": 1,
     "overallPlacement": 1
   },
