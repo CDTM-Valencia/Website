@@ -4,14 +4,14 @@ import { twMerge } from "tailwind-merge"
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
-
+//This const needs to be updated when we decide the final dates.
 // Applications open at 2025-09-22 00:00 Europe/Madrid.
 // Europe/Madrid is UTC+2 in September (CEST), so opening in UTC is 2025-09-21T22:00:00Z.
-const APPLICATIONS_OPENS_AT_UTC = Date.parse('2025-09-21T22:00:00Z')
+const APPLICATIONS_OPENS_AT_UTC = Date.parse('2026-09-29T22:00:00Z')
 
 // Applications close at end of day on 2025-09-29 (i.e., 2025-09-30 00:00 Europe/Madrid).
 // Europe/Madrid is UTC+2 (CEST), so cutoff in UTC is 2025-09-29T22:00:00Z.
-const APPLICATIONS_CLOSES_AT_UTC = Date.parse('2025-09-29T22:00:00Z')
+const APPLICATIONS_CLOSES_AT_UTC = Date.parse('2027-10-22T22:00:00Z')
 
 export function applicationsAreClosed(nowUtcMs: number = Date.now()): boolean {
   return nowUtcMs >= APPLICATIONS_CLOSES_AT_UTC

@@ -39,8 +39,8 @@ const ApplicationsClosedDialog = ({
             {isNotYetOpen ? (
               <>
                 <p>
-                  Applications for CDTM Valencia Hacks 2025 will be open from
-                  22-29 September. Please check back then!
+                  Applications for CDTM Valencia Hacks 2026 will be open very soon.{/*from
+                  22-29 September. Please check back then!*/}
                 </p>
                 <p>
                   Want to stay updated about CDTM hackathons, applications,
@@ -78,7 +78,7 @@ const ApplicationsClosedDialog = ({
             ) : (
               <>
                 <p>
-                  The application period for CDTM Valencia Hacks 2025 has ended.
+                  The application period for CDTM Valencia Hacks 2026 has ended.
                   Thank you for your interest!
                 </p>
                 <p>

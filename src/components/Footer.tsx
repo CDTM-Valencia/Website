@@ -5,7 +5,7 @@ const Footer = () => {
 				<div className="flex flex-col md:flex-row justify-between items-center">
 					<div className="mb-4 md:mb-0">
 						<h3 className="text-xl text-white font-semibold mb-2">
-							CDTM Valencia Hacks 2025
+							CDTM Valencia Hacks 2026
 						</h3>
 						<p className="text-sm text-white"></p>
 					</div>

@@ -189,7 +189,7 @@ const Index = () => {
                 : 'text-springBlue'
             } mb-4 mt-4 animate-fade-in`}
           >
-            CDTM VALENCIA HACKS 2025
+            CDTM VALENCIA HACKS 2026
           </h1>
           <p
             className={`text-xl md:text-2xl mb-2 max-w-2xl animate-fade-in ${
@@ -256,11 +256,11 @@ const Index = () => {
               </>
             ) : isApplicationsNotYetOpen ? (
               <>
-                Applications will be open from 22-29 September.
+                Applications will be open very soon.{/*from 22-29 September.*/}
                 <div className="mt-4 animate-fade-in font-normal">
                   <p className="text-lg text-white mb-8">
                     Stay tuned for more information about CDTM Valencia Hacks
-                    2025!
+                    2026!
                   </p>
                   <div className="flex flex-col items-center justify-center gap-3 mt-2">
                     {showPartnerCta && (

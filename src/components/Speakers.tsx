@@ -110,6 +110,10 @@ const Speakers = () => {
         </div>
 
         <div className="mt-12 text-center">
+          {/*Remove this first paragraph once speakers are added*/}
+          <p className="text-springText/90 px-4">
+            To be announced: More speakers and judges will be revealed soon.
+          </p>
           <p className="text-springText/90 px-4">
             Learn from and get feedback from industry leaders and successful
             CDTM alumni who are changing the tech landscape.

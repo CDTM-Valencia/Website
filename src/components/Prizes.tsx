@@ -33,8 +33,8 @@ export function Prizes({ className = "" }: PrizesProps) {
 				<PrizeDisplay
 					prizes={[
 						CASE_WINNERS_SWEATERS.prizes[0],
-						CASE_WINNERS_BOTTLES.prizes[0],
-						IBM_SPECIFIC_CASE.prizes[0],
+						/*CASE_WINNERS_BOTTLES.prizes[0],
+						IBM_SPECIFIC_CASE.prizes[0],*/
 					]}
 					title="Winner Prizes"
 					description="Special prizes for winning teams"

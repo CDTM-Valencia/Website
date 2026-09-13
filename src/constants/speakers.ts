@@ -8,7 +8,7 @@ interface Speaker {
 }
 
 export const SPEAKERS: Speaker[] = [
-  {
+  /*{
     name: "Ferran Pla Cardona",
     title: "Co-Founder CDTM Valencia",
     company: "Antai Ventures",
@@ -63,5 +63,5 @@ export const SPEAKERS: Speaker[] = [
     cdtmClass: "",
     image: "/images/speaker/joan_navarro_bellido.jpeg",
     linkedin: "https://www.linkedin.com/in/joan-navarro-bellido-7790b7202/"
-  }
+  }*/
 ];

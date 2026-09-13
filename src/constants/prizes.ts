@@ -24,6 +24,13 @@ export const GENERAL_PRIZES: PrizeCategory = {
   description: "All participants receive these amazing prizes",
   prizes: [
     {
+      name: "To be announced",
+      description: "",
+      sponsor: "",
+      sponsorLogo: "",
+      image: "",
+    }
+    /*{
       name: "Personalized Top",
       description: "Custom CDTM Valencia Hacks 2025 T-Shirt with sponsor logos",
       sponsor: "NTT Data and HP",
@@ -56,7 +63,7 @@ export const GENERAL_PRIZES: PrizeCategory = {
       sponsorLogo: "/icon.png",
       sponsorLink: "https://cdtm.com/",
       image: "/images/prizes/tottebag.png",
-    },
+    },*/
   ],
 };
 
@@ -64,6 +71,14 @@ export const CASH_PRIZES: PrizeCategory = {
   title: "Cash Prizes",
   description: "Rewards for the top 2 teams",
   prizes: [
+    {
+      name: "To be announced",
+      description: "",
+      sponsor: "",
+      sponsorLogo: "",
+      image: "",
+    }
+    /*
     {
       name: "First Place",
       description: "€450 + 4 VDS Tickets",
@@ -77,7 +92,7 @@ export const CASH_PRIZES: PrizeCategory = {
       sponsor: "CDTM Valencia",
       sponsorLogo: "/icon.png",
       sponsorLink: "https://cdtm.com/",
-    },
+    },*/
   ],
 };
 
@@ -85,6 +100,14 @@ export const CASE_WINNERS_SWEATERS: PrizeCategory = {
   title: "Case Winners",
   description: "Sweaters for all participants",
   prizes: [
+    {
+      name: "To be announced",
+      description: "",
+      sponsor: "",
+      sponsorLogo: "",
+      image: "",
+    }
+    /*
     {
       name: "Case Winners",
       description: "12 Sweaters",
@@ -102,7 +125,7 @@ export const CASE_WINNERS_SWEATERS: PrizeCategory = {
         }
       ],
       image: "/images/prizes/hoodie.png",
-    },
+    },*/
   ],
 };
 
@@ -110,6 +133,13 @@ export const CASE_WINNERS_BOTTLES: PrizeCategory = {
   title: "Case Winners",
   description: "Event bottles for all participants",
   prizes: [
+    {
+      name: "To be announced",
+      description: "",
+      sponsor: "",
+      sponsorLogo: "",
+      image: "",
+    }/*
     {
       name: "Case Winners",
       description: "12 Event Bottles",
@@ -127,7 +157,7 @@ export const CASE_WINNERS_BOTTLES: PrizeCategory = {
         }
       ],
       image: "/images/prizes/bottle.png",
-    },
+    },*/
   ],
 };
 
