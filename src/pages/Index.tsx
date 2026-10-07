@@ -286,7 +286,7 @@ const Index = () => {
               <>
                 Where ideas bloom and innovation thrives
                 <br />
-                Join us for 6 hours of building in Valencia.
+                Join us for 12 hours of building in Valencia.
               </>
             )}
           </p>
@@ -297,9 +297,10 @@ const Index = () => {
                 animationDelay: '0.2s',
               }}
             >
-              2nd Oct.
+              21st Nov.
+              {/*We need to update this link when we know the location */}
               <a
-                href="https://maps.app.goo.gl/KrLrdmRPjTgCTJAi8"
+                href=""
                 target="_blank"
                 className="underline flex items-center justify-center gap-1"
               >
@@ -315,7 +316,7 @@ const Index = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-                ETSINF UPV
+                To be announced
               </a>
               ,14:30-21:00
             </span>
@@ -338,7 +339,7 @@ const Index = () => {
                 Apply
               </button>
               <span className="text-xs font-semibold uppercase tracking-wide text-black text-center">
-                DEADLINE 29/10 00:00
+                DEADLINE 13/11 00:00
               </span>
             </div>
           )}
@@ -361,7 +362,7 @@ const Index = () => {
                   Apply
                 </button>
                 <span className="text-sm font-semibold uppercase tracking-wide text-black">
-                  DEADLINE 29/10 00:00
+                  DEADLINE 13/11 00:00
                 </span>
               </div>
             </div>

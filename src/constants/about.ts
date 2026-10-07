@@ -15,19 +15,20 @@ export const ABOUT_STATS: AboutStat[] = [
   },
   {
     icon: Clock,
-    title: "6h Building",
+    title: "12h Building",
     description:
       "An intensive day of hacking, learning, and building innovative solutions together.",
   },
   {
     icon: Code,
-    title: "3 Exciting Cases",
+    title: "Exciting Cases",
     description:
       "Tackle real-world challenges provided by industry leaders and create impactful solutions.",
   },
   {
     icon: Award,
-    title: "> 3.000 € in Prizes",
+    //title: "> 3.000 € in Prizes",
+    title: "Incredible Prizes",
     description:
       "Win incredible rewards, gain industry recognition, and open doors to new opportunities.",
   },

@@ -35,7 +35,7 @@ const App = () => (
             <Route
               path="/apply"
               element={
-                <ExternalRedirect to="https://app.formbricks.com/s/cmfbao9yi1e94y5012v76rwwq" />
+                <ExternalRedirect to="https://app.formbricks.com/s/qk8u5z1nfe7p1o2tte47be4x" />
               }
             />
             <Route path="/discord" element={<ExternalRedirect to="" />} />

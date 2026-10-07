@@ -12,12 +12,12 @@ export const MAIN_SPONSOR: Sponsor = {
 };
 
 export const CASE_SPONSORS: Sponsor[] = [
-  /*{
+  {
     name: "HP",
     image: "/images/partners/catedra-hp.png",
     link: "https://catedra-hp.webs.upv.es/",
   },
-  {
+  /*{
     name: "NTT Data",
     image: "/images/partners/ntt_data.svg",
     class: "max-w-[200px]",
@@ -34,12 +34,12 @@ export const CASE_SPONSORS: Sponsor[] = [
     name: "IBM",
     image: "/images/partners/ibm.svg",
     link: "https://www.ibm.com/",
-  }*/
+  }
   {
     name: "To Be Determined",
     image: "",
     link: "",
-  }
+  }*/
 ];
 
 export const CHALLENGE_SPONSORS: Sponsor[] = [
@@ -61,6 +61,11 @@ export const CHALLENGE_SPONSORS: Sponsor[] = [
 ];
 
 export const TECH_SPONSORS: Sponsor[] = [
+  {
+    name: "Notion",
+    image: "/images/partners/notionlogo.png",
+    link: "https://www.notion.com/",
+  }
   /*{
     name: "Lovable",
     image: "/images/partners/lovable_logo.svg",
@@ -89,12 +94,12 @@ export const TECH_SPONSORS: Sponsor[] = [
     link: "https://make.com/",
     class: "max-h-[30px]",
   }
-    */
+    
    {
     name: "To Be Determined",
     image: "",
     link: "",
-  }
+  }*/
 ];
 
 export const FOOD_SPONSORS: Sponsor[] = [
@@ -108,9 +113,9 @@ export const FOOD_SPONSORS: Sponsor[] = [
 
 export const VENUE_SPONSORS: Sponsor = 
 {
-    name: "To Be Determined",
-    image: "",
-    link: "",
+    name: "Red Bull",
+    image: "/images/partners/redbulllogo.png",
+    link: "https://www.redbull.com/",
 };
 /*{
   name: "ETSINF UPV",
