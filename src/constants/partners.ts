@@ -17,6 +17,22 @@ export const CASE_SPONSORS: Sponsor[] = [
     image: "/images/partners/catedra-hp.png",
     link: "https://catedra-hp.webs.upv.es/",
   },
+  {
+    name: "sherpa.ai",
+    image: "/images/partners/sherpaai_logo.avif",
+    link: "https://sherpa.ai/",
+  }
+  /*Ocultos hasta confirmación de participación
+  {
+    name: "Maisa",
+    image: "/images/partners/maisa_logo.png",
+    link: "https://maisa.ai/",
+  },
+  {
+    name: "Gurusup",
+    image: "/images/partners/Gurusuplogo.png",
+    link: "https://gurusup.com/",
+  }*/
   /*{
     name: "NTT Data",
     image: "/images/partners/ntt_data.svg",
@@ -54,10 +70,16 @@ export const CHALLENGE_SPONSORS: Sponsor[] = [
     link: "https://www.s2grupo.com/",
   }*/
  {
-    name: "To Be Determined",
-    image: "",
-    link: "",
+    name: "ElevenLabs",
+    image: "/images/partners/ElevenLabs_logo.png",
+    link: "https://elevenlabs.io/",
   }
+  /*Ocultos hasta confirmación de participación
+  {
+    name: "MercadonaIT",
+    image: "/images/partners/mercadonait_logo.png",
+    link: "https://info.mercadona.es/es/mercadonait",
+  }*/
 ];
 
 export const TECH_SPONSORS: Sponsor[] = [
@@ -65,6 +87,16 @@ export const TECH_SPONSORS: Sponsor[] = [
     name: "Notion",
     image: "/images/partners/notionlogo.png",
     link: "https://www.notion.com/",
+  },
+  {
+    name: "Lovable",
+    image: "/images/partners/lovable_logo.svg",
+    link: "https://lovable.dev/",
+  },
+  {
+    name: "ElevenLabs",
+    image: "/images/partners/ElevenLabs_logo.png",
+    link: "https://elevenlabs.io/",
   }
   /*{
     name: "Lovable",
@@ -104,18 +136,17 @@ export const TECH_SPONSORS: Sponsor[] = [
 
 export const FOOD_SPONSORS: Sponsor[] = [
   {
-    name: "To Be Determined",
-    image: "",
-    link: "",
+    name: "Red Bull",
+    image: "/images/partners/redbulllogo.png",
+    link: "https://www.redbull.com/",
   }
-  
 ];
 
 export const VENUE_SPONSORS: Sponsor = 
 {
-    name: "Red Bull",
-    image: "/images/partners/redbulllogo.png",
-    link: "https://www.redbull.com/",
+    name: "Terminal Hub",
+    image: "/images/partners/terminalhub_logo.webp",
+    link: "https://www.theterminalhub.com/",
 };
 /*{
   name: "ETSINF UPV",

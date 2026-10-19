@@ -300,7 +300,7 @@ const Index = () => {
               21st Nov.
               {/*We need to update this link when we know the location */}
               <a
-                href=""
+                href="https://www.theterminalhub.com/"
                 target="_blank"
                 className="underline flex items-center justify-center gap-1"
               >
@@ -316,9 +316,9 @@ const Index = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-                To be announced
+                Terminal Hub
               </a>
-              ,14:30-21:00
+              ,9:00-20:00
             </span>
           )}
 

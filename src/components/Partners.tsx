@@ -154,7 +154,7 @@ const Partners = () => {
           </div>
         </div>
 
-        {/* Food Sponsors 
+        {/* Food Sponsors */}
 				<div className="mb-12">
 					<h3 className="text-center text-xl text-springText/80 mb-8">
 						Event Sponsors
@@ -185,7 +185,7 @@ const Partners = () => {
 						))}
 					</div>
 				</div>
-        */}
+        
 
         {/* Venue Sponsor */}
         <div className="mb-16">
