@@ -28,7 +28,7 @@ export const ABOUT_STATS: AboutStat[] = [
   {
     icon: Award,
     //title: "> 3.000 € in Prizes",
-    title: "Incredible Prizes",
+    title: "> 7.000 € in Prizes",
     description:
       "Win incredible rewards, gain industry recognition, and open doors to new opportunities.",
   },
