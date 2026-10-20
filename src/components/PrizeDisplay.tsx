@@ -133,7 +133,7 @@ export function PrizeDisplay({
 												<img
 													src={prize.sponsorLogo}
 													alt={`${prize.sponsor} logo`}
-													className="h-4 w-auto"
+													className={`h-4 w-auto ${prize.sponsorLogoClass || ""}`}
 												/>
 											</a>
 										) : (

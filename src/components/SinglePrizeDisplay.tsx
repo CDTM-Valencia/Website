@@ -103,7 +103,7 @@ export function SinglePrizeDisplay({
                     <img
                       src={prize.sponsorLogo}
                       alt={`${prize.sponsor} logo`}
-                      className="h-5 w-auto"
+                      className={`h-5 w-auto ${prize.sponsorLogoClass || ""}`}
                     />
                   </a>
                 ) : (

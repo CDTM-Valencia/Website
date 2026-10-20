@@ -83,7 +83,7 @@ export function CashPrizesRow({ prizes, className = '' }: CashPrizesRowProps) {
                         <img
                           src={prize.sponsorLogo}
                           alt={`${prize.sponsor} logo`}
-                          className="h-6 w-auto"
+                          className={`h-6 w-auto ${prize.sponsorLogoClass || ""}`}
                         />
                       </a>
                     ) : (

@@ -3,6 +3,7 @@ export interface Prize {
   description: string;
   sponsor?: string;
   sponsorLogo?: string;
+  sponsorLogoClass?: string;
   sponsorLink?: string;
   sponsorLogos?: Array<{
     logo: string;
@@ -42,6 +43,7 @@ export const GENERAL_PRIZES: PrizeCategory = {
       description: "Official Notion template and support",
       sponsor: "Notion",
       sponsorLogo: "/images/partners/notionlogo.png",
+      sponsorLogoClass: "!h-10",
       image: "",
     },
     {

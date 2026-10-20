@@ -86,6 +86,7 @@ export const TECH_SPONSORS: Sponsor[] = [
     name: "Notion",
     image: "/images/partners/notionlogo.png",
     link: "https://www.notion.com/",
+    class: "scale-110",
   },
   {
     name: "Lovable",

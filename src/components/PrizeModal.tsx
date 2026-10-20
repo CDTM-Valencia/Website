@@ -100,7 +100,7 @@ export function PrizeModal({ prize, isOpen, onClose }: PrizeModalProps) {
                       <img
                         src={prize.sponsorLogo}
                         alt={`${prize.sponsor} logo`}
-                        className="h-10 w-auto"
+                        className={`h-10 w-auto ${prize.sponsorLogoClass || ""}`}
                       />
                     </a>
                   ) : (
