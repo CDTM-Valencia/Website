@@ -73,13 +73,12 @@ export const CHALLENGE_SPONSORS: Sponsor[] = [
     name: "ElevenLabs",
     image: "/images/partners/ElevenLabs_logo.png",
     link: "https://elevenlabs.io/",
-  }
-  /*Ocultos hasta confirmación de participación
+  },
   {
     name: "MercadonaIT",
     image: "/images/partners/mercadonait_logo.png",
     link: "https://info.mercadona.es/es/mercadonait",
-  }*/
+  }
 ];
 
 export const TECH_SPONSORS: Sponsor[] = [

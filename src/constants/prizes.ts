@@ -24,13 +24,34 @@ export const GENERAL_PRIZES: PrizeCategory = {
   description: "All participants receive these amazing prizes",
   prizes: [
     {
-      name: "To be announced",
-      description: "",
+      name: "ElevenLabs Creator Plan ",
+      description: "1 free month of ElevenLabs Creator Plan ($22/month per person)",
+      sponsor: "ElevenLabs",
+      sponsorLogo: "/images/partners/ElevenLabs_logo.png",
+      image: "",
+    },
+    {
+      name: "Lovable Credits",
+      description: "Free credits for Lovable AI platform",
+      sponsor: "Lovable",
+      sponsorLogo: "/images/partners/lovable_logo.svg",
+      image: "",
+    },
+    {
+      name: "Notion Template",
+      description: "Official Notion template and support",
+      sponsor: "Notion",
+      sponsorLogo: "/images/partners/notionlogo.png",
+      image: "",
+    },
+    {
+      name: "Event Pack",
+      description: "Exclusive merchandising, complete catering (breakfast, lunch, and dinner/snacks), and Red Bull",
       sponsor: "",
       sponsorLogo: "",
       image: "",
     }
-    /*{
+    /*,{
       name: "Personalized Top",
       description: "Custom CDTM Valencia Hacks 2025 T-Shirt with sponsor logos",
       sponsor: "NTT Data and HP",
@@ -63,7 +84,7 @@ export const GENERAL_PRIZES: PrizeCategory = {
       sponsorLogo: "/icon.png",
       sponsorLink: "https://cdtm.com/",
       image: "/images/prizes/tottebag.png",
-    },*/
+    }*/
   ],
 };
 
@@ -101,10 +122,10 @@ export const CASE_WINNERS_SWEATERS: PrizeCategory = {
   description: "Sweaters for all participants",
   prizes: [
     {
-      name: "To be announced",
-      description: "",
-      sponsor: "",
-      sponsorLogo: "",
+      name: "ElevenLabs Pro Plan",
+      description: "3 free months per person ($297 of value per person / $1,485 per team of 5)",
+      sponsor: "ElevenLabs",
+      sponsorLogo: "/images/partners/ElevenLabs_logo.png",
       image: "",
     }
     /*

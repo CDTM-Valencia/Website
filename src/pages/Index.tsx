@@ -339,7 +339,7 @@ const Index = () => {
                 Apply
               </button>
               <span className="text-xs font-semibold uppercase tracking-wide text-black text-center">
-                DEADLINE 13/11 00:00
+                DEADLINE 13/11 23:59
               </span>
             </div>
           )}
@@ -362,7 +362,7 @@ const Index = () => {
                   Apply
                 </button>
                 <span className="text-sm font-semibold uppercase tracking-wide text-black">
-                  DEADLINE 13/11 00:00
+                  DEADLINE 13/11 23:59
                 </span>
               </div>
             </div>

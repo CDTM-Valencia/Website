@@ -7,7 +7,7 @@ export const FAQS: FAQItem[] = [
   {
     question: "What is CDTM Valencia Hacks?",
     answer:
-      "CDTM Valencia Hacks is a 6-hour hackathon where students come together to build innovative solutions. It's an opportunity to learn, connect, and turn ideas into reality while competing for exciting prizes.",
+      "CDTM Valencia Hacks is a intensive day hackathon, celebrated the 21st November (9:00 AM - 8:00 PM), where students come together to build innovative solutions. It's an opportunity to learn, connect, and turn ideas into reality while competing for exciting prizes.",
   },
   {
     question: "Who can participate?",
@@ -27,7 +27,7 @@ export const FAQS: FAQItem[] = [
   {
     question: "How do teams work?",
     answer:
-      "Teams can consist of 4-5 members. Staff will make sure teams are interdisciplinary. However, you can submit your preferred teammates and we will do our best to include them.",
+      "Teams consist of 5 members. Staff will make sure teams are interdisciplinary. However, you can submit your preferred teammates and we will do our best to include them.",
   },
   {
     question: "What should I bring?",
@@ -42,12 +42,12 @@ export const FAQS: FAQItem[] = [
   {
     question: "What kind of support is available during the hackathon?",
     answer:
-      "We provide technical mentors, workshops, and access to various APIs and tools like Lovable and LeapingAI. Our experienced mentors from industry partners will be available to help you with technical challenges and project development.",
+      "We provide technical mentors, workshops, and access to various APIs and tools like Notion, Lovable and ElevenLabs. Our experienced mentors from industry partners will be available to help you with technical challenges and project development.",
   },
   {
     question: "How do I register for the hackathon?",
     answer:
-      "You can register for the hackathon by filling out the registration form. You will have time until 14:30 to register on 2nd October.",
+      "You can register for the hackathon by filling out the registration form. You will have time until 23:59 to register on 13th November.",
   },
   {
     question: "Do I have to work on a case or learn before the hackathon?",
