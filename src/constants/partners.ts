@@ -18,10 +18,16 @@ export const CASE_SPONSORS: Sponsor[] = [
     link: "https://catedra-hp.webs.upv.es/",
   },
   {
-    name: "sherpa.ai",
-    image: "/images/partners/sherpaai_logo.avif",
-    link: "https://sherpa.ai/",
-  }
+    name: "sherpas",
+    image: "/images/partners/sherpas_black_logo.jpg",
+    link: "https://www.linkedin.com/company/sherpas-wealth/home/",
+  },
+  {
+    name: "NTT Data",
+    image: "/images/partners/ntt_data.svg",
+    class: "max-w-[200px]",
+    link: "https://www.nttdata.com/",
+  },
   /*Ocultos hasta confirmación de participación
   {
     name: "Maisa",
