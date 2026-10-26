@@ -102,12 +102,12 @@ export const GUIDEBOOK_DATA: GuidebookSection[] = [
 
 <h3 class="text-xl font-bold mb-1">💡 What You Should Know:</h3>
 • <strong>No coding experience required!</strong> We welcome participants with diverse skill sets including business development, design, and project management
-• <strong>Teams of 4 members</strong> work best - You will receive details on where to meet your teammates before the event begins, and we will also share their contact information so you can get in touch.
+• <strong>Teams of 5 members</strong> work best - You will receive details on where to meet your teammates before the event begins, and we will also share their contact information so you can get in touch.
 • <strong>Completely free event</strong> - we provide meals, snacks, beverages, and all necessary facilities
 • <strong>Technical mentors available</strong> to help with Challenges and project development
 
 <h3 class="text-xl font-bold mb-1">🎯 What to Expect:</h3>
-• 6 hours of intensive building and innovation
+• An intensive day of building and innovation
 • Access to various APIs and tools
 • Workshops and technical support
 • Networking with industry partners
@@ -119,11 +119,11 @@ export const GUIDEBOOK_DATA: GuidebookSection[] = [
         title: "Accreditation Process",
         icon: "award",
         content: `<h3 class="text-xl font-bold mb-1">How to get your participant badge and complete registration:</h3>
-1. Please go to the hall of ETSINF UPV (Building 1G).
+1. Please go to The Terminal Hub.
 2. Show your ID.
 3. After the verification, you will be able to enter the room with your team.
 4. You will also get a goodie bag.
-5. And you're ready to start building. Enjoy CDTM Valencia Hacks 2025 🎉
+5. And you're ready to start building. Enjoy CDTM Valencia Hacks 2026 🎉
 `,
       },
       {
@@ -131,17 +131,19 @@ export const GUIDEBOOK_DATA: GuidebookSection[] = [
         title: "Venue Details and Map",
         icon: "mapPin",
         content: `
-<h3 class="text-xl font-bold mb-1">Event Venue - ETSINF UPV:</h3>
-Universitat Politècnica de València<br />
-Escola Tècnica Superior d'Enginyeria Informàtica<br />
+<h3 class="text-xl font-bold mb-1">Event Venue - The Terminal Hub:</h3>
+Poblats Marítims<br />
 Valencia, Spain<br /><br />
-<iframe src="https://www.google.com/maps?q=ETSINF+UPV+Valencia&output=embed" width="100%" height="300" style="border:0; border-radius: 8px; margin-top: 12px; margin-bottom: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps?q=The+Terminal+Hub+Valencia&output=embed" width="100%" height="300" style="border:0; border-radius: 8px; margin-top: 12px; margin-bottom: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<!--
 • The doors open on 2nd October at 14:30 (2:30 PM).
 • Please make sure to arrive no later than 14:30 (2:30 PM) so we can kick things off smoothly together.
-
-<p class="mt-4 mb-4">❗Please note that this is a 6-hour intensive hackathon event, so make sure to arrive on time!</p>
+-->
+<p class="mt-4 mb-4">❗Please note that this is a intensive day hackathon event, so make sure to arrive on time!</p>
 
 <h3 class="text-xl font-bold mb-1">Event Schedule:</h3>
+• To Publish
+<!--
 • <strong>14:30 - 15:00:</strong> Registration & Welcome
 • <strong>15:00 - 15:30:</strong> Opening Ceremony & Case Presentations
 • <strong>15:30 - 19:30:</strong> Building Time
@@ -150,6 +152,7 @@ Valencia, Spain<br /><br />
 • <strong>20:00 - 20:20:</strong> 3 Best Teams in Cases Pitches
 • <strong>20:20 - 20:35:</strong> Finals Judging
 • <strong>20:35 - 21:00:</strong> Awards Ceremony
+-->
 `,
       },
       {
@@ -166,7 +169,7 @@ If you need (medical) help, reach out to our team or call the emergency number 1
 Make the call yourself if you can
 → Call from a safe place
 → Explain what happened
-→ Tell them your exact address: ETSINF UPV, Valencia, Spain
+→ Tell them your exact address: The Terminal Hub, Valencia, Spain
 → Answer all the emergency operator's questions
 → Follow the instructions given
 → Don't end the call until permitted.
@@ -177,26 +180,27 @@ If you face any situation that makes you feel unsafe or uncomfortable in the hac
 
 <b class="text-xl font-bold mb-0">Venue Security</b>
 
-The ETSINF UPV campus has 24/7 security. In case of any security concerns, contact our team immediately or approach campus security directly.
+<!--The ETSINF UPV campus has 24/7 security. In case of any security concerns, contact our team immediately or approach campus security directly.-->
 `,
       },
       {
         id: "wifi",
         title: "Internet Access",
         icon: "wifi",
-        content: `To join our WiFi network, please connect to "UPV-Guest" and follow the instructions. The password will be provided at registration. For any connectivity issues, contact our technical support team.`,
+        content: `To Publish`,
       },
       {
         id: "schedule-overview",
         title: "Schedule Overview",
         icon: "calendar",
         content: `
-        <h3 class="text-xl font-bold mb-2">📅 CDTM Valencia Hacks 2025 Schedule</h3>
+        <h3 class="text-xl font-bold mb-2">📅 CDTM Valencia Hacks 2026 Schedule</h3>
         
         <div class="bg-gray-50 p-4 rounded-lg mb-4">
-        <strong>2nd October 2025 - 6 Hours of Innovation</strong>
+        <strong>21st November 2026 - A Intensive Day of Innovation</strong>
         </div>
-        
+        Schedule to Publish
+        <!--
         <table class="min-w-full text-left border border-gray-200 mb-4">
           <thead>
             <tr class="bg-gray-50">
@@ -248,8 +252,8 @@ The ETSINF UPV campus has 24/7 security. In case of any security concerns, conta
             </tr>
           </tbody>
         </table>
-        
-        <p class="mt-2"><strong>Note:</strong> This is an intensive 6-hour event. Make sure to arrive on time and stay focused!</p>`,
+        -->
+        <p class="mt-2"><strong>Note:</strong> This is an intensive day event. Make sure to arrive on time and stay focused!</p>`,
       },
       {
         id: "channels",
@@ -258,7 +262,7 @@ The ETSINF UPV campus has 24/7 security. In case of any security concerns, conta
         content: `Simple communication for the event:
 
         <b class="text-xl font-bold mb-0">Social Media</b>
-        Follow us and use hashtag <b class="text-springBlue">#cdtmvalenciahacks2025</b>:
+        Follow us and use hashtag <b class="text-springBlue">#cdtmvalenciahacks2026</b>:
         • Instagram: <a class="underline text-springBlue" href='https://www.instagram.com/cdtm_vlc'>@centerlings</a>
         • LinkedIn: <a class="underline text-springBlue" href='https://www.linkedin.com/company/cdtm-valencia/'>@cdtm_valencia</a>
         • Discord: <a class = "underline text-springBlue" href = "https://discord.com/invite/dC8YAhNV"> CDTM VLC Hacks </a>
@@ -296,23 +300,29 @@ The ETSINF UPV campus has 24/7 security. In case of any security concerns, conta
         
         <strong>Main Prizes:</strong>
         For the first two best projects no matter the case, you will be able to win the following prizes:
+        To Publish
+        <!--
         • <strong>1st Place:</strong> €450 + Recognition
         • <strong>2nd Place:</strong> 5 VDS Tickets + Recognition  
-        
+        -->
         <strong>Winner Prizes:</strong>
         The best case projects will be able to win the following prizes:
+        To Publish
+        <!--
         • <strong>Case Winners:</strong> 12 Sweaters + 12 Bottles
         • <strong>IBM Special Prizes:</strong> 4 IBM caps + 4 IBM bottles 
-
+        -->
         <strong>Challenge Prizes:</strong>
+        To Publish
+        <!--
         • <strong> Free </strong> access to <strong> Scientists360 </strong> program
         • <strong>S2 Grupo Cybersecurity Challenge:</strong> 4 × €120 Amazon vouchers for winning team
-        
+        -->
         <strong>General Prizes:</strong>
-        • <strong>Personalized Top:</strong> Custom CDTM VLC Hacks 2025 T-shirt 
-        • <strong>Lovable Pro Access:</strong> 100 credits for one month + 50% student discount
-        • <strong>CDTM Valencia Tote Bag:</strong> Exclusive bag to carry yor memories
-        • <strong> 20% </strong> discount on <strong> Scientists360</strong> program  
+        • <strong>ElevenLabs Creator Plan:</strong> 1 free month of ElevenLabs Creator Plan ($22/month per person) 
+        • <strong>Lovable Credits:</strong> Free credits for Lovable AI platform
+        • <strong>Notion Template:</strong> Official Notion template and support
+        • <strong>Event Pack: </strong> Exclusive merchandising, complete catering (breakfast, lunch, and dinner/snacks), and Red Bull  
         
         <h3 class="text-xl font-bold mb-2">🎯 How to Win</h3>
         • Build innovative solutions to real-world challenges
@@ -352,7 +362,7 @@ The ETSINF UPV campus has 24/7 security. In case of any security concerns, conta
         id: "cases-vs-challenges",
         title: "Cases vs. Challenges",
         icon: "star",
-        content: `There are <strong>three separate cases</strong> (Leaping AI, IBM, NTT Data) to choose from. Every team will work on <strong>exactly one case!</strong> All teams will opt to win the challenges by answering one question in the project submission form.
+        content: `There are <strong>three separate cases</strong> to choose from. Every team will work on <strong>exactly one case!</strong> All teams will opt to win the challenges by answering one question in the project submission form.
         `,
       },
       {
@@ -360,13 +370,14 @@ The ETSINF UPV campus has 24/7 security. In case of any security concerns, conta
         title: "Case Preference",
         icon: "checkSquare",
         content: `The preference selection is done <strong>before the Hackathon starts</strong>.
-        The team leader will decide the ranking of the cases and submit your preferences <strong>before 30/10/2025 00:00</strong>`,
+        The team leader will decide the ranking of the cases and submit your preferences <strong>before 21/11/2025 00:00</strong>`,
       },
       {
         id: "final-submission",
         title: "Final Submission",
         icon: "upload",
-        content: `The deadline is <strong>19:45 on 2nd October</strong> - hard cut-off - no exceptions.
+        content: `To Publish
+<!--The deadline is <strong>19:45 on 2nd October</strong> - hard cut-off - no exceptions.
 
 <h3 class="text-xl font-bold">Your submission should include:</h3>
 • <strong>Your Team ID</strong> (we email you this after the case assignment)
@@ -403,6 +414,7 @@ We strongly recommend providing GitHub and MVP links since they will be showcase
 <p class="mb-2">If you get chosen as one of the best 3 teams for your case, you'll need to deliver a live pitch. We've prepared a template to help you structure your presentation.</p>
 <p class="mb-2"><strong>Note:</strong> You don't need to submit this in the form - it's only needed if you're selected for the final presentations.</p>
 <p>📥 <a class="underline text-springBlue" href='/TEMPLATE Presentation.pptx' download>Download Presentation Template (.pptx)</a></p>
+-->
 `,
      
       },
@@ -410,8 +422,9 @@ We strongly recommend providing GitHub and MVP links since they will be showcase
         id: "descriptions",
         title: "Case Descriptions",
         icon: "info",
-        content: `Here are the 3 exciting cases for CDTM Valencia Hacks 2025 - check out the links for up-to-date information: 
-
+        content: `Here are the 3 exciting cases for CDTM Valencia Hacks 2026 - check out the links for up-to-date information: 
+To Publish
+<!--
 <strong>Case 1: Leaping AI </strong>
 
 <i>Introduction:</i> Voice AI agents are the hot topic of 2025! They can be used for anything from customer service to sales enablement to ops. Dive into the world of voice AI agents by leveraging Lovable + the beginner-friendly tools + APIs of Leaping AI – an innovative voice AI agent platform company based out of San Francisco. Amaze the world by building a killer voice AI agent! </i>
@@ -438,13 +451,16 @@ We strongly recommend providing GitHub and MVP links since they will be showcase
 • Win prizes and recognition!
 
 <i>Note:</i> Detailed case briefs will be provided after team case assignment confirmation on Wednesday 1st October.
-        `,
+-->
+`,
       },
       {
         id: "challenge-descriptions",
         title: "Challenge Descriptions",
         icon: "info",
         content: `<h3 class="text-xl font-bold mb-2">Challenge Sponsors & Prizes</h3>
+To Publish
+<!--
 <table class="min-w-full text-left border border-gray-200 mb-4">
   <thead>
     <tr>
@@ -619,6 +635,7 @@ We strongly recommend providing GitHub and MVP links since they will be showcase
             </tr>
           </tbody>
         </table>
+-->
 `,
       },
       {
@@ -660,6 +677,8 @@ We strongly recommend providing GitHub and MVP links since they will be showcase
         content: `<h3 class="text-xl font-bold ">Tech Resources & Tools</h3>
 We provide access to various tools and resources to help you build amazing solutions during the hackathon.
 
+To Publish
+<!--
 <h3 class="text-xl font-bold mb-2">🛠️ Development Tools</h3>
 <table class="min-w-full text-left border border-gray-200">
   <thead>
@@ -688,7 +707,8 @@ We provide access to various tools and resources to help you build amazing solut
 • Test your solution with real users
 • Document your process and decisions
 
-<p class="mt-2"><strong>Note:</strong> All tools and resources are provided free of charge for participants!</p>`,
+<p class="mt-2"><strong>Note:</strong> All tools and resources are provided free of charge for participants!</p>
+-->`,
       },
     ],
   },
@@ -704,7 +724,7 @@ We provide access to various tools and resources to help you build amazing solut
         content: `The Center for Digital Technology and Management (CDTM) is a joint entrepreneurship-focused program by the Technical University of Munich and Ludwig-Maximilians-Universität, with a community of 1,000+ students and alumni who have founded 20% of German unicorns, raised 11% of Germany's VC funding ($1.2B in 2022), and lead research at MIT, Google DeepMind, and Stanford.
 
 <h3 class="text-xl font-bold mb-2">🌍 CDTM Goes Global</h3>
-CDTM Valencia Hacks 2025 represents our commitment to fostering innovation beyond Munich. We're bringing our expertise in entrepreneurship and technology to Valencia, collaborating with UPV to create a unique hackathon experience.
+CDTM Valencia Hacks 2026 represents our commitment to fostering innovation beyond Munich. We're bringing our expertise in entrepreneurship and technology to Valencia, collaborating with UPV to create a unique hackathon experience.
 
 <h3 class="text-xl font-bold mb-2">🎓 About UPV Partnership</h3>
 The Universitat Politècnica de València (UPV) is one of Spain's leading technical universities, known for its excellence in engineering, computer science, and innovation. This partnership combines CDTM's entrepreneurial spirit with UPV's technical expertise.
@@ -722,18 +742,19 @@ The Universitat Politècnica de València (UPV) is one of Spain's leading techni
         title: "Local Transportation",
         icon: "truck",
         content: `
-        The ETSINF UPV is located in Valencia, Spain. Here are the best ways to reach the venue:
+        The Terminal Hub is located in Valencia, Spain. Here are the best ways to reach the venue:
 
-        Just use Google Maps to find the best way to get to the venue: <iframe src="https://www.google.com/maps?q=ETSINF+UPV+Valencia&output=embed" width="100%" height="300" style="border:0; border-radius: 8px; margin-top: 12px; margin-bottom: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        Just use Google Maps to find the best way to get to the venue: <iframe src="https://www.google.com/maps?q=The+Terminal+Hub+Valencia&output=embed" width="100%" height="300" style="border:0; border-radius: 8px; margin-top: 12px; margin-bottom: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         
+        <!--
         <h3 class="text-lg font-bold">Public Transportation:</h3>
         <strong>Metro:</strong> Line 3 or 5 to Universitat Politècnica station → 5 min walk
         <strong>Bus:</strong> Multiple bus lines serve the Universitat Politècnica area - check local transit apps for specific routes
         <strong>From Valencia Airport:</strong> Take Metro Line 3 or 5 directly to Universitat Politècnica
         <strong>From Valencia Central Station:</strong> Take Metro Line 3 or 5 to Universitat Politècnica
-        
+        -->
         <h3 class="text-lg font-bold">Parking:</h3>
-        Limited parking available on campus. We recommend using public transportation.
+        Limited parking available. We recommend using public transportation.
         `,
       },
     ],
