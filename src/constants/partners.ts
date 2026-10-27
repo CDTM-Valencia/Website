@@ -13,11 +13,6 @@ export const MAIN_SPONSOR: Sponsor = {
 
 export const CASE_SPONSORS: Sponsor[] = [
   {
-    name: "HP",
-    image: "/images/partners/catedra-hp.png",
-    link: "https://catedra-hp.webs.upv.es/",
-  },
-  {
     name: "sherpas",
     image: "/images/partners/sherpas_black_logo.jpg",
     link: "https://www.linkedin.com/company/sherpas-wealth/home/",
@@ -79,11 +74,6 @@ export const CHALLENGE_SPONSORS: Sponsor[] = [
     name: "ElevenLabs",
     image: "/images/partners/ElevenLabs_logo.png",
     link: "https://elevenlabs.io/",
-  },
-  {
-    name: "MercadonaIT",
-    image: "/images/partners/mercadonait_logo.png",
-    link: "https://info.mercadona.es/es/mercadonait",
   }
 ];
 
@@ -145,6 +135,16 @@ export const FOOD_SPONSORS: Sponsor[] = [
     name: "Red Bull",
     image: "/images/partners/redbulllogo.png",
     link: "https://www.redbull.com/",
+  },
+  {
+    name: "MercadonaIT",
+    image: "/images/partners/mercadonait_logo.png",
+    link: "https://info.mercadona.es/es/mercadonait",
+  },
+  {
+    name: "HP",
+    image: "/images/partners/catedra-hp.png",
+    link: "https://catedra-hp.webs.upv.es/",
   }
 ];
 
