@@ -23,6 +23,11 @@ export const CASE_SPONSORS: Sponsor[] = [
     class: "max-w-[200px]",
     link: "https://www.nttdata.com/",
   },
+  {
+    name: "IDEAS UPV",
+    image: "/images/partners/ideas_logo.png",
+    link: "https://www.upv.es/entidades/ideas/",
+  }
   /*Ocultos hasta confirmación de participación
   {
     name: "Maisa",
@@ -74,6 +79,11 @@ export const CHALLENGE_SPONSORS: Sponsor[] = [
     name: "ElevenLabs",
     image: "/images/partners/ElevenLabs_logo.png",
     link: "https://elevenlabs.io/",
+  },
+  {
+    name: "Improven",
+    image: "/images/partners/logo_improven_black.jpg",
+    link: "https://improven.com/",
   }
 ];
 
