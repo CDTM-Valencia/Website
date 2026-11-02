@@ -8,6 +8,30 @@ interface Speaker {
 }
 
 export const SPEAKERS: Speaker[] = [
+  {
+    name: "Juan Fuentes Fernández",
+    title: "Co-Chair, EBAN Sports | Expert Evaluator, European Institute of Innovation & Technology (EIT)",
+    company: "",
+    cdtmClass: "",
+    image: "/images/speaker/juan_fuentes.jpg",
+    linkedin: "https://www.linkedin.com/in/juanfuentesfernandez/",
+  },
+  {
+    name: "Iñigo de la Iglesia Santamaría",
+    title: "Investment Manager of Mission | Now, with Mission Fund I, we invest in extraordinary people who are building global technological solutions",
+    company: "",
+    cdtmClass: "",
+    image: "/images/speaker/inigo_iglesia.jpg",
+    linkedin: "https://www.linkedin.com/in/-inigo/",
+  },
+  {
+    name: "Alejandro Vignoni",
+    title: "Entrepeneurship Area Director of IDEAS UPV | Entrepeneurship Ecosystem Director of STARTUPV",
+    company: "",
+    cdtmClass: "",
+    image: "/images/speaker/alejo_vigno.jpg",
+    linkedin: "https://www.linkedin.com/in/alejovigno/",
+  }
   /*{
     name: "Ferran Pla Cardona",
     title: "Co-Founder CDTM Valencia",
