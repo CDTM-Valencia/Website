@@ -31,6 +31,22 @@ export const SPEAKERS: Speaker[] = [
     cdtmClass: "",
     image: "/images/speaker/alejo_vigno.jpg",
     linkedin: "https://www.linkedin.com/in/alejovigno/",
+  },
+  {
+    name: "Ana Moya Correcher",
+    title: "AI & Operations Lead at BuhoAI | Operations & IT Lead at Bioemprender",
+    company: "",
+    cdtmClass: "",
+    image: "/images/speaker/ana_moya.jpg",
+    linkedin: "https://www.linkedin.com/in/anamoyac/",
+  },
+  {
+    name: "Julián Fernández Calvo",
+    title: "Founder Buho AI | Your next coworker is already digital",
+    company: "",
+    cdtmClass: "",
+    image: "/images/speaker/julian_fer.jpg",
+    linkedin: "https://www.linkedin.com/in/julianfernandez-iaenmurcia/",
   }
   /*{
     name: "Ferran Pla Cardona",
