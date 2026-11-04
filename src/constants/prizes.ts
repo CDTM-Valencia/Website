@@ -95,10 +95,10 @@ export const CASH_PRIZES: PrizeCategory = {
   description: "Rewards for the top 2 teams",
   prizes: [
     {
-      name: "To be announced",
-      description: "",
-      sponsor: "",
-      sponsorLogo: "",
+      name: "Best Use of ElevenLabs Challenge",
+      description: "890 $ per person for the team that better applies ElevenLabs technology.",
+      sponsor: "ElevenLabs",
+      sponsorLogo: "/images/partners/ElevenLabs_logo.png",
       image: "",
     }
     /*
@@ -123,6 +123,13 @@ export const CASE_WINNERS_SWEATERS: PrizeCategory = {
   title: "Case Winners",
   description: "Sweaters for all participants",
   prizes: [
+    {
+      name: "Finanz Premium Plan ",
+      description: "1 full year of Premium per person to learn how to invest and manage your money (€84 of value per person / €420 per team of 5).",
+      sponsor: "Finanz",
+      sponsorLogo: "/images/partners/finanz_logo.png",
+      image: "",
+    },
     {
       name: "ElevenLabs Pro Plan",
       description: "3 free months per person ($297 of value per person / $1,485 per team of 5)",
@@ -162,7 +169,8 @@ export const CASE_WINNERS_BOTTLES: PrizeCategory = {
       sponsor: "",
       sponsorLogo: "",
       image: "",
-    }/*
+    }
+    /*
     {
       name: "Case Winners",
       description: "12 Event Bottles",

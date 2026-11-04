@@ -155,6 +155,11 @@ export const FOOD_SPONSORS: Sponsor[] = [
     name: "HP",
     image: "/images/partners/catedra-hp.png",
     link: "https://catedra-hp.webs.upv.es/",
+  },
+  {
+    name: "Finanz",
+    image: "/images/partners/finanz_logo.png",
+    link: "https://www.finanzapp.io/en",
   }
 ];
 

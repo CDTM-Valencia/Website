@@ -31,18 +31,18 @@ export function Prizes({ className = "" }: PrizesProps) {
 
 				{/* Winner Prizes - Combined */}
 				<PrizeDisplay
-					prizes={[
-						CASE_WINNERS_SWEATERS.prizes[0],
-						/*CASE_WINNERS_BOTTLES.prizes[0],
-						IBM_SPECIFIC_CASE.prizes[0],*/
-					]}
+					prizes={CASE_WINNERS_SWEATERS.prizes}
 					title="Winner Prizes"
 					description="Special prizes for winning teams"
 					icon={<Trophy className="h-8 w-8 text-yellow-500" />}
 				/>
-
-				{/* Cash Prizes Row */}
-				<CashPrizesRow prizes={CASH_PRIZES.prizes} />
+				{/*Case prizes*/}
+				<PrizeDisplay
+					prizes={CASH_PRIZES.prizes}
+					title="Challenge Prize"
+					description="Special prizes for challenge winners"
+					icon={<Trophy className="h-8 w-8 text-yellow-500" />}
+				/>
 			</div>
 		</section>
 	);
