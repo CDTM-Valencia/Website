@@ -187,7 +187,10 @@ If you face any situation that makes you feel unsafe or uncomfortable in the hac
         id: "wifi",
         title: "Internet Access",
         icon: "wifi",
-        content: `To Publish`,
+        content: `
+WIFI INVITADO
+Password: Campanilla2024
+        `,
       },
       {
         id: "schedule-overview",
@@ -199,7 +202,23 @@ If you face any situation that makes you feel unsafe or uncomfortable in the hac
         <div class="bg-gray-50 p-4 rounded-lg mb-4">
         <strong>21st November 2026 - A Intensive Day of Innovation</strong>
         </div>
-        Schedule to Publish
+        <table class="min-w-full text-left border border-gray-200 mb-4">
+          <thead>
+            <tr class="bg-gray-50">
+              <th class="px-4 py-2 border-b">Time</th>
+              <th class="px-4 py-2 border-b">Activity</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+              <td class="px-4 py-2 border-b">8:30</td>
+              <td class="px-4 py-2 border-b">Registration & Welcome</td>
+          </tr>
+          <tr>
+              <td class="px-4 py-2 border-b">19:00</td>
+              <td class="px-4 py-2 border-b">Closure</td>
+          </tr>
+          </tbody>
         <!--
         <table class="min-w-full text-left border border-gray-200 mb-4">
           <thead>
@@ -298,22 +317,16 @@ If you face any situation that makes you feel unsafe or uncomfortable in the hac
         icon: "award",
         content: `<h3 class="text-xl font-bold mb-2">🏆 What You Can Win</h3>
         
-        <strong>Main Prizes:</strong>
-        For the first two best projects no matter the case, you will be able to win the following prizes:
-        To Publish
-        <!--
-        • <strong>1st Place:</strong> €450 + Recognition
-        • <strong>2nd Place:</strong> 5 VDS Tickets + Recognition  
-        -->
         <strong>Winner Prizes:</strong>
         The best case projects will be able to win the following prizes:
-        To Publish
+        • <strong>Finanz Premium Plan:</strong> 1 full year of Premium per person to learn how to invest and manage your money (€84 of value per person / €420 per team of 5).
+        • <strong>ElevenLabs Pro Plan:</strong> 3 free months per person ($297 of value per person / $1,485 per team of 5).
         <!--
         • <strong>Case Winners:</strong> 12 Sweaters + 12 Bottles
         • <strong>IBM Special Prizes:</strong> 4 IBM caps + 4 IBM bottles 
         -->
         <strong>Challenge Prizes:</strong>
-        To Publish
+        • <strong>Best Use of ElevenLabs Challenge:</strong> 890 $ per person for the team that better applies ElevenLabs technology in its solution.
         <!--
         • <strong> Free </strong> access to <strong> Scientists360 </strong> program
         • <strong>S2 Grupo Cybersecurity Challenge:</strong> 4 × €120 Amazon vouchers for winning team
