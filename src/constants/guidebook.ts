@@ -211,12 +211,40 @@ Password: Campanilla2024
           </thead>
           <tbody>
           <tr>
-              <td class="px-4 py-2 border-b">8:30</td>
+              <td class="px-4 py-2 border-b">8:30-9:00</td>
               <td class="px-4 py-2 border-b">Registration & Welcome</td>
           </tr>
           <tr>
-              <td class="px-4 py-2 border-b">19:00</td>
-              <td class="px-4 py-2 border-b">Closure</td>
+              <td class="px-4 py-2 border-b">9:00-10:00</td>
+              <td class="px-4 py-2 border-b">Official Kick-off, Main Cases & Challenges Presentation</td>
+          </tr>
+          <tr>
+              <td class="px-4 py-2 border-b">10:00-16:45</td>
+              <td class="px-4 py-2 border-b">Hacking Time & Mentorship Rounds</td>
+          </tr>
+          <tr>
+              <td class="px-4 py-2 border-b">12:00</td>
+              <td class="px-4 py-2 border-b">Red Bull Energy Activation & Product Sampling</td>
+          </tr>
+          <tr>
+              <td class="px-4 py-2 border-b">13:30-14:00</td>
+              <td class="px-4 py-2 border-b">Working Lunch Break</td>
+          </tr>
+          <tr>
+              <td class="px-4 py-2 border-b">16:45</td>
+              <td class="px-4 py-2 border-b">HARD DEADLINE: Deliverable Submission on Polievalúa</td>
+          </tr>
+          <tr>
+              <td class="px-4 py-2 border-b">17:00-18:15</td>
+              <td class="px-4 py-2 border-b">Final Pitches - All 12 Teams (3min Pitch + 2min Q&A)</td>
+          </tr>
+          <tr>
+              <td class="px-4 py-2 border-b">18:15-18:45</td>
+              <td class="px-4 py-2 border-b">Jury Deliberation & Institutional Closing</td>
+          </tr>
+          <tr>
+              <td class="px-4 py-2 border-b">18:45-19:00</td>
+              <td class="px-4 py-2 border-b">Awards Ceremony & Official Family Photo</td>
           </tr>
           </tbody>
         <!--
@@ -321,12 +349,14 @@ Password: Campanilla2024
         The best case projects will be able to win the following prizes:
         • <strong>Finanz Premium Plan:</strong> 1 full year of Premium per person to learn how to invest and manage your money (€84 of value per person / €420 per team of 5).
         • <strong>ElevenLabs Pro Plan:</strong> 3 free months per person ($297 of value per person / $1,485 per team of 5).
+        • <strong>SCIENTISTS360 Self-Leadership Training:</strong> A full-day, in-person self-leadership training (8 hours) for every member of the winning team, led by Dr. Alba Gigante, founder of SCIENTISTS360.
         <!--
         • <strong>Case Winners:</strong> 12 Sweaters + 12 Bottles
         • <strong>IBM Special Prizes:</strong> 4 IBM caps + 4 IBM bottles 
         -->
         <strong>Challenge Prizes:</strong>
         • <strong>Best Use of ElevenLabs Challenge:</strong> 890 $ per person for the team that better applies ElevenLabs technology in its solution.
+        • <strong>Best MVP Ideation & Conceptualisation Challenge:</strong> The team that best ideates and evolves its MVP will visit Improven’s offices in January to see first-hand how a consultancy works with agile practices. On top of that, one of its members will join Improven’s next bootcamp (12 Feb–6 Mar), valued at around €2,060.
         <!--
         • <strong> Free </strong> access to <strong> Scientists360 </strong> program
         • <strong>S2 Grupo Cybersecurity Challenge:</strong> 4 × €120 Amazon vouchers for winning team
@@ -375,7 +405,7 @@ Password: Campanilla2024
         id: "cases-vs-challenges",
         title: "Cases vs. Challenges",
         icon: "star",
-        content: `There are <strong>three separate cases</strong> to choose from. Every team will work on <strong>exactly one case!</strong> All teams will opt to win the challenges by answering one question in the project submission form.
+        content: `There are <strong>two separate cases</strong> to choose from. Every team will work on <strong>exactly one case!</strong> All teams will opt to win the challenges by answering one question in the project submission form.
         `,
       },
       {
@@ -435,8 +465,19 @@ We strongly recommend providing GitHub and MVP links since they will be showcase
         id: "descriptions",
         title: "Case Descriptions",
         icon: "info",
-        content: `Here are the 3 exciting cases for CDTM Valencia Hacks 2026 - check out the links for up-to-date information: 
-To Publish
+        content: `Here are the 2 exciting cases for CDTM Valencia Hacks 2026 - check out the links for up-to-date information: 
+
+<strong>Case 1: NTT DATA - AI Talent Matcher </strong>
+
+<i>Introduction:</i>  Build a functional prototype of an AI Talent Matcher capable of semantically analyzing project staffing requirements and matching them against professional profiles beyond simple keywords. The system must rank candidates, explain recommendations with concrete evidence and gaps, and compare trade-offs across multiple positions. </i>
+
+<a class="underline text-springBlue" href ="https://drive.google.com/file/d/1vlWOMSNlFh7mKHiXkt9UNBZdhoLatgP3/view?usp=sharing" target="_blank"> Complete case description</a>
+
+<strong>Case 2: Sherpas - First to Know, First to Tell  </strong>
+
+<i>Introduction:</i> Turn regulatory and tax changes into proactive, personalized client relationships for US financial advisors. Build an AI workflow or agent that identifies which families are affected by a new rule, explains the exact financial impact in plain language, and drafts an advisor-approved follow-up sequence.
+
+<a class="underline text-springBlue" href ="https://drive.google.com/file/d/1lJy6hCw_hBst-ldyBrhcJkb7S1C-IzzV/view?usp=sharing" target="_blank"> Complete case description</a>
 <!--
 <strong>Case 1: Leaping AI </strong>
 
@@ -472,7 +513,35 @@ To Publish
         title: "Challenge Descriptions",
         icon: "info",
         content: `<h3 class="text-xl font-bold mb-2">Challenge Sponsors & Prizes</h3>
-To Publish
+
+<table class="min-w-full text-left border border-gray-200 mb-4">
+  <thead>
+    <tr>
+      <th class="px-4 py-2 border-b">Partner</th>
+      <th class="px-4 py-2 border-b">Challenge Description</th>
+      <th class="px-4 py-2 border-b">Prize</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="px-4 py-2 border-b">Improven</td>
+      <td class="px-4 py-2 border-b">Best MVP Ideation & Conceptualisation</td>
+      <td class="px-4 py-2 border-b">A visit to Improven’s offices and participation in Improven's bootcamp for one of its members.</td>
+    </tr>
+    <tr>
+      <td class="px-4 py-2 border-b">ElevenLabs</td>
+      <td class="px-4 py-2 border-b">Best Use of ElevenLabs</td>
+      <td class="px-4 py-2 border-b">890 $ per person</td>
+    </tr>
+  </tbody>
+</table>
+<h4 class="text-xl font-bold mb-2">Improven Challenge: Best MVP Ideation & Conceptualisation</h4>
+        <p class="mb-2">Think small, show early, and improve every loop. Build your main case MVP through at least 3 short iterative cycles, validating assumptions with real people outside your team and documenting every pivot in a visual loop logbook.</p>
+        <a class="underline text-springBlue" href ="https://drive.google.com/file/d/1z8l8Df3ODYynoQUlL68U7jgtQW_ZoLNS/view?usp=sharing" target="_blank"> Complete challenge description </a>
+
+<h4 class="text-xl font-bold mb-2">ElevenLabs Challenge: Best Use of ElevenLabs</h4>       
+        <p class="mb-2">Integrate ElevenLabs AI voice technology into your project—either inside your functional product (such as a voice agent or speech-to-text feature) or as the voiceover for your final demo video.</p>
+        <a class="underline text-springBlue" href ="https://drive.google.com/file/d/13YdSxoXqJUZ7B9hurbJmmOp1icvyEneQ/view?usp=sharing" target="_blank"> Complete challenge description </a>
 <!--
 <table class="min-w-full text-left border border-gray-200 mb-4">
   <thead>
@@ -657,7 +726,7 @@ To Publish
         icon: "users",
         content: `<strong class="text-xl font-bold mb-2">🤝 Connect with Industry Leaders!</strong>
 
-<p class="mb-2">CDTM Valencia Hacks 2025 is your gateway to the Valencia tech ecosystem and beyond. Here's what you can expect:</p>
+<p class="mb-2">CDTM Valencia Hacks 2026 is your gateway to the Valencia tech ecosystem and beyond. Here's what you can expect:</p>
 
 <h3 class="text-xl font-bold mb-2">🎯 Networking Opportunities</h3>
 <ul class="list-disc list-inside mb-2 ml-4">

@@ -27,6 +27,11 @@ export const CASE_SPONSORS: Sponsor[] = [
     name: "IDEAS UPV",
     image: "/images/partners/ideas_logo.png",
     link: "https://www.upv.es/entidades/ideas/",
+  },
+  {
+    name: "Maisa",
+    image: "/images/partners/maisa_logo.png",
+    link: "https://maisa.ai/",
   }
   /*Ocultos hasta confirmación de participación
   {
@@ -160,6 +165,11 @@ export const FOOD_SPONSORS: Sponsor[] = [
     name: "Finanz",
     image: "/images/partners/finanz_logo.png",
     link: "https://www.finanzapp.io/en",
+  },
+  {
+    name: "Scientists360",
+    image: "/images/partners/scientists360_2.svg",
+    link: "https://scientists360.com/",
   }
 ];
 

@@ -96,9 +96,16 @@ export const CASH_PRIZES: PrizeCategory = {
   prizes: [
     {
       name: "Best Use of ElevenLabs Challenge",
-      description: "890 $ per person for the team that better applies ElevenLabs technology.",
+      description: "890 $ per person for the team that better integrates and takes profit of ElevenLabs technology in its solution.",
       sponsor: "ElevenLabs",
       sponsorLogo: "/images/partners/ElevenLabs_logo.png",
+      image: "",
+    },
+    {
+      name: "Best MVP Ideation & Conceptualisation Challenge",
+      description: "The team that best ideates and evolves its MVP will visit Improven’s offices in January to see first-hand how a consultancy works with agile practices. On top of that, one of its members will join Improven’s next bootcamp (12 Feb–6 Mar), valued at around €2,060.",
+      sponsor: "Improven",
+      sponsorLogo: "/images/partners/logo_improven_black.jpg",
       image: "",
     }
     /*
@@ -132,9 +139,16 @@ export const CASE_WINNERS_SWEATERS: PrizeCategory = {
     },
     {
       name: "ElevenLabs Pro Plan",
-      description: "3 free months per person ($297 of value per person / $1,485 per team of 5)",
+      description: "3 free months per person ($297 of value per person / $1,485 per team of 5).",
       sponsor: "ElevenLabs",
       sponsorLogo: "/images/partners/ElevenLabs_logo.png",
+      image: "",
+    },
+    {
+      name: "SCIENTISTS360 Self-Leadership Training",
+      description: "A full-day, in-person self-leadership training (8 hours) for every member of the winning team, led by Dr. Alba Gigante, founder of SCIENTISTS360.",
+      sponsor: "Scientists360",
+      sponsorLogo: "/images/partners/scientists360_2.svg",
       image: "",
     }
     /*
