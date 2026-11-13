@@ -122,7 +122,7 @@ export const GUIDEBOOK_DATA: GuidebookSection[] = [
 1. Please go to The Terminal Hub.
 2. Show your ID.
 3. After the verification, you will be able to enter the room with your team.
-4. You will also get a goodie bag.
+4. You will also get a merch pack.
 5. And you're ready to start building. Enjoy CDTM Valencia Hacks 2026 🎉
 `,
       },
@@ -142,7 +142,51 @@ Valencia, Spain<br /><br />
 <p class="mt-4 mb-4">❗Please note that this is a intensive day hackathon event, so make sure to arrive on time!</p>
 
 <h3 class="text-xl font-bold mb-1">Event Schedule:</h3>
-• To Publish
+<table class="min-w-full text-left border border-gray-200 mb-4">
+          <thead>
+            <tr class="bg-gray-50">
+              <th class="px-4 py-2 border-b">Time</th>
+              <th class="px-4 py-2 border-b">Activity</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+              <td class="px-4 py-2 border-b">8:30-9:00</td>
+              <td class="px-4 py-2 border-b">Registration & Welcome</td>
+          </tr>
+          <tr>
+              <td class="px-4 py-2 border-b">9:00-10:00</td>
+              <td class="px-4 py-2 border-b">Official Kick-off, Main Cases & Challenges Presentation</td>
+          </tr>
+          <tr>
+              <td class="px-4 py-2 border-b">10:00-16:45</td>
+              <td class="px-4 py-2 border-b">Hacking Time & Mentorship Rounds</td>
+          </tr>
+          <tr>
+              <td class="px-4 py-2 border-b">12:00</td>
+              <td class="px-4 py-2 border-b">Red Bull Energy Activation & Product Sampling</td>
+          </tr>
+          <tr>
+              <td class="px-4 py-2 border-b">13:30-14:00</td>
+              <td class="px-4 py-2 border-b">Working Lunch Break</td>
+          </tr>
+          <tr>
+              <td class="px-4 py-2 border-b">16:45</td>
+              <td class="px-4 py-2 border-b">HARD DEADLINE: Deliverable Submission on Polievalúa</td>
+          </tr>
+          <tr>
+              <td class="px-4 py-2 border-b">17:00-18:15</td>
+              <td class="px-4 py-2 border-b">Final Pitches - All 12 Teams (3min Pitch + 2min Q&A)</td>
+          </tr>
+          <tr>
+              <td class="px-4 py-2 border-b">18:15-18:45</td>
+              <td class="px-4 py-2 border-b">Jury Deliberation & Institutional Closing</td>
+          </tr>
+          <tr>
+              <td class="px-4 py-2 border-b">18:45-19:00</td>
+              <td class="px-4 py-2 border-b">Awards Ceremony & Official Family Photo</td>
+          </tr>
+          </tbody>
 <!--
 • <strong>14:30 - 15:00:</strong> Registration & Welcome
 • <strong>15:00 - 15:30:</strong> Opening Ceremony & Case Presentations
@@ -313,6 +357,7 @@ Password: Campanilla2024
         • Instagram: <a class="underline text-springBlue" href='https://www.instagram.com/cdtm_vlc'>@centerlings</a>
         • LinkedIn: <a class="underline text-springBlue" href='https://www.linkedin.com/company/cdtm-valencia/'>@cdtm_valencia</a>
         • Discord: <a class = "underline text-springBlue" href = "https://discord.com/invite/dC8YAhNV"> CDTM VLC Hacks </a>
+        • WhatsApp: <a class = "underline text-springBlue" href = "https://chat.whatsapp.com/DeZZjAfrflZ1NCdnkMtBLv"> Private CDTM VLC Hacks WhatsApp group </a>
 
         <b class="text-xl font-bold mb-0">Questions?</b>
         Ask our team members (wearing "CDTM Valencia" shirts)
@@ -323,13 +368,12 @@ Password: Campanilla2024
         id: "food",
         title: "Food & Drinks",
         icon: "utensils",
-        content: `We provide free food and drinks throughout the 6-hour event:
+        content: `We provide free food and drinks throughout the more of the 10 hours of the event duration:
 
         <strong>🍽️ What's Included:</strong>
-        • Snacks and light refreshments
-        • Coffee, tea, and soft drinks
+        • Welcome coffee with pastries 
         • Water stations
-        • Energy bars and healthy options
+        • Working lunch (Finger buffet) served by The Terminal Hub
 
         <strong>💡 Simple Tips:</strong>
         • Stay hydrated - drink water regularly
@@ -419,7 +463,8 @@ Password: Campanilla2024
         id: "final-submission",
         title: "Final Submission",
         icon: "upload",
-        content: `To Publish
+        content: `The deadline is <strong>16:45 on 21st November</strong> - hard cut-off - no exceptions.
+        You will submit your final project through <a class="underline text-springBlue" href ="https://drive.google.com/file/d/1lJy6hCw_hBst-ldyBrhcJkb7S1C-IzzV/view?usp=sharing" target="_blank">Polievalúa</a>. 
 <!--The deadline is <strong>19:45 on 2nd October</strong> - hard cut-off - no exceptions.
 
 <h3 class="text-xl font-bold">Your submission should include:</h3>
@@ -745,7 +790,6 @@ We strongly recommend providing GitHub and MVP links since they will be showcase
 <h3 class="text-xl font-bold mb-2">🏆 Recognition & Portfolio</h3>
 <ul class="list-disc list-inside mb-2 ml-4">
   <li>Certificates for all participants</li>
-  <li>Portfolio-worthy project experience</li>
   <li>Industry recognition for winners</li>
   <li>Social media highlights and features</li>
 </ul>

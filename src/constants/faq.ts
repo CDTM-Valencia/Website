@@ -7,7 +7,7 @@ export const FAQS: FAQItem[] = [
   {
     question: "What is CDTM Valencia Hacks?",
     answer:
-      "CDTM Valencia Hacks is a intensive day hackathon, celebrated the 21st November (9:00 AM - 8:00 PM), where students come together to build innovative solutions. It's an opportunity to learn, connect, and turn ideas into reality while competing for exciting prizes.",
+      "CDTM Valencia Hacks is a intensive day hackathon, celebrated the 21st November (8:30 AM - 7:00 PM), where students come together to build innovative solutions. It's an opportunity to learn, connect, and turn ideas into reality while competing for exciting prizes.",
   },
   {
     question: "Who can participate?",

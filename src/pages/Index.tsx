@@ -318,7 +318,7 @@ const Index = () => {
                 </svg>
                 Terminal Hub
               </a>
-              ,9:00-20:00
+              ,8:30-19:00
             </span>
           )}
 
