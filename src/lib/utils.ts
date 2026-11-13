@@ -11,7 +11,7 @@ const APPLICATIONS_OPENS_AT_UTC = Date.parse('2026-09-29T22:00:00Z')
 
 // Applications close at end of day on 2026-11-13 (i.e., 2025-09-30 00:00 Europe/Madrid).
 // Europe/Madrid is UTC+2 (CEST), so cutoff in UTC is 2026-11-12T22:00:00Z.
-const APPLICATIONS_CLOSES_AT_UTC = Date.parse('2026-11-12T22:00:00Z')
+const APPLICATIONS_CLOSES_AT_UTC = Date.parse('2026-11-13T21:59:00Z')
 
 export function applicationsAreClosed(nowUtcMs: number = Date.now()): boolean {
   return nowUtcMs >= APPLICATIONS_CLOSES_AT_UTC
@@ -34,9 +34,9 @@ export function isBeforePartnerCtaCutoff(nowUtcMs: number = Date.now()): boolean
 
 // After applications close, we show an interim message asking applicants to
 // check their inboxes or contact vlc.hacks@cdtm.de for any doubts.
-// This runs until the end of the hackathon: 2025-10-02 21:00 Europe/Madrid (UTC+2),
-// which is 2025-10-02T19:00:00Z in UTC.
-const ANNOUNCEMENTS_UNTIL_UTC = Date.parse('2025-10-02T19:00:00Z')
+// This runs until the end of the hackathon: 2026-11-21 23:59 Europe/Madrid (UTC+2),
+// which is 2026-11-21T21:59:00Z in UTC.
+const ANNOUNCEMENTS_UNTIL_UTC = Date.parse('2026-11-21T21:59:00Z')
 
 export function isInPostCloseAnnouncementWindow(nowUtcMs: number = Date.now()): boolean {
   return nowUtcMs >= APPLICATIONS_CLOSES_AT_UTC && nowUtcMs < ANNOUNCEMENTS_UNTIL_UTC
