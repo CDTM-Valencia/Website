@@ -1,22 +1,45 @@
-import Footer from "@/components/Footer";
 import { GUIDEBOOK_DATA, IconName, iconMap } from "@/constants/guidebook";
 import * as Accordion from "@radix-ui/react-accordion";
-import * as ScrollArea from "@radix-ui/react-scroll-area";
 import { motion } from "framer-motion";
-import { ChevronDown, Edit, Search } from "lucide-react";
+import { Search } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
+import "@/styles/home.css";
+import "@/styles/guidebook.css";
 
-const Logo = () => (
-	<a
-		href="/"
-		className="inline-flex items-center group">
-		<img
-			src="/images/cdtm.png"
-			alt="CDTM Valencia Hacks"
-			className="h-10 w-auto"
-		/>
-	</a>
-);
+// The case descriptions appear automatically on the event day at 7:00 (Madrid time).
+// Until then, this text is shown instead. Preview them earlier with /guidebook?preview=day
+const CASES_VISIBLE_FROM = "2026-11-21T07:00:00+01:00";
+const CASES_PLACEHOLDER =
+	"The descriptions of the 2 exciting cases for CDTM Valencia Hacks 2026 will be published here on 21st November, before the kick-off.";
+const casesVisible = () =>
+	(typeof window !== "undefined" &&
+		new URLSearchParams(window.location.search).get("preview") === "day") ||
+	new Date() >= new Date(CASES_VISIBLE_FROM);
+const contentOf = (subsection: { id: string; content: string }) =>
+	subsection.id === "descriptions" && !casesVisible() ? CASES_PLACEHOLDER : subsection.content;
+
+// Display only: removes extra blank lines and hidden comments from the texts in
+// src/constants/guidebook.ts so they read cleanly. The texts themselves are not changed.
+const BLOCK = "h3|h4|table|thead|tbody|tr|th|td|iframe|p|ul|ol|li|div";
+const tidy = (html: string) =>
+	html
+		.replace(/<!--[\s\S]*?-->/g, "")
+		.replace(/[ \t]+\n/g, "\n")
+		.replace(/\n[ \t]+/g, "\n")
+		// Lines that start with "•" are shown as a tidy list
+		.replace(/(^|\n)((?:•[^\n]*(?:\n|$))+)/g, (_m, start: string, block: string) => {
+			const items = block
+				.split("\n")
+				.filter((l) => l.trim().startsWith("•"))
+				.map((l) => `<li>${l.trim().replace(/^•\s*/, "")}</li>`)
+				.join("");
+			return `${start}<ul class="gb-list">${items}</ul>\n`;
+		})
+		.replace(new RegExp(`\\s*(<\\/?(?:${BLOCK})\\b[^>]*>)\\s*`, "g"), "$1")
+		.replace(/<br\s*\/?>\s*\n/g, "<br />")
+		.replace(/\n{3,}/g, "\n\n")
+		.trim()
+		.replace(/^<(h3|h4)\b/, "<$1 data-first");
 
 // Helper function to render an icon by name
 const renderIcon = (name: IconName, size: number, color?: string) => {
@@ -28,10 +51,16 @@ const renderIcon = (name: IconName, size: number, color?: string) => {
 		/>
 	);
 };
-const githubEditUrl = `https://github.com/cdtm/cdtm-hacks/edit/main/website/src/constants/guidebook.ts`;
 
 const Guidebook = () => {
 	const [activeSection, setActiveSection] = useState(GUIDEBOOK_DATA[0].id);
+	// Checks the time every 30 seconds, so the cases appear at 7:00
+	// even if someone opened the page earlier and didn't reload it
+	const [, setTick] = useState(0);
+	useEffect(() => {
+		const timer = setInterval(() => setTick((t) => t + 1), 30000);
+		return () => clearInterval(timer);
+	}, []);
 	const [searchQuery, setSearchQuery] = useState("");
 	const [searchResults, setSearchResults] = useState<
 		Array<{ section: string; subsection: string; title: string }>
@@ -56,7 +85,7 @@ const Guidebook = () => {
 				.filter(
 					(subsection) =>
 						subsection.title.toLowerCase().includes(query) ||
-						subsection.content.toLowerCase().includes(query)
+						contentOf(subsection).toLowerCase().includes(query)
 				)
 				.map((subsection) => ({
 					section: section.id,
@@ -67,6 +96,20 @@ const Guidebook = () => {
 
 		setSearchResults(results);
 	}, [searchQuery]);
+
+	// Highlight the section you are reading in the side menu
+	useEffect(() => {
+		const observer = new IntersectionObserver(
+			(entries) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting) setActiveSection(entry.target.id);
+				});
+			},
+			{ rootMargin: "-30% 0px -60% 0px" }
+		);
+		Object.values(sectionRefs.current).forEach((el) => el && observer.observe(el));
+		return () => observer.disconnect();
+	}, []);
 
 	// Scroll to section when nav item is clicked
 	const scrollToSection = (sectionId: string) => {
@@ -128,30 +171,44 @@ const Guidebook = () => {
 	}, []); // Empty dependency array ensures this runs only once on mount
 
 	return (
-		<div className="min-h-[80vh] overflow-x-hidden bg-white pt-20 md:pt-24">
-			{/* Hero section */}
-			<div className="relative bg-white py-8 md:pt-8 md:pb-8">
-				<div className="container mx-auto px-4 relative z-10">
-					<h1 className="text-4xl md:text-5xl font-bold mb-4">
-						Hackathon Guidebook
+		<div className="vh gb">
+			{/* Header (same as the homepage) */}
+			<header className="vh-header gb-header">
+				<div className="vh-header-in">
+					<a href="/" className="vh-brand" aria-label="CDTM Valencia Hacks home">
+						<img src="/home/cdtm-vlc-white.png" alt="CDTM Valencia" />
+						<span className="vh-brand-sep" aria-hidden="true" />
+						<span className="vh-brand-txt">HACKS</span>
+					</a>
+					<nav className="vh-nav">
+						<a href="/">Home</a>
+						<a className="vh-nav-guide is-active" href="/guidebook">Guidebook</a>
+					</nav>
+				</div>
+			</header>
+
+			{/* Hero */}
+			<section className="gb-hero">
+				<div className="vh-wrap gb-hero-in">
+					<span className="vh-label">21 Nov 2026 · The Terminal Hub</span>
+					<h1>
+						<span className="vh-mask"><span>Hackathon Guidebook</span></span>
 					</h1>
-					<p className="text-xl max-w-3xl">
-						Everything you need to know about CDTM Valencia Hacks 2025
+					<p className="gb-hero-sub">
+						Everything you need to know about CDTM Valencia Hacks 2026
 					</p>
 				</div>
-			</div>
+			</section>
 
 			{/* Search bar */}
-			<div className="sticky top-20 md:top-24 z-30 bg-white shadow-md py-4">
-				<div className="container mx-auto px-4">
-					<div className="relative rounded-md shadow-sm">
-						<div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-							<Search className="h-5 w-5 text-gray-400" />
-						</div>
+			<div className="gb-search">
+				<div className="vh-wrap gb-search-in">
+					<div className="gb-search-box">
+						<Search className="gb-search-icon" aria-hidden="true" />
 						<input
 							type="text"
-							className="block w-full pl-10 pr-3 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-springBlue focus:border-springBlue sm:text-sm"
 							placeholder="Search the guidebook..."
+							aria-label="Search the guidebook"
 							value={searchQuery}
 							onChange={(e) => setSearchQuery(e.target.value)}
 						/>
@@ -159,171 +216,126 @@ const Guidebook = () => {
 
 					{/* Search results */}
 					{searchResults.length > 0 && (
-						<div className="absolute z-50 w-full max-w-2xl bg-white mt-1 rounded-md shadow-lg max-h-80 overflow-y-auto">
-							<ul className="py-1">
-								{searchResults.map((result, index) => (
-									<li key={index}>
-										<button
-											onClick={() =>
-												scrollToSubsection(result.section, result.subsection)
-											}
-											className="block w-full text-left px-4 py-2 hover:bg-gray-100">
-											<span className="text-sm text-springBlue font-medium">
-												{
-													GUIDEBOOK_DATA.find((s) => s.id === result.section)
-														?.title
-												}{" "}
-												&gt;
-											</span>
-											<span className="ml-2">{result.title}</span>
-										</button>
-									</li>
-								))}
-							</ul>
-						</div>
+						<ul className="gb-results">
+							{searchResults.map((result, index) => (
+								<li key={index}>
+									<button
+										onClick={() =>
+											scrollToSubsection(result.section, result.subsection)
+										}>
+										<span className="gb-results-sec">
+											{GUIDEBOOK_DATA.find((s) => s.id === result.section)?.title}
+										</span>
+										<span>{result.title}</span>
+									</button>
+								</li>
+							))}
+						</ul>
 					)}
 				</div>
+				<div className="vh-progress" aria-hidden="true" />
 			</div>
 
 			{/* Navigation and content */}
-			<div className="container mx-auto px-4 py-8 flex flex-col md:flex-row gap-8">
+			<div className="vh-wrap gb-body">
 				{/* Side navigation */}
-				<div className="md:w-1/4 lg:w-1/5">
-					<div className="sticky top-28 md:top-32 bg-white rounded-lg shadow-md p-4">
-						<nav className="space-y-1">
-							{GUIDEBOOK_DATA.map((section) => (
-								<div key={section.id}>
-									<button
-										onClick={() => scrollToSection(section.id)}
-										className={`flex items-center px-3 py-2 text-sm font-medium rounded-md w-full text-left transition-colors ${
-											activeSection === section.id
-												? "bg-springBlue text-white"
-												: "text-gray-600 hover:text-springBlue hover:bg-gray-100"
-										}`}>
-										<span className="mr-3 w-5 h-5  flex items-center justify-center">
-											{renderIcon(section.icon, 16)}
-										</span>
-										{section.title}
-									</button>
-									{/* Subsection navigation */}
-									<div className="ml-7 mt-1 space-y-1">
-										{section.subsections.map((subsection) => (
-											<button
-												key={subsection.id}
-												onClick={() => {
-													scrollToSubsection(section.id, subsection.id);
-												}}
-												className="block text-left text-xs text-gray-500 hover:text-springBlue w-full px-2 py-1 rounded transition-colors">
-												{subsection.title}
-											</button>
-										))}
-									</div>
-								</div>
-							))}
-						</nav>
-					</div>
-				</div>
-
-				{/* Main content */}
-				<div className="md:w-3/4 lg:w-4/5">
-					<ScrollArea.Root className="overflow-hidden">
-						<ScrollArea.Viewport className="w-full">
-							{GUIDEBOOK_DATA.map((section) => (
-								<section
-									key={section.id}
-									id={section.id}
-									ref={(el) => (sectionRefs.current[section.id] = el)}
-									className="mb-12">
-									<div className="flex items-center mb-6">
-										<div className="w-8 h-8 rounded-lg bg-springBlue flex items-center justify-center mr-4">
-											{renderIcon(section.icon, 20, "white")}
-										</div>
-										<h2 className="text-2xl md:text-3xl font-bold text-gray-800">
-											{section.title}
-										</h2>
-									</div>
-
-									<Accordion.Root
-										type="multiple"
-										className="space-y-4">
-										{section.subsections.map((subsection) => (
-											<>
-												{/* Unique anchor for direct linking */}
-												<a id={`${section.id}-${subsection.id}`}></a>
-												<Accordion.Item
-													key={subsection.id}
-													value={subsection.id}
-													id={subsection.id}
-													className="bg-white rounded-lg shadow border border-gray-100 overflow-hidden group">
-													<div className="relative">
-														<Accordion.Trigger
-															id={`accordion-trigger-${subsection.id}`}
-															className="flex items-center justify-between w-full px-4 py-3 text-left focus:outline-none focus:ring-2 focus:ring-springBlue group">
-															<div className="flex items-center gap-2">
-																<span className="w-7 h-7 rounded-md bg-springBlue/10 flex items-center justify-center text-springBlue">
-																	{renderIcon(subsection.icon, 16)}
-																</span>
-																<span className="text-base font-medium text-gray-700">
-																	{subsection.title}
-																</span>
-															</div>
-
-															<ChevronDown className="w-4 h-4 text-gray-400 transform transition-transform duration-300" />
-														</Accordion.Trigger>
-													</div>
-													<Accordion.Content className="px-4 py-3 bg-gray-50 text-gray-700">
-														<motion.div
-															initial={{ opacity: 0, y: -10 }}
-															animate={{ opacity: 1, y: 0 }}
-															transition={{ duration: 0.2 }}>
-															<div
-																className="whitespace-pre-line"
-																dangerouslySetInnerHTML={{
-																	__html: subsection.content,
-																}}
-															/>
-														</motion.div>
-													</Accordion.Content>
-												</Accordion.Item>
-											</>
-										))}
-									</Accordion.Root>
-								</section>
-							))}
-
-							{/* GitHub edit section */}
-							<div className="text-center py-8 border-t border-gray-200 mt-12">
-								<div className="max-w-2xl mx-auto">
-									<h3 className="text-lg font-semibold text-gray-700 mb-2">
-										Improve this guidebook
-									</h3>
-									<p className="text-gray-600 mb-4">
-										Found a typo or want to add more information? This guidebook
-										is open source!
-									</p>
-									<div className="flex justify-center space-x-4">
-										<a
-											href={githubEditUrl}
-											target="_blank"
-											rel="noopener noreferrer"
-											className="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-springBlue hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-springBlue">
-											<Edit className="h-5 w-5 mr-2" />
-											Edit on GitHub
-										</a>
-									</div>
+				<aside className="gb-side">
+					<nav className="gb-side-in">
+						{GUIDEBOOK_DATA.map((section) => (
+							<div key={section.id} className="gb-side-group">
+								<button
+									onClick={() => scrollToSection(section.id)}
+									className={`gb-side-sec${activeSection === section.id ? " is-active" : ""}`}>
+									<span className="gb-side-icon">{renderIcon(section.icon, 15)}</span>
+									{section.title}
+								</button>
+								<div className="gb-side-subs">
+									{section.subsections.map((subsection) => (
+										<button
+											key={subsection.id}
+											onClick={() => {
+												scrollToSubsection(section.id, subsection.id);
+											}}>
+											{subsection.title}
+										</button>
+									))}
 								</div>
 							</div>
-						</ScrollArea.Viewport>
-						<ScrollArea.Scrollbar
-							className="flex select-none touch-none p-0.5 bg-gray-100 transition-colors duration-150 ease-out hover:bg-gray-200 data-[orientation=vertical]:w-2.5 data-[orientation=horizontal]:flex-col data-[orientation=horizontal]:h-2.5"
-							orientation="vertical">
-							<ScrollArea.Thumb className="flex-1 bg-gray-300 rounded-full relative before:content-[''] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-full before:h-full before:min-w-[44px] before:min-h-[44px]" />
-						</ScrollArea.Scrollbar>
-					</ScrollArea.Root>
+						))}
+					</nav>
+				</aside>
+
+				{/* Main content */}
+				<div className="gb-main">
+					{GUIDEBOOK_DATA.map((section) => (
+						<section
+							key={section.id}
+							id={section.id}
+							ref={(el) => (sectionRefs.current[section.id] = el)}
+							className="gb-section">
+							<div className="gb-section-head">
+								<h2>{section.title}</h2>
+							</div>
+							<span className="gb-rule vh-draw" aria-hidden="true" />
+
+							<Accordion.Root type="multiple" className="gb-acc">
+								{section.subsections.map((subsection) => (
+									<div key={subsection.id} className="vh-st">
+										{/* Unique anchor for direct linking */}
+										<a id={`${section.id}-${subsection.id}`} className="gb-anchor"></a>
+										<Accordion.Item
+											value={subsection.id}
+											id={subsection.id}
+											className="gb-item">
+											<Accordion.Trigger
+												id={`accordion-trigger-${subsection.id}`}
+												className="gb-trigger">
+												<span className="gb-trigger-l">
+													<span className="gb-item-icon">
+														{renderIcon(subsection.icon, 16)}
+													</span>
+													<span className="gb-item-title">{subsection.title}</span>
+												</span>
+												<span className="gb-plus" aria-hidden="true">+</span>
+											</Accordion.Trigger>
+											<Accordion.Content className="gb-content">
+												<motion.div
+													initial={{ opacity: 0, y: -10 }}
+													animate={{ opacity: 1, y: 0 }}
+													transition={{ duration: 0.25 }}>
+													<div
+														className="gb-prose"
+														dangerouslySetInnerHTML={{
+															__html: tidy(contentOf(subsection)),
+														}}
+													/>
+												</motion.div>
+											</Accordion.Content>
+										</Accordion.Item>
+									</div>
+								))}
+							</Accordion.Root>
+						</section>
+					))}
+
 				</div>
 			</div>
 
-			<Footer />
+			{/* Footer (same as the homepage) */}
+			<footer className="vh-footer">
+				<div className="vh-wrap vh-footer-in">
+					<div className="vh-footer-main">
+						<strong>CDTM VALENCIA HACKS 2026</strong>
+						<span>Contact · <a href="mailto:vlc.hacks@cdtm.com">vlc.hacks@cdtm.com</a></span>
+						<small>© 2026 CDTM Valencia</small>
+					</div>
+					<div className="vh-footer-links">
+						<a href="https://cdtm-valencia.notion.site/cdtm-hacks-2025-terms-conditions" target="_blank" rel="noopener noreferrer">Terms &amp; conditions</a>
+						<a href="https://cdtm.com/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy policy</a>
+						<a href="https://cdtm.com/legal" target="_blank" rel="noopener noreferrer">Impressum</a>
+					</div>
+				</div>
+			</footer>
 		</div>
 	);
 };

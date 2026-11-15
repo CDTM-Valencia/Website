@@ -134,7 +134,7 @@ export const GUIDEBOOK_DATA: GuidebookSection[] = [
 <h3 class="text-xl font-bold mb-1">Event Venue - The Terminal Hub:</h3>
 Poblats Marítims<br />
 Valencia, Spain<br /><br />
-<iframe src="https://www.google.com/maps?q=The+Terminal+Hub+Valencia&output=embed" width="100%" height="300" style="border:0; border-radius: 8px; margin-top: 12px; margin-bottom: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://maps.google.com/maps?q=The+Terminal+Hub,+Sector+Puerto+1,+46024+Valencia&z=16&output=embed" width="100%" height="300" style="border:0; border-radius: 8px; margin-top: 12px; margin-bottom: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 <!--
 • The doors open on 2nd October at 14:30 (2:30 PM).
 • Please make sure to arrive no later than 14:30 (2:30 PM) so we can kick things off smoothly together.
@@ -399,7 +399,7 @@ Password: Campanilla2024
         • <strong>IBM Special Prizes:</strong> 4 IBM caps + 4 IBM bottles 
         -->
         <strong>Challenge Prizes:</strong>
-        • <strong>Best Use of ElevenLabs Challenge:</strong> 890 $ per person for the team that better applies ElevenLabs technology in its solution.
+        • <strong>Best Use of ElevenLabs Challenge:</strong> The team with the best project built with ElevenLabs wins 3 months of the ElevenLabs Scale plan for each team member ($897 of value per person, 1.8M credits per month).
         • <strong>Best MVP Ideation & Conceptualisation Challenge:</strong> The team that best ideates and evolves its MVP will visit Improven’s offices in January to see first-hand how a consultancy works with agile practices. On top of that, one of its members will join Improven’s next bootcamp (12 Feb–6 Mar), valued at around €2,060.
         <!--
         • <strong> Free </strong> access to <strong> Scientists360 </strong> program
@@ -409,7 +409,7 @@ Password: Campanilla2024
         • <strong>ElevenLabs Creator Plan:</strong> 1 free month of ElevenLabs Creator Plan ($22/month per person) 
         • <strong>Lovable Credits:</strong> Free credits for Lovable AI platform
         • <strong>Notion Template:</strong> Official Notion template and support
-        • <strong>Event Pack: </strong> Exclusive merchandising, complete catering (breakfast, lunch, and dinner/snacks), and Red Bull  
+        • <strong>Event Pack: </strong> Exclusive merchandising, complete catering (breakfast, lunch, and snacks), and Red Bull  
         
         <h3 class="text-xl font-bold mb-2">🎯 How to Win</h3>
         • Build innovative solutions to real-world challenges
@@ -464,7 +464,7 @@ Password: Campanilla2024
         title: "Final Submission",
         icon: "upload",
         content: `The deadline is <strong>16:45 on 21st November</strong> - hard cut-off - no exceptions.
-        You will submit your final project through <a class="underline text-springBlue" href ="https://drive.google.com/file/d/1lJy6hCw_hBst-ldyBrhcJkb7S1C-IzzV/view?usp=sharing" target="_blank">Polievalúa</a>. 
+        You will submit your final project through Polievalúa. 
 <!--The deadline is <strong>19:45 on 2nd October</strong> - hard cut-off - no exceptions.
 
 <h3 class="text-xl font-bold">Your submission should include:</h3>
@@ -576,7 +576,7 @@ We strongly recommend providing GitHub and MVP links since they will be showcase
     <tr>
       <td class="px-4 py-2 border-b">ElevenLabs</td>
       <td class="px-4 py-2 border-b">Best Use of ElevenLabs</td>
-      <td class="px-4 py-2 border-b">890 $ per person</td>
+      <td class="px-4 py-2 border-b">3 months of ElevenLabs Scale plan per person ($897 of value per person)</td>
     </tr>
   </tbody>
 </table>
@@ -849,6 +849,8 @@ To Publish
         icon: "building",
         content: `The Center for Digital Technology and Management (CDTM) is a joint entrepreneurship-focused program by the Technical University of Munich and Ludwig-Maximilians-Universität, with a community of 1,000+ students and alumni who have founded 20% of German unicorns, raised 11% of Germany's VC funding ($1.2B in 2022), and lead research at MIT, Google DeepMind, and Stanford.
 
+CDTM has been in Valencia since 2023, hand in hand with the Universitat de València (UV) and the Universitat Politècnica de València (UPV). We help ambitious, proactive students go beyond the classroom by connecting them with companies to work on real innovation projects. Along the way, they gain the skills to build their own startup or boost their career.
+
 <h3 class="text-xl font-bold mb-2">🌍 CDTM Goes Global</h3>
 CDTM Valencia Hacks 2026 represents our commitment to fostering innovation beyond Munich. We're bringing our expertise in entrepreneurship and technology to Valencia, collaborating with UPV to create a unique hackathon experience.
 
@@ -870,7 +872,7 @@ The Universitat Politècnica de València (UPV) is one of Spain's leading techni
         content: `
         The Terminal Hub is located in Valencia, Spain. Here are the best ways to reach the venue:
 
-        Just use Google Maps to find the best way to get to the venue: <iframe src="https://www.google.com/maps?q=The+Terminal+Hub+Valencia&output=embed" width="100%" height="300" style="border:0; border-radius: 8px; margin-top: 12px; margin-bottom: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        Just use Google Maps to find the best way to get to the venue: <iframe src="https://maps.google.com/maps?q=The+Terminal+Hub,+Sector+Puerto+1,+46024+Valencia&z=16&output=embed" width="100%" height="300" style="border:0; border-radius: 8px; margin-top: 12px; margin-bottom: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         
         <!--
         <h3 class="text-lg font-bold">Public Transportation:</h3>

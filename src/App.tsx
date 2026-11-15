@@ -3,7 +3,7 @@ import { Toaster as Sonner } from '@/components/ui/sonner';
 import { TooltipProvider } from '@/components/ui/tooltip';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Index from './pages/Index';
+import Home from './pages/Home';
 import Layout from '@/components/Layout';
 import NotFound from './pages/NotFound';
 import Projects from './pages/Projects';
@@ -23,14 +23,7 @@ const App = () => (
         <Sonner />
         <BrowserRouter>
           <Routes>
-            <Route
-              path="/"
-              element={
-                <Layout>
-                  <Index />
-                </Layout>
-              }
-            />
+            <Route path="/" element={<Home />} />
             {/* Local redirects to match vercel.json */}
             <Route
               path="/apply"
@@ -78,11 +71,7 @@ const App = () => (
             />
             <Route
               path="/guidebook"
-              element={
-                <Layout>
-                  <Guidebook />
-                </Layout>
-              }
+              element={<Guidebook />}
             />
             {/* Keep legacy internal submission page if needed */}
             {/* <Route path="/submission" element={<Submission />} /> */}
