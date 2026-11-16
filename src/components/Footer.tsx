@@ -44,7 +44,7 @@ const Footer = () => {
 					</p>
 					<div className="flex gap-2">
 						<a
-							href="https://cdtm-valencia.notion.site/cdtm-hacks-2025-terms-conditions?source=copy_link"
+							href="https://kind-leader-37e.notion.site/CDTM-Hacks-2026-Terms-Conditions-public-3675dfc75bb7805fbbe9ea3bf075f30d"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="text-blue-200 hover:text-white underline">

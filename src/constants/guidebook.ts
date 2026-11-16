@@ -141,6 +141,12 @@ Valencia, Spain<br /><br />
 -->
 <p class="mt-4 mb-4">❗Please note that this is a intensive day hackathon event, so make sure to arrive on time!</p>
 
+<h3 class="text-xl font-bold mb-1">How to get there:</h3>
+Use the map above or Google Maps to find the best way to get to the venue. We recommend using public transportation.
+
+<h3 class="text-xl font-bold mb-1">Parking:</h3>
+Limited parking available.
+
 <h3 class="text-xl font-bold mb-1">Event Schedule:</h3>
 <table class="min-w-full text-left border border-gray-200 mb-4">
           <thead>
@@ -187,6 +193,7 @@ Valencia, Spain<br /><br />
               <td class="px-4 py-2 border-b">Awards Ceremony & Official Family Photo</td>
           </tr>
           </tbody>
+</table>
 <!--
 • <strong>14:30 - 15:00:</strong> Registration & Welcome
 • <strong>15:00 - 15:30:</strong> Opening Ceremony & Case Presentations
@@ -457,14 +464,14 @@ Password: Campanilla2024
         title: "Case Preference",
         icon: "checkSquare",
         content: `The preference selection is done <strong>before the Hackathon starts</strong>.
-        The team leader will decide the ranking of the cases and submit your preferences <strong>before 21/11/2025 00:00</strong>`,
+        The team leader will decide the ranking of the cases and submit your preferences <strong>before Tuesday 17/11/2026 at 23:59</strong>`,
       },
       {
         id: "final-submission",
         title: "Final Submission",
         icon: "upload",
         content: `The deadline is <strong>16:45 on 21st November</strong> - hard cut-off - no exceptions.
-        You will submit your final project through Polievalúa. 
+        You will submit your final project through <a class="underline text-springBlue" href="https://polievalua.tech/" target="_blank" rel="noopener noreferrer">Polievalúa</a>. 
 <!--The deadline is <strong>19:45 on 2nd October</strong> - hard cut-off - no exceptions.
 
 <h3 class="text-xl font-bold">Your submission should include:</h3>
@@ -558,6 +565,7 @@ We strongly recommend providing GitHub and MVP links since they will be showcase
         title: "Challenge Descriptions",
         icon: "info",
         content: `<h3 class="text-xl font-bold mb-2">Challenge Sponsors & Prizes</h3>
+<p class="mb-2">📌 <strong>Please read the challenges before the event</strong>, so your team arrives knowing how to include them in your project.</p>
 
 <table class="min-w-full text-left border border-gray-200 mb-4">
   <thead>
@@ -587,6 +595,7 @@ We strongly recommend providing GitHub and MVP links since they will be showcase
 <h4 class="text-xl font-bold mb-2">ElevenLabs Challenge: Best Use of ElevenLabs</h4>       
         <p class="mb-2">Integrate ElevenLabs AI voice technology into your project—either inside your functional product (such as a voice agent or speech-to-text feature) or as the voiceover for your final demo video.</p>
         <a class="underline text-springBlue" href ="https://drive.google.com/file/d/13YdSxoXqJUZ7B9hurbJmmOp1icvyEneQ/view?usp=sharing" target="_blank"> Complete challenge description </a>
+        <p class="mt-2">⚠️ <strong>Claim your free ElevenLabs credits before the event</strong>, using <strong>the same email you used to apply</strong>. Step by step in <em>Available Tools & Resources</em>.</p>
 <!--
 <table class="min-w-full text-left border border-gray-200 mb-4">
   <thead>
@@ -803,7 +812,22 @@ We strongly recommend providing GitHub and MVP links since they will be showcase
         content: `<h3 class="text-xl font-bold ">Tech Resources & Tools</h3>
 We provide access to various tools and resources to help you build amazing solutions during the hackathon.
 
-To Publish
+<h3 class="text-xl font-bold mb-2">ElevenLabs credits</h3>
+Every participant gets 1 free month of the ElevenLabs Creator plan ($22 value). Use it to add AI voice to your project: text to speech, speech to text, voice agents, music or sound effects.
+<p class="mt-2 mb-2">⚠️ <strong>Important: use the same email address you used to apply to CDTM Valencia Hacks.</strong> The codes are linked to that email, so with any other address the bot will not find you.</p>
+<strong>When:</strong> we will let you know by email when the codes are ready. In the meantime, watch the <a class="underline text-springBlue" href="https://www.youtube.com/watch?v=S143_JtCtV8" target="_blank" rel="noopener noreferrer">video tutorial</a> so you know how it works, and claim your code as soon as we tell you, before the event.
+
+<strong>How to claim it:</strong>
+• Join the ElevenLabs Discord: <a class="underline text-springBlue" href="https://discord.com/invite/VnBvbbcdEC" target="_blank" rel="noopener noreferrer">discord.com/invite/VnBvbbcdEC</a>
+• Go to the #🎟️│coupon-codes channel and click "Start Redemption"
+• Select the event and fill out the form with <strong>the email you used to apply</strong>. The bot will send you your coupon code.
+All documentation and links: <a class="underline text-springBlue" href="https://docs.google.com/document/d/1mCh5MtOzBw0aJpurQVUmIVFfPMAHW3MjNemE-LNiMto/edit?usp=sharing" target="_blank" rel="noopener noreferrer">ElevenLabs Hacker Guide</a>
+
+<h3 class="text-xl font-bold mb-2">Notion template</h3>
+Your team's workspace for the day. Use the official Notion template to organise your tasks, notes and ideas in one place. We will explain how to access it at the event, where there will also be a Notion workshop.
+
+<h3 class="text-xl font-bold mb-2">Lovable credits</h3>
+Free credits for Lovable, an AI platform that turns a description into a working web app. Use them to build a quick prototype or demo of your solution without coding everything from scratch. We will explain how to redeem them at the event.
 <!--
 <h3 class="text-xl font-bold mb-2">🛠️ Development Tools</h3>
 <table class="min-w-full text-left border border-gray-200">
@@ -864,26 +888,6 @@ The Universitat Politècnica de València (UPV) is one of Spain's leading techni
 • Ask about opportunities for international collaboration
 
 <p class="mt-2"><strong>Pro Tip:</strong> Look for CDTM students wearing our merchandise - they're here to help and share their experiences!</p>`,
-      },
-      {
-        id: "local",
-        title: "Local Transportation",
-        icon: "truck",
-        content: `
-        The Terminal Hub is located in Valencia, Spain. Here are the best ways to reach the venue:
-
-        Just use Google Maps to find the best way to get to the venue: <iframe src="https://maps.google.com/maps?q=The+Terminal+Hub,+Sector+Puerto+1,+46024+Valencia&z=16&output=embed" width="100%" height="300" style="border:0; border-radius: 8px; margin-top: 12px; margin-bottom: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        
-        <!--
-        <h3 class="text-lg font-bold">Public Transportation:</h3>
-        <strong>Metro:</strong> Line 3 or 5 to Universitat Politècnica station → 5 min walk
-        <strong>Bus:</strong> Multiple bus lines serve the Universitat Politècnica area - check local transit apps for specific routes
-        <strong>From Valencia Airport:</strong> Take Metro Line 3 or 5 directly to Universitat Politècnica
-        <strong>From Valencia Central Station:</strong> Take Metro Line 3 or 5 to Universitat Politècnica
-        -->
-        <h3 class="text-lg font-bold">Parking:</h3>
-        Limited parking available. We recommend using public transportation.
-        `,
       },
     ],
   },

@@ -51,6 +51,18 @@ const Home = () => {
   const [openFaq, setOpenFaq] = useState(-1);
   const [headerHidden, setHeaderHidden] = useState(false);
   const lastY = useRef(0);
+  // Phones (iPhone above all) only autoplay a video when it is muted as an HTML attribute,
+  // which React does not set by itself, so it is set here and playback is started by hand.
+  const heroVideo = useRef<HTMLVideoElement>(null);
+  useEffect(() => {
+    const v = heroVideo.current;
+    if (!v) return;
+    v.muted = true;
+    v.defaultMuted = true;
+    v.setAttribute('muted', '');
+    v.setAttribute('playsinline', '');
+    v.play().catch(() => {});
+  }, []);
 
   useEffect(() => {
     const onScroll = () => {
@@ -97,6 +109,7 @@ const Home = () => {
       {/* Hero */}
       <section className="vh-hero">
         <video
+          ref={heroVideo}
           className="vh-hero-video"
           src="/home/hero.mp4"
           poster="/home/hero-poster.jpg"
@@ -393,7 +406,7 @@ const Home = () => {
             <small>© 2026 CDTM Valencia</small>
           </div>
           <div className="vh-footer-links">
-            <a href="https://cdtm-valencia.notion.site/cdtm-hacks-2025-terms-conditions" {...ext}>Terms &amp; conditions</a>
+            <a href="https://kind-leader-37e.notion.site/CDTM-Hacks-2026-Terms-Conditions-public-3675dfc75bb7805fbbe9ea3bf075f30d" {...ext}>Terms &amp; conditions</a>
             <a href="https://cdtm.com/privacy-policy" {...ext}>Privacy policy</a>
             <a href="https://cdtm.com/legal" {...ext}>Impressum</a>
           </div>

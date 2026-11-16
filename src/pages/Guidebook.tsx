@@ -10,7 +10,7 @@ import "@/styles/guidebook.css";
 // Until then, this text is shown instead. Preview them earlier with /guidebook?preview=day
 const CASES_VISIBLE_FROM = "2026-11-21T07:00:00+01:00";
 const CASES_PLACEHOLDER =
-	"The descriptions of the 2 exciting cases for CDTM Valencia Hacks 2026 will be published here on 21st November, before the kick-off.";
+	"The descriptions of the 2 exciting cases for CDTM Valencia Hacks 2026 will be published here and presented during the kick-off on 21st November.";
 const casesVisible = () =>
 	(typeof window !== "undefined" &&
 		new URLSearchParams(window.location.search).get("preview") === "day") ||
@@ -330,7 +330,7 @@ const Guidebook = () => {
 						<small>© 2026 CDTM Valencia</small>
 					</div>
 					<div className="vh-footer-links">
-						<a href="https://cdtm-valencia.notion.site/cdtm-hacks-2025-terms-conditions" target="_blank" rel="noopener noreferrer">Terms &amp; conditions</a>
+						<a href="https://kind-leader-37e.notion.site/CDTM-Hacks-2026-Terms-Conditions-public-3675dfc75bb7805fbbe9ea3bf075f30d" target="_blank" rel="noopener noreferrer">Terms &amp; conditions</a>
 						<a href="https://cdtm.com/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy policy</a>
 						<a href="https://cdtm.com/legal" target="_blank" rel="noopener noreferrer">Impressum</a>
 					</div>
