@@ -15,8 +15,14 @@ const casesVisible = () =>
 	(typeof window !== "undefined" &&
 		new URLSearchParams(window.location.search).get("preview") === "day") ||
 	new Date() >= new Date(CASES_VISIBLE_FROM);
+// Inside any text: <!--day-->...<!--/day--> only shows from that moment,
+// and <!--pre-->...<!--/pre--> only shows before it.
+const byDay = (html: string) =>
+	casesVisible()
+		? html.replace(/<!--pre-->[\s\S]*?<!--\/pre-->/g, "")
+		: html.replace(/<!--day-->[\s\S]*?<!--\/day-->/g, "");
 const contentOf = (subsection: { id: string; content: string }) =>
-	subsection.id === "descriptions" && !casesVisible() ? CASES_PLACEHOLDER : subsection.content;
+	subsection.id === "descriptions" && !casesVisible() ? CASES_PLACEHOLDER : byDay(subsection.content);
 
 // Display only: removes extra blank lines and hidden comments from the texts in
 // src/constants/guidebook.ts so they read cleanly. The texts themselves are not changed.

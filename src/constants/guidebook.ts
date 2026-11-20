@@ -472,6 +472,48 @@ Password: Campanilla2024
         icon: "upload",
         content: `The deadline is <strong>16:45 on 21st November</strong> - hard cut-off - no exceptions.
         You will submit your final project through <a class="underline text-springBlue" href="https://polievalua.tech/" target="_blank" rel="noopener noreferrer">Polievalúa</a>. 
+
+<h3 class="text-xl font-bold mb-1">Your submission must include:</h3>
+• <strong>Pitch deck</strong>
+• <strong>GitHub repository</strong> with a README
+• <strong>Demo video</strong>
+<p class="mt-2 mb-4">⚠️ Make sure <strong>all links are public</strong>, so the jury can open them without logging in.</p>
+
+<h3 class="text-xl font-bold mb-1">Final pitch:</h3>
+Every team pitches in front of the jury: <strong>3 minutes of pitch + 2 minutes of Q&A</strong>.
+
+<h3 class="text-xl font-bold mb-1">Evaluation criteria (same for both cases):</h3>
+<table class="min-w-full text-left border border-gray-200 mb-4">
+  <thead>
+    <tr class="bg-gray-50">
+      <th class="px-4 py-2 border-b">Criteria</th>
+      <th class="px-4 py-2 border-b">Weight</th>
+      <th class="px-4 py-2 border-b">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="px-4 py-2 border-b">Technical execution & MVP</td>
+      <td class="px-4 py-2 border-b">30%</td>
+      <td class="px-4 py-2 border-b">The quality and robustness of the working prototype built during the event. We reward solutions that actually work (not just a static design), the technical complexity solved, the effective integration of data/APIs and the viability of the proposed architecture.</td>
+    </tr>
+    <tr>
+      <td class="px-4 py-2 border-b">Challenge resolution & innovation</td>
+      <td class="px-4 py-2 border-b">25%</td>
+      <td class="px-4 py-2 border-b">How well the solution tackles and solves at its root the real problem posed by the case partner (Sherpas / NTT DATA), how innovative the approach is compared with what already exists on the market, and how smart the approach is.</td>
+    </tr>
+    <tr>
+      <td class="px-4 py-2 border-b">Impact, business & scalability</td>
+      <td class="px-4 py-2 border-b">25%</td>
+      <td class="px-4 py-2 border-b">The commercial and strategic vision of the project: understanding of the end user, return on investment (cost or time savings, or revenue generation), feasibility of implementation in the company or market, and ability to scale.</td>
+    </tr>
+    <tr>
+      <td class="px-4 py-2 border-b">Pitch, demo & defence</td>
+      <td class="px-4 py-2 border-b">20%</td>
+      <td class="px-4 py-2 border-b">The team's ability to communicate and sell: a narrative that goes from the problem to the solution, clarity when showing the demo live or on video, strict adherence to the time limit and solid answers to the jury's questions.</td>
+    </tr>
+  </tbody>
+</table>
 <!--The deadline is <strong>19:45 on 2nd October</strong> - hard cut-off - no exceptions.
 
 <h3 class="text-xl font-bold">Your submission should include:</h3>
@@ -521,15 +563,24 @@ We strongly recommend providing GitHub and MVP links since they will be showcase
 
 <strong>Case 1: NTT DATA - AI Talent Matcher </strong>
 
-<i>Introduction:</i>  Build a functional prototype of an AI Talent Matcher capable of semantically analyzing project staffing requirements and matching them against professional profiles beyond simple keywords. The system must rank candidates, explain recommendations with concrete evidence and gaps, and compare trade-offs across multiple positions. </i>
+<i>Introduction:</i>  The person you need is already in the company. The problem is finding them. Build a functional prototype of an AI Talent Matcher capable of semantically analyzing project staffing requirements and matching them against professional profiles beyond simple keywords. The system must rank candidates, explain recommendations with concrete evidence and gaps, and compare trade-offs across multiple positions. </i>
 
-<a class="underline text-springBlue" href ="https://drive.google.com/file/d/1vlWOMSNlFh7mKHiXkt9UNBZdhoLatgP3/view?usp=sharing" target="_blank"> Complete case description</a>
+• <a class="underline text-springBlue" href ="https://drive.google.com/file/d/18p7lirSXSDw82lEsLL9Um-bvKtpEppud/view?usp=sharing" target="_blank"> Complete case description</a>
+• <a class="underline text-springBlue" href ="https://drive.google.com/file/d/1_TMtKU29PSDmyqOGE8ryQrjNdcrAWc-U/view?usp=sharing" target="_blank"> Data & Resources</a> (dataset, test briefs and technical rules)
+
 
 <strong>Case 2: Sherpas - First to Know, First to Tell  </strong>
 
-<i>Introduction:</i> Turn regulatory and tax changes into proactive, personalized client relationships for US financial advisors. Build an AI workflow or agent that identifies which families are affected by a new rule, explains the exact financial impact in plain language, and drafts an advisor-approved follow-up sequence.
+<i>Introduction:</i> Turn the moments that change a family's finances (a change in the law, a market drop, a change in the family's life or a big decision) into proactive, personalized client relationships for US financial advisors. Build an AI workflow or agent that identifies which families are affected, explains the exact financial impact in plain language, and drafts an advisor-approved follow-up sequence.
 
-<a class="underline text-springBlue" href ="https://drive.google.com/file/d/1lJy6hCw_hBst-ldyBrhcJkb7S1C-IzzV/view?usp=sharing" target="_blank"> Complete case description</a>
+• <a class="underline text-springBlue" href ="https://drive.google.com/file/d/1Lsymelan_c1wzDxAA0QJaixTvUDh2RLd/view?usp=sharing" target="_blank"> Complete case description</a>
+• <a class="underline text-springBlue" href ="https://github.com/SherpasEngineering/hackathon-cdtm-vlc-hacks-2026" target="_blank"> GitHub repository</a>
+• <a class="underline text-springBlue" href ="https://discord.gg/mCHYWRhFw" target="_blank"> Sherpas Discord</a>
+
+<strong>Your team workspace: Notion template</strong>
+
+Open the <a class="underline text-springBlue" href ="https://app.notion.com/p/CDTM-VLC-Hacks-2026-c4919d7d0fb983dfbfbe01c9b4de7ebc?source=copy_link" target="_blank">official Notion template</a>.
+
 <!--
 <strong>Case 1: Leaping AI </strong>
 
@@ -824,10 +875,19 @@ Every participant gets 1 free month of the ElevenLabs Creator plan ($22 value). 
 All documentation and links: <a class="underline text-springBlue" href="https://docs.google.com/document/d/1mCh5MtOzBw0aJpurQVUmIVFfPMAHW3MjNemE-LNiMto/edit?usp=sharing" target="_blank" rel="noopener noreferrer">ElevenLabs Hacker Guide</a>
 
 <h3 class="text-xl font-bold mb-2">Notion template</h3>
-Your team's workspace for the day. Use the official Notion template to organise your tasks, notes and ideas in one place. We will explain how to access it at the event, where there will also be a Notion workshop.
+Your team's workspace for the day. Use the official Notion template to organise your tasks, notes and ideas in one place. We will explain how to access it at the event, where there will also be a Notion workshop. The link to the template will be available in <strong>Case Descriptions</strong> on the event day.
 
 <h3 class="text-xl font-bold mb-2">Lovable credits</h3>
-Free credits for Lovable, an AI platform that turns a description into a working web app. Use them to build a quick prototype or demo of your solution without coding everything from scratch. We will explain how to redeem them at the event.
+Free credits for Lovable, an AI platform that turns a description into a working web app. Use them to build a quick prototype or demo of your solution without coding everything from scratch.<!--pre--> We will explain how to redeem them at the event.<!--/pre--><!--day-->
+<strong>How to redeem your credits (Pro Plan 1, 100 credits):</strong>
+1. Go to <a class="underline text-springBlue" href="https://lovable.dev" target="_blank" rel="noopener noreferrer">lovable.dev</a>.
+2. If you do not have an account, click "Get started" and create an account.
+3. If you have an account, go to Settings → Plans & Credits.
+4. Select Pro Plan 1 (100 credits). Make sure to choose the monthly plan.
+5. At checkout, enter the event code: <strong>COMM-VLC-FNB3</strong>
+If you already have a paid account, you need to create a new workspace.
+Questions? Contact community@lovable.dev
+<!--/day-->
 <!--
 <h3 class="text-xl font-bold mb-2">🛠️ Development Tools</h3>
 <table class="min-w-full text-left border border-gray-200">
